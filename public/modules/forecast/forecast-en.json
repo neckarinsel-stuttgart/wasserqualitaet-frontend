@@ -1,0 +1,14 @@
+{
+    "location": "Stuttgart, Neckar",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "forecastCreated": "Forecast created",
+    "waterQualityForecast": "Water quality forecast",
+    "quality": {
+        "excellent": "Excellent",
+        "poor": "Poor"
+    },
+    "weather": "Weather",
+    "waterTemperature": "Water temperature",
+    "wind": "Wind"
+}

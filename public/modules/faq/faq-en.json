@@ -1,0 +1,40 @@
+{
+    "sourceLabel": "Sources",
+    "categories": [
+        {
+            "title": "Water Quality",
+            "items": [
+                {
+                    "title": "What happens when swimming in poor water quality?",
+                    "text": "Content coming soon.",
+                    "sources": []
+                },
+                {
+                    "title": "What are the standards for our forecast?",
+                    "text": "Content coming soon.",
+                    "sources": []
+                }
+            ]
+        },
+        {
+            "title": "Swimming Guidelines",
+            "items": [
+                {
+                    "title": "Why is swimming prohibited?",
+                    "text": "Content coming soon.",
+                    "sources": []
+                },
+                {
+                    "title": "What is important when swimming?",
+                    "text": "Content coming soon.",
+                    "sources": []
+                }
+            ]
+        }
+    ],
+    "knowledgeLink": {
+        "title": "More knowledge about the Neckar",
+        "label": "Neckarinsel Knowledge Pool",
+        "url": "https://neckarinsel.eu/en/wissen"
+    }
+}

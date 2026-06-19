@@ -1,0 +1,47 @@
+{
+    "playLabel": "Abspielen",
+    "videos": [
+        {
+            "title": "Platzhaltervideo 1",
+            "duration": "2:34",
+            "src": "assets/videos/placeholder.mp4",
+            "poster": "assets/videos/placeholder.jpg"
+        },
+        {
+            "title": "Platzhaltervideo 2",
+            "duration": "1:47",
+            "src": "assets/videos/placeholder.mp4",
+            "poster": "assets/videos/placeholder.jpg"
+        },
+        {
+            "title": "Platzhaltervideo 1",
+            "duration": "2:34",
+            "src": "assets/videos/placeholder.mp4",
+            "poster": "assets/videos/placeholder.jpg"
+        },
+        {
+            "title": "Platzhaltervideo 2",
+            "duration": "1:47",
+            "src": "assets/videos/placeholder.mp4",
+            "poster": "assets/videos/placeholder.jpg"
+        },
+        {
+            "title": "Platzhaltervideo 1",
+            "duration": "2:34",
+            "src": "assets/videos/placeholder.mp4",
+            "poster": "assets/videos/placeholder.jpg"
+        },
+        {
+            "title": "Platzhaltervideo 2",
+            "duration": "1:47",
+            "src": "assets/videos/placeholder.mp4",
+            "poster": "assets/videos/placeholder.jpg"
+        },
+        {
+            "title": "Platzhaltervideo 1",
+            "duration": "2:34",
+            "src": "assets/videos/placeholder.mp4",
+            "poster": "assets/videos/placeholder.jpg"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Imprint",
+  "intro": "",
+  "sections": [
+    {
+      "heading": "Information according to § 5 TMG",
+      "paragraphs": [
+        "Neckarinsel e.V.",
+        "[Please add: street and house number]",
+        "[Please add: postcode and city]"
+      ]
+    },
+    {
+      "heading": "Represented by",
+      "paragraphs": [
+        "[Please add: name of the board member]"
+      ]
+    },
+    {
+      "heading": "Contact",
+      "paragraphs": [
+        "Phone: [Please add]",
+        "Email: [Please add]"
+      ]
+    },
+    {
+      "heading": "Register entry",
+      "paragraphs": [
+        "Registered in the association register (Vereinsregister).",
+        "Register court: [Please add]",
+        "Register number: [Please add]"
+      ]
+    },
+    {
+      "heading": "Responsible for content according to § 18 Abs. 2 MStV",
+      "paragraphs": [
+        "[Please add: name]",
+        "[Please add: address as above]"
+      ]
+    },
+    {
+      "heading": "Dispute resolution",
+      "paragraphs": [
+        "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr. We are not obliged or willing to participate in dispute resolution proceedings before a consumer arbitration board."
+      ]
+    },
+    {
+      "heading": "Liability for content",
+      "paragraphs": [
+        "As a service provider, we are responsible for our own content on these pages in accordance with general law (§ 7 Abs. 1 TMG). However, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+        "Obligations to remove or block the use of information under general law remain unaffected. Any liability in this regard is only possible from the point in time at which a specific infringement becomes known. If we become aware of any such infringements, we will remove the content immediately."
+      ]
+    },
+    {
+      "heading": "Liability for links",
+      "paragraphs": [
+        "Our site contains links to external third-party websites, the content of which we have no influence on. We therefore cannot accept any liability for this external content. The respective provider or operator of the linked pages is always responsible for their content.",
+        "Linked pages were checked for possible legal violations at the time of linking. However, permanent monitoring of the content of linked pages is not reasonable without specific evidence of a violation. If we become aware of any legal violations, we will remove such links immediately."
+      ]
+    }
+  ]
+}

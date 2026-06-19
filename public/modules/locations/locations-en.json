@@ -1,0 +1,31 @@
+{
+    "title": "Map",
+    "mapLabel": "Locations",
+    "map": [
+        {
+            "title": "Neckarinsel Stuttgart",
+            "lat": "48.800964",
+            "long": "9.210512"
+        },
+        {
+            "title": "Wasserentnahmestelle",
+            "lat": "48.805339",
+            "long": "9.211912"
+        },
+        {
+            "title": "Wetterstation Schnarrenberg",
+            "lat": "48.8281",
+            "long": "9.2000"
+        }
+    ],
+    "shiptraffic": {
+        "title": "Schiffsverkehr",
+        "lat": "48.800964",
+        "long": "9.210512",
+        "zoom": "14"
+    },
+    "loadMapLabel": "Load map",
+    "loadShipLabel": "Load ship traffic",
+    "consentHint": "Requires consent for external content",
+    "consentSettingsLabel": "Privacy settings"
+}

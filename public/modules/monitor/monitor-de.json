@@ -1,0 +1,139 @@
+{
+  "title": "Monitor",
+  "monthNames": [
+    "Januar",
+    "Februar",
+    "März",
+    "April",
+    "Mai",
+    "Juni",
+    "Juli",
+    "August",
+    "September",
+    "Oktober",
+    "November",
+    "Dezember"
+  ],
+  "weekdays": [
+    "Mo",
+    "Di",
+    "Mi",
+    "Do",
+    "Fr",
+    "Sa",
+    "So"
+  ],
+  "prognosen": {
+    "title": "Prognosen",
+    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "quality": {
+      "excellent": {
+        "label": "Ausgezeichnet"
+      },
+      "poor": {
+        "label": "Mangelhaft"
+      }
+    },
+    "thresholds": [
+      {
+        "label": "E.Coli",
+        "unit": " KBE",
+        "excellent": "<200",
+        "poor": ">200"
+      },
+      {
+        "label": "Enterokokken",
+        "unit": " KBE",
+        "excellent": "<500",
+        "poor": ">500"
+      }
+    ]
+  },
+  "messdaten": {
+    "title": "Mess-Daten",
+    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "noData": "Keine Daten für diesen Zeitraum verfügbar.",
+    "columns": {
+      "ABSF_STD_mean": {
+        "label": "Niederschlag",
+        "color": "#a0d0ff",
+        "unit": "mm",
+        "defaultActive": true,
+        "type": "bar"
+      },
+      "Ho_Ne_Temperatur": {
+        "label": "Wassertemp.",
+        "color": "#00e080",
+        "unit": "°C",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "Ho_Ne_Truebung,quantitativ": {
+        "label": "Trübung",
+        "color": "#ffe554",
+        "unit": "FNU",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "pH_wert": {
+        "label": "pH-Wert",
+        "color": "#ff00ff",
+        "unit": "",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "Sauerstoff": {
+        "label": "Sauerstoff",
+        "color": "#00ffff",
+        "unit": "mg/l",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "We_Ne_ElektrischeLeitfaehigkeit": {
+        "label": "Leitfähigkeit",
+        "color": "#888888",
+        "unit": "µS/cm",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "TT_TU_mean": {
+        "label": "Lufttemp.",
+        "color": "#ffa500",
+        "unit": "°C",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "V_TE005_mean": {
+        "label": "Strömung (5cm)",
+        "color": "#9387ff",
+        "unit": "m/s",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "V_TE050_mean": {
+        "label": "Strömung (50cm)",
+        "color": "#6554ff",
+        "unit": "m/s",
+        "defaultActive": false,
+        "type": "line"
+      }
+    }
+  },
+  "links": {
+    "heading": "Mehr Wissen",
+    "items": [
+      {
+        "label": "Vorhersagesystem",
+        "anchor": "vorhersagesystem"
+      },
+      {
+        "label": "Badegewässerverordnung",
+        "anchor": "badegewasserverordnung"
+      },
+      {
+        "label": "Wasserqualität",
+        "anchor": "wasserqualitat"
+      }
+    ]
+  }
+}

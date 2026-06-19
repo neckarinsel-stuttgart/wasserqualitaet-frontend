@@ -1,0 +1,54 @@
+{
+  "title": "Privacy Policy",
+  "intro": "We take the protection of your personal data seriously and treat your personal data as confidential, in accordance with statutory data protection regulations and this privacy policy.",
+  "consent": {
+    "heading": "Manage consent",
+    "text": "This site only embeds certain external services after you have given your consent (see the \"Cookies and external content\" section below). You can review and change your selection here at any time.",
+    "buttonLabel": "Open privacy settings"
+  },
+  "sections": [
+    {
+      "heading": "Controller",
+      "paragraphs": [
+        "The controller responsible for data processing under the General Data Protection Regulation (GDPR) is:",
+        "Neckarinsel e.V., [Please add: street, postcode, city]",
+        "Email: [Please add]"
+      ]
+    },
+    {
+      "heading": "Hosting and server log data",
+      "paragraphs": [
+        "When you visit this website, our hosting provider ([Please add: name of hosting provider]) automatically collects information in so-called server log files that your browser transmits to us. This includes, among other things, browser type, operating system used, referrer URL, hostname of the accessing computer, time of the server request, and IP address.",
+        "This data is processed solely to ensure a smooth operation of the website and to improve our offering (Art. 6 (1) (f) GDPR), and is not combined with other data sources."
+      ]
+    },
+    {
+      "heading": "Cookies and external content",
+      "paragraphs": [
+        "This website embeds external content to display maps and live data. This content is only loaded after you have given your explicit consent via the cookie consent tool.",
+        "OpenStreetMap / CARTO: To display interactive maps, we embed map tiles from OpenStreetMap, served via CARTO's servers. Your IP address is transmitted to CARTO's servers in the process.",
+        "Vesselfinder: To display ship traffic, we embed an external page (iframe) from Vesselfinder. Your IP address is transmitted to Vesselfinder, and Vesselfinder may set its own cookies or use tracking technologies on the embedded page that we have no control over.",
+        "You can revoke or adjust your consent to these services at any time via the \"Open privacy settings\" button above."
+      ]
+    },
+    {
+      "heading": "Your rights",
+      "paragraphs": [
+        "You have the right at any time to obtain information about the personal data we hold about you (Art. 15 GDPR), to rectification of inaccurate data (Art. 16 GDPR), to erasure (Art. 17 GDPR), to restriction of processing (Art. 18 GDPR), to data portability (Art. 20 GDPR), and to object to processing (Art. 21 GDPR).",
+        "Where processing is based on consent, you may withdraw that consent at any time with effect for the future."
+      ]
+    },
+    {
+      "heading": "Right to lodge a complaint with a supervisory authority",
+      "paragraphs": [
+        "You have the right to lodge a complaint with a data protection supervisory authority regarding our processing of your personal data. The competent authority is that of the federal state in which we are based."
+      ]
+    },
+    {
+      "heading": "Contact for privacy inquiries",
+      "paragraphs": [
+        "If you have any questions about the collection, processing, or use of your personal data, please contact: [Please add: email address]"
+      ]
+    }
+  ]
+}

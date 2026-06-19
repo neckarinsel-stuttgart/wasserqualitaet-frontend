@@ -1,0 +1,38 @@
+{
+  "consentNotice": {
+    "description": "We use necessary cookies and – with your consent – external services for maps, live content, and statistics. You can decide individually what may be loaded."
+  },
+  "consentModal": {
+    "description": "Here you can choose which services may be loaded on this page. You can change your selection again at any time."
+  },
+  "purposes": {
+    "necessary": {
+      "title": "Necessary cookies",
+      "description": "These cookies are required for the website to function and cannot be disabled."
+    },
+    "analytics": {
+      "title": "Statistics",
+      "description": "With your consent, we collect anonymised usage data to analyse how our website is used and to improve our offering. This includes page views, time on site, entry and exit pages, device information, referral source, and interactions with content."
+    },
+    "content": {
+      "title": "External content",
+      "description": "Services that embed content such as maps or live data from external providers."
+    }
+  },
+  "klaro": {
+    "title": "Consent cookie",
+    "description": "Stores your cookie preferences for this website."
+  },
+  "statistics": {
+    "title": "Statistics",
+    "description": "Collects anonymised usage data (page views, time on site, device information, etc.) to help improve the website."
+  },
+  "openstreetmap": {
+    "title": "OpenStreetMap / CARTO",
+    "description": "Embeds interactive map material to display locations. The map data comes from OpenStreetMap, served via CARTO's map tiles. Your IP address is transmitted to CARTO's servers."
+  },
+  "vesselfinder": {
+    "title": "Vesselfinder",
+    "description": "Embeds a live ship-traffic map from Vesselfinder as an external page (iframe). Your IP address is transmitted to Vesselfinder, and Vesselfinder may set its own cookies or use tracking technologies on the embedded page that we have no control over."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Monitor",
+  "monthNames": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "weekdays": [
+    "Mo",
+    "Tu",
+    "We",
+    "Th",
+    "Fr",
+    "Sa",
+    "Su"
+  ],
+  "prognosen": {
+    "title": "Forecasts",
+    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "quality": {
+      "excellent": {
+        "label": "Excellent"
+      },
+      "poor": {
+        "label": "Poor"
+      }
+    },
+    "thresholds": [
+      {
+        "label": "E.Coli",
+        "unit": " CFU",
+        "excellent": "<200",
+        "poor": ">200"
+      },
+      {
+        "label": "Enterococci",
+        "unit": " CFU",
+        "excellent": "<500",
+        "poor": ">500"
+      }
+    ]
+  },
+  "messdaten": {
+    "title": "Measurements",
+    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "noData": "No data available for this period.",
+    "columns": {
+      "ABSF_STD_mean": {
+        "label": "Precipitation",
+        "color": "#a0d0ff",
+        "unit": "mm",
+        "defaultActive": true,
+        "type": "bar"
+      },
+      "Ho_Ne_Temperatur": {
+        "label": "Water Temp.",
+        "color": "#00e080",
+        "unit": "°C",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "Ho_Ne_Truebung,quantitativ": {
+        "label": "Turbidity",
+        "color": "#ffe554",
+        "unit": "FNU",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "pH_wert": {
+        "label": "pH Value",
+        "color": "#ff00ff",
+        "unit": "",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "Sauerstoff": {
+        "label": "Oxygen",
+        "color": "#00ffff",
+        "unit": "mg/l",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "We_Ne_ElektrischeLeitfaehigkeit": {
+        "label": "Conductivity",
+        "color": "#888888",
+        "unit": "µS/cm",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "TT_TU_mean": {
+        "label": "Air Temp.",
+        "color": "#ffa500",
+        "unit": "°C",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "V_TE005_mean": {
+        "label": "Flow (5cm)",
+        "color": "#9387ff",
+        "unit": "m/s",
+        "defaultActive": false,
+        "type": "line"
+      },
+      "V_TE050_mean": {
+        "label": "Flow (50cm)",
+        "color": "#6554ff",
+        "unit": "m/s",
+        "defaultActive": false,
+        "type": "line"
+      }
+    }
+  },
+  "links": {
+    "heading": "Learn More",
+    "items": [
+      {
+        "label": "Forecasting System",
+        "anchor": "vorhersagesystem"
+      },
+      {
+        "label": "Bathing Water Directive",
+        "anchor": "badegewasserverordnung"
+      },
+      {
+        "label": "Water Quality",
+        "anchor": "wasserqualitat"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Datenschutz",
+  "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten ernst und behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.",
+  "consent": {
+    "heading": "Einwilligungen verwalten",
+    "text": "Diese Seite bindet einzelne externe Dienste erst nach Ihrer Einwilligung ein (siehe Abschnitt „Cookies und externe Inhalte\" unten). Sie können Ihre Auswahl hier jederzeit einsehen und ändern.",
+    "buttonLabel": "Datenschutz-Einstellungen öffnen"
+  },
+  "sections": [
+    {
+      "heading": "Verantwortlicher",
+      "paragraphs": [
+        "Verantwortlicher im Sinne der Datenschutzgrundverordnung (DSGVO) ist:",
+        "Neckarinsel e.V., [Bitte ergänzen: Straße, PLZ, Ort]",
+        "E-Mail: [Bitte ergänzen]"
+      ]
+    },
+    {
+      "heading": "Hosting und Server-Logdaten",
+      "paragraphs": [
+        "Beim Aufruf dieser Website erhebt unser Hosting-Anbieter ([Bitte ergänzen: Name des Hosters]) automatisch Informationen in sogenannten Server-Logfiles, die Ihr Browser übermittelt. Dazu gehören u. a. Browsertyp, verwendetes Betriebssystem, Referrer-URL, Hostname des zugreifenden Rechners, Uhrzeit der Serveranfrage und IP-Adresse.",
+        "Diese Daten werden ausschließlich zur Sicherstellung eines störungsfreien Betriebs der Website sowie zur Verbesserung unseres Angebots verarbeitet (Art. 6 Abs. 1 lit. f DSGVO) und nicht mit anderen Datenquellen zusammengeführt."
+      ]
+    },
+    {
+      "heading": "Cookies und externe Inhalte",
+      "paragraphs": [
+        "Diese Website bindet externe Inhalte ein, um Karten und Live-Daten anzuzeigen. Diese Inhalte werden erst nach Ihrer ausdrücklichen Einwilligung über das Cookie-Consent-Tool geladen.",
+        "OpenStreetMap / CARTO: Zur Darstellung interaktiver Karten binden wir Kartenkacheln von OpenStreetMap ein, ausgeliefert über die Server von CARTO. Dabei wird Ihre IP-Adresse an die Server von CARTO übertragen.",
+        "Vesselfinder: Zur Darstellung des Schiffsverkehrs binden wir eine externe Seite (iframe) von Vesselfinder ein. Dabei wird Ihre IP-Adresse an Vesselfinder übertragen, und Vesselfinder kann auf der eingebetteten Seite eigene Cookies setzen oder Tracking-Technologien einsetzen, auf die wir keinen Einfluss haben.",
+        "Ihre Einwilligung zu diesen Diensten können Sie jederzeit über den Button „Datenschutz-Einstellungen öffnen\" oben widerrufen oder anpassen."
+      ]
+    },
+    {
+      "heading": "Ihre Rechte",
+      "paragraphs": [
+        "Sie haben jederzeit das Recht auf Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten (Art. 15 DSGVO), auf Berichtigung unrichtiger Daten (Art. 16 DSGVO), auf Löschung (Art. 17 DSGVO), auf Einschränkung der Verarbeitung (Art. 18 DSGVO), auf Datenübertragbarkeit (Art. 20 DSGVO) sowie auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO).",
+        "Sofern die Verarbeitung auf einer Einwilligung beruht, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen."
+      ]
+    },
+    {
+      "heading": "Beschwerderecht bei einer Aufsichtsbehörde",
+      "paragraphs": [
+        "Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren. Zuständig ist die Aufsichtsbehörde des Bundeslandes, in dem wir unseren Sitz haben."
+      ]
+    },
+    {
+      "heading": "Kontakt für Datenschutzanfragen",
+      "paragraphs": [
+        "Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten wenden Sie sich bitte an: [Bitte ergänzen: E-Mail-Adresse]"
+      ]
+    }
+  ]
+}

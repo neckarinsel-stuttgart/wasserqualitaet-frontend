@@ -1,0 +1,96 @@
+{
+    "sections": [
+        {
+            "title": "Code Resources",
+            "text": "We want more people to track their rivers, that's why we are an open source project. You can find the source code for AI setup and the frontend here.",
+            "link": [
+                {
+                    "label": "flussbaden.jetzt on Github",
+                    "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet-frontend"
+                },
+                {
+                    "label": "Forecast AI on Github",
+                    "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet_dashboard_neckar"
+                }
+            ]
+        },
+        {
+            "title": "About",
+            "text": "This is a Neckarinsel e.V. project. We are an initiative in Stuttgart that wants to bring more awareness to water quality of regional rivers and living space.",
+            "link": {
+                "label": "Neckarinsel.eu",
+                "url": "https://neckarinsel.eu"
+            },
+            "image": {
+                "src": "assets/images/verein.jpg",
+                "alt": "Team Neckarinsel e.V.",
+                "caption": "©copyright"
+            },
+            "team": [
+                {
+                    "role": "Project Lead",
+                    "name": "Tim Schaffarcik",
+                    "linktitle": "Agency Apero",
+                    "url": "https://apero.agency/"
+                },
+                {
+                    "role": "AI Development",
+                    "name": "Dominik Toric",
+                    "linktitle": "Agency Apero",
+                    "url": "https://apero.agency/"
+                },
+                {
+                    "role": "Frontend & Animation",
+                    "name": "Sebastian Winter",
+                    "linktitle": "wntr.studio",
+                    "url": "https://wntr.studio/"
+                },
+                {
+                    "role": "Art Direction & UI",
+                    "name": "Felix Plachtzik",
+                    "linktitle": "FAQ",
+                    "url": "https://faq.works/"
+                }
+            ],
+            "support": {
+                "title": "Funding & Support",
+                "text": "This project is made possible with the support of",
+                "links": [
+                    {
+                        "label": "Name",
+                        "url": "#"
+                    },
+                    {
+                        "label": "Name",
+                        "url": "#"
+                    },
+                    {
+                        "label": "Name",
+                        "url": "#"
+                    }
+                ],
+                "logos": [
+                    {
+                        "src": "assets/images/baden-wuerttemberg_stiftung_logo.svg",
+                        "alt": "Baden-Württemberg Stiftung Logo"
+                    },
+                    {
+                        "src": "assets/images/stuttgart-logo.svg",
+                        "alt": "Stuttgart Logo"
+                    }
+                ]
+            }
+        }
+    ],
+    "legal": [
+        {
+            "label": "Impressum",
+            "url": "impressum.html"
+        },
+        {
+            "label": "Datenschutz",
+            "url": "datenschutz.html"
+        }
+    ],
+    "copyright": "© Neckarinsel e.V."
+}

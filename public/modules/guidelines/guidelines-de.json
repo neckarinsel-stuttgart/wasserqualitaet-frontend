@@ -1,0 +1,45 @@
+{
+    "title": "Wichtig fürs Baden",
+    "items": [
+        {
+            "title": "Sichttiefe",
+            "text": "Die Sichttiefe im Neckar kann stark varieren. Grundsätzlich ist eine geringe Sichttiefe kein Kriterium für gute oder schlechte Wasserqualität, aber bei sehr trüben Wasser solltest du nicht baden gehen.",
+            "links": [
+                {
+                    "title": "Link zu FAQ",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "title": "Bade-Richtlinien",
+            "text": "Lorem ipsum dolor sit amet...",
+            "links": [
+                {
+                    "title": "Externer Link",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "title": "Sichttiefe",
+            "text": "Lorem ipsum dolor sit amet...",
+            "links": [
+                {
+                    "title": "Externer Link",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "title": "Badeverbot",
+            "text": "Lorem ipsum dolor sit amet...",
+            "links": [
+                {
+                    "title": "Externer Link",
+                    "url": "#"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "sourceLabel": "Quellen",
+    "categories": [
+        {
+            "title": "Wasserqualität",
+            "items": [
+                {
+                    "title": "Was passiert beim Baden in unzureichender Wasserqualität?",
+                    "text": "Lorem ipsum dolor sit amet...",
+                    "sources": [
+                        {
+                            "title": "WSA Neckar",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Stadtentwässerung Stuttgart",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "title": "Was sind die Standards für unsere Prognose?",
+                    "text": "Lorem ipsum dolor sit amet...",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Baderichtlinien",
+            "items": [
+                {
+                    "title": "Warum gibt es ein Badeverbot?",
+                    "text": "Lorem ipsum dolor sit amet...",
+                    "sources": [
+                        {
+                            "title": "WSA Neckar",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Stadtentwässerung Stuttgart",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "title": "Was ist beim Baden wichtig?",
+                    "text": "Lorem ipsum dolor sit amet...",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "knowledgeLink": {
+        "title": "Mehr Wissen zum Neckar gibt's hier",
+        "label": "Neckarinsel Wissenspool",
+        "url": "https://neckarinsel.eu/de/wissen"
+    }
+}
