@@ -1,5 +1,6 @@
 {
     "dashboardLabel": "Dashboard",
     "faqLabel": "FAQ",
-    "switchLanguageToLabel": "de"
+    "switchLanguageToLabel": "de",
+    "todayLabel": "Today"
 }
