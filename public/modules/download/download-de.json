@@ -1,6 +1,6 @@
 {
-    "title": "Download",
-    "text": "Alle von uns gesammelten Messdaten & Prognosen zum Download",
+    "title": "Daten herunterladen",
+    "text": "Alle Messdaten und Prognosen des Systems zum Download",
     "button": [
         {
             "title": "CSV Download",
