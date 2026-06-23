@@ -1,12 +1,14 @@
 {
+    "title": "Weitere Themen",
     "sourceLabel": "Quellen",
     "categories": [
         {
             "title": "Wasserqualität",
             "items": [
                 {
+                    "id": "wasserqualitaet-risiken",
                     "title": "Was passiert beim Baden in unzureichender Wasserqualität?",
-                    "text": "Lorem ipsum dolor sit amet...",
+                    "text": "Baden in belastetem Wasser kann zu Magen-Darm-Erkrankungen, Hautreizungen oder Atemwegsbeschwerden führen. Besonders gefährdet sind Kinder, ältere Menschen und Personen mit geschwächtem Immunsystem.",
                     "sources": [
                         {
                             "title": "WSA Neckar",
@@ -19,6 +21,7 @@
                     ]
                 },
                 {
+                    "id": "baderichtlinien-prognose",
                     "title": "Was sind die Standards für unsere Prognose?",
                     "text": "Lorem ipsum dolor sit amet...",
                     "sources": [
@@ -34,6 +37,7 @@
             "title": "Baderichtlinien",
             "items": [
                 {
+                    "id": "baderichtlinien-verbot",
                     "title": "Warum gibt es ein Badeverbot?",
                     "text": "Lorem ipsum dolor sit amet...",
                     "sources": [
@@ -48,6 +52,7 @@
                     ]
                 },
                 {
+                    "id": "baderichtlinien-wichtig",
                     "title": "Was ist beim Baden wichtig?",
                     "text": "Lorem ipsum dolor sit amet...",
                     "sources": [

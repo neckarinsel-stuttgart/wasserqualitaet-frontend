@@ -92,11 +92,11 @@
     "legal": [
         {
             "label": "Impressum",
-            "url": "impressum.html"
+            "url": "impressum"
         },
         {
             "label": "Datenschutz",
-            "url": "datenschutz.html"
+            "url": "datenschutz"
         }
     ],
     "copyright": "© Neckarinsel e.V."

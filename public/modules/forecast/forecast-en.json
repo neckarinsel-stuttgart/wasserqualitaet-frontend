@@ -5,8 +5,14 @@
     "location": "Stuttgart, Neckar",
     "today": "Today",
     "tomorrow": "Tomorrow",
-    "forecastCreated": "Forecast created",
+    "forecastCreated": "Last update",
+    "forecastUnavailable": "–",
+    "forecastCreatedTooltip": "The water quality forecast is calculated daily at XX AM based on current weather data and historical water readings.",
+    "forecastCreatedTooltipLabel": "More information about the forecast",
     "waterQualityForecast": "Water quality forecast",
+    "waterQualityForecastTooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "waterQualityForecastTooltipLabel": "Info water quality forecast",
+    "qualityUnavailable": "Not available",
     "quality": {
         "excellent": "Excellent",
         "poor": "Poor"

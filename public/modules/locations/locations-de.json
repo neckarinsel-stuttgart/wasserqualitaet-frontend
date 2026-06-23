@@ -20,10 +20,14 @@
     ],
     "shiptraffic": {
         "title": "Schiffsverkehr",
+        "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "tooltipLabel": "Info Schiffsverkehr",
         "lat": "48.800964",
         "long": "9.210512",
         "zoom": "14"
     },
+    "mapTooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "mapTooltipLabel": "Info Orte",
     "loadMapLabel": "Karte laden",
     "loadShipLabel": "Schiffsverkehr laden",
     "consentHint": "Erfordert Zustimmung zu externen Inhalten",
