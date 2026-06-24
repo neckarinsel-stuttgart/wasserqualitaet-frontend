@@ -1,9 +1,9 @@
 {
-    "title": "Wichtig fürs Baden",
+    "title": "Wichtig fürs Flussbaden",
     "items": [
         {
-            "title": "Sichttiefe",
-            "text": "Die Sichttiefe im Neckar kann stark varieren. Grundsätzlich ist eine geringe Sichttiefe kein Kriterium für gute oder schlechte Wasserqualität, aber bei sehr trüben Wasser solltest du nicht baden gehen.",
+            "title": "Baderichtlinien",
+            "text": "Auf Bundeswasserstraßen wie dem Neckar ist das Schwimmen in Bereichen der Schiffahrt und im Umkreis von 100 Meter um Bauwerke, wie Wehre, Schleusen und Brücken, verboten. Wer sicher in Flüssen schwimmen will, sollte darüber hinaus ein paar Regeln beachten.",
             "links": [
                 {
                     "title": "Link zu FAQ",
@@ -12,8 +12,8 @@
             ]
         },
         {
-            "title": "Bade-Richtlinien",
-            "text": "Lorem ipsum dolor sit amet...",
+            "title": "Wasserqualität",
+            "text": "Nach Starkregenereignissen kann der Fluss kurzzeitig mikrobiologische Verschmutzungen aufweisen. Chemische Verschmutzungen werden vom Umweltamt des Landes überwacht und kommen nur selten vor.",
             "links": [
                 {
                     "title": "Externer Link",
@@ -22,8 +22,8 @@
             ]
         },
         {
-            "title": "Sichttiefe",
-            "text": "Lorem ipsum dolor sit amet...",
+            "title": "Großschifffahrt",
+            "text": "Auf dem Neckar fahren bis zu 105 Meter lange Schiffe, die nicht ausweichen können und gefährliche Sogwirkungen verursachen. Halte dich unbedingt fern von der Schifffahrtsrinne in der Mitte und den Einrichtungen des Schiffverkehrs.",
             "links": [
                 {
                     "title": "Externer Link",
@@ -32,8 +32,8 @@
             ]
         },
         {
-            "title": "Badeverbot",
-            "text": "Lorem ipsum dolor sit amet...",
+            "title": "Strömung und Sichttiefe",
+            "text": "Auch wenn der Neckar kein schnell fließender Fluss ist, können an Brücken und Bauwerken oder durch Schiffe gefährliche Strömungen entstehen. Eine schlechte Sicht lässt zwar nicht auf eine mangelhafte Wasserqualität schließen, aber dadurch werden Gefahren unter der Wasseroberfläche schlechter erkennbar. Wer in Flüssen schwimmt, sollte die örtlichen Gegebenheiten kennen.",
             "links": [
                 {
                     "title": "Externer Link",
