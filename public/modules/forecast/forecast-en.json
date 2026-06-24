@@ -1,23 +1,23 @@
 {
     "introBrand": "Flussbaden.jetzt",
-    "introTagline": "Your river tracker for",
-    "introCredit": "developed by Neckarinsel e.V.",
+    "introTagline": "Monitoring the Neckar river in Stuttgart",
+    "introCredit": "Neckarinsel e.V.",
     "location": "Stuttgart, Neckar",
     "today": "Today",
     "tomorrow": "Tomorrow",
-    "forecastCreated": "Last update",
+    "forecastCreated": "Latest forecast",
     "forecastUnavailable": "–",
-    "forecastCreatedTooltip": "The water quality forecast is calculated daily at XX AM based on current weather data and historical water readings.",
-    "forecastCreatedTooltipLabel": "More information about the forecast",
+    "forecastCreatedTooltip": "Kann weg",
+    "forecastCreatedTooltipLabel": "Kann weg",
     "waterQualityForecast": "Water quality forecast",
-    "waterQualityForecastTooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "waterQualityForecastTooltipLabel": "Info water quality forecast",
+    "waterQualityForecastTooltip": "The water quality forecast is currently updated once a day based on the latest weather and river data.",
+    "waterQualityForecastTooltipLabel": "More information about the forecast",
     "qualityUnavailable": "Not available",
     "quality": {
         "excellent": "Excellent",
         "poor": "Poor"
     },
     "weather": "Weather",
-    "waterTemperature": "Water temperature",
+    "waterTemperature": "Water Temperature",
     "wind": "Wind"
 }
