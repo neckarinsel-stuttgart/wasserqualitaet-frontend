@@ -1,6 +1,6 @@
 {
     "title": "Map",
-    "mapLabel": "Locations",
+    "mapLabel": "Places",
     "map": [
         {
             "title": "Neckarinsel Stuttgart",
@@ -8,18 +8,23 @@
             "long": "9.210512"
         },
         {
-            "title": "Wasserentnahmestelle",
+            "title": "Sampling Voltasteg",
             "lat": "48.805339",
             "long": "9.211912"
         },
         {
-            "title": "Wetterstation Schnarrenberg",
+            "title": "DWD Weather Station Schnarrenberg",
             "lat": "48.8281",
             "long": "9.2000"
-        }
+        },
+        {
+            "title": "Environmental Monitoring Station Hofener Brücke",
+            "lat": "",
+            "long": ""
+        },
     ],
     "shiptraffic": {
-        "title": "Schiffsverkehr",
+        "title": "Maritime Traffic",
         "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "tooltipLabel": "Info ship traffic",
         "lat": "48.800964",

@@ -8,15 +8,20 @@
             "long": "9.210512"
         },
         {
-            "title": "Wasserentnahmestelle",
+            "title": "Probenahme Voltasteg",
             "lat": "48.805339",
             "long": "9.211912"
         },
         {
-            "title": "Wetterstation Schnarrenberg",
+            "title": "DWD Wetterstation Schnarrenberg",
             "lat": "48.8281",
             "long": "9.2000"
-        }
+        },
+        {
+            "title": "Umweltmessstelle Hofener Brücke",
+            "lat": "",
+            "long": ""
+        },
     ],
     "shiptraffic": {
         "title": "Schiffsverkehr",
