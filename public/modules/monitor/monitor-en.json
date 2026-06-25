@@ -25,7 +25,7 @@
   ],
   "prognosen": {
     "title": "Forecasts",
-    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "tooltip": "Overview of past forecasts for water quality in the Neckar",
     "quality": {
       "excellent": {
         "label": "Excellent"
@@ -38,21 +38,21 @@
       {
         "label": "E.Coli",
         "unit": " CFU",
-        "excellent": "<200",
-        "poor": ">200"
+        "excellent": "<500",
+        "poor": ">500"
       },
       {
         "label": "Enterococci",
         "unit": " CFU",
-        "excellent": "<500",
-        "poor": ">500"
+        "excellent": "<200",
+        "poor": ">200"
       }
     ]
   },
   "messdaten": {
-    "title": "Measurements",
-    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    "noData": "No data available for this period.",
+    "title": "Measurement data",
+    "tooltip": "Data that the forecasting system considers to be particularly relevant for the prediction",
+    "noData": "No data available for this period",
     "columns": {
       "ABSF_STD_mean": {
         "label": "Precipitation",

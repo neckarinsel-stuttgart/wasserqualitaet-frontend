@@ -25,7 +25,7 @@
   ],
   "prognosen": {
     "title": "Prognosen",
-    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    "tooltip": "Übersicht über vergangene Prognosen für die Wasserqualität im Neckar",
     "quality": {
       "excellent": {
         "label": "Ausgezeichnet"
@@ -38,21 +38,21 @@
       {
         "label": "E.Coli",
         "unit": " KBE",
-        "excellent": "<200",
-        "poor": ">200"
+        "excellent": "<500",
+        "poor": ">500"
       },
       {
         "label": "Enterokokken",
         "unit": " KBE",
-        "excellent": "<500",
-        "poor": ">500"
+        "excellent": "<200",
+        "poor": ">200"
       }
     ]
   },
   "messdaten": {
-    "title": "Mess-Daten",
-    "tooltip": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    "noData": "Keine Daten für diesen Zeitraum verfügbar.",
+    "title": "Messdaten",
+    "tooltip": "Daten, die das Vorhersagesystem als besonders relevant für die Vorhersage einstuft",
+    "noData": "Für diesen Zeitraum sind keine Daten verfügbar",
     "columns": {
       "ABSF_STD_mean": {
         "label": "Niederschlag",
