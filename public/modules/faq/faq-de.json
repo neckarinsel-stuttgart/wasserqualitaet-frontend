@@ -6,9 +6,9 @@
             "title": "Wasserqualität",
             "items": [
                 {
-                    "id": "wasserqualitaet-risiken",
-                    "title": "Was passiert beim Baden in unzureichender Wasserqualität?",
-                    "text": "Baden in belastetem Wasser kann zu Magen-Darm-Erkrankungen, Hautreizungen oder Atemwegsbeschwerden führen. Besonders gefährdet sind Kinder, ältere Menschen und Personen mit geschwächtem Immunsystem.",
+                    "id": "wasserqualitaet-kontext",
+                    "title": "Warum ist die Wasserqualität teiweise mangelhaft?",
+                    "text": "In vielen Städten wird Regen- und Abwasser gemeinsam durch sogenannte Mischwasserkanäle zur Kläranlage geleitet. Bei außergewöhnlich hohen Niederschlagsmengen stoßen diese Systeme an ihre Kapazitätsgrenzen. Dann wird verdünntes Abwasser zunächst in Rückhaltebecken und anschließend direkt in den Fluss geleitet. In solchen Situationen kann die Wasserqualität des Neckars vorübergehend deutlich sinken.",
                     "sources": [
                         {
                             "title": "WSA Neckar",
@@ -21,9 +21,31 @@
                     ]
                 },
                 {
-                    "id": "baderichtlinien-prognose",
-                    "title": "Was sind die Standards für unsere Prognose?",
-                    "text": "Lorem ipsum dolor sit amet...",
+                    "id": "wasserqualitaet-labor",
+                    "title": "Wie und wo werden die Labormessungen durchgeführt?",
+                    "text": "Ein auf Badegewässer spezialisiertes Labor nimmt zwischen Mai und Oktober zwei Mal wöchentlich Proben im Neckar am Voltasteg in Bad Cannstatt. Die Probe wird auf das Vorhandensein von Darmbakterien wie E. coli und Enterokokken analysiert, die als wichtige Indikatoren für fäkale Verunreinigungen gelten. Die Grenzwerte sind in der Badegewässerverordnung festgelegt.",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "wasserqualitaet-beurteilung",
+                    "title": "Warum reichen Laborproben zur Beurteilung der Wasserqualität nicht aus?",
+                    "text": "Bis Ergebnisse zu Bakterienbelastungen vorliegen, vergehen in der Regel mindestens 48 Stunden. Für eine aktuelle Badeentscheidung sind diese Daten deshalb nicht nutzbar. Das Vorhersagesystem erstellt Prognosen hingegen tagesaktuell.",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "wasserqualitaet-ergebnisse",
+                    "title": "Wie sehen die Ergebnisse der Laborproben aus?",
+                    "text": "Die Ergebnisse der vergangenen 60 Messungen zeigen: Der Neckar ist vielerorts sauberer als viele Menschen vermuten. Im Jahr 2025 hätte auf Grundlage der Badegewässerverordnung an mehr als zwei Dritteln der untersuchten Tage gebadet werden können. An mehr als der Hälfte der Messtage wurde sogar eine sehr gute Wasserqualität festgestellt.",
                     "sources": [
                         {
                             "title": "Externe Quelle",
@@ -34,12 +56,12 @@
             ]
         },
         {
-            "title": "Baderichtlinien",
+            "title": "Flussbaden",
             "items": [
                 {
-                    "id": "baderichtlinien-verbot",
-                    "title": "Warum gibt es ein Badeverbot?",
-                    "text": "Lorem ipsum dolor sit amet...",
+                    "id": "flussbaden-risiken",
+                    "title": "Warum birgt das Baden in Flüssen Risiken?",
+                    "text": "An Brücken, Schleusen und Wehren können Strömungen und Strudel entstehen. Die Ufer sind steil und ohne Leitern ist es schwer, den Fluss wieder zu verlassen. Auf dem Neckar fahren große Schiffe teilweise auf 300 Meter ohne Sicht und erzeugen einen gefährlichen Sog. Auch die Wasserqualität kann nach starken Regenfällen schwanken. Wer die örtlichen Gegebenheiten kennt, gut schwimmen kann und die geltenden Regeln beachtet, findet jedoch an vielen Tagen geeignete Bedingungen zum Baden vor.",
                     "sources": [
                         {
                             "title": "WSA Neckar",
@@ -52,9 +74,84 @@
                     ]
                 },
                 {
-                    "id": "baderichtlinien-wichtig",
-                    "title": "Was ist beim Baden wichtig?",
-                    "text": "Lorem ipsum dolor sit amet...",
+                    "id": "flussbaden-wichtig",
+                    "title": "Was sollte ich beim Flussbaden beachten?",
+                    "text": "Achte auf Gefahren unter der Wasseroberfläche und schwimme möglichst nie allein. Springe nicht von Brücken oder Ufermauern ins Wasser, wenn du Wassertiefe und Strömungsverhältnisse nicht einschätzen kannst. Schwimme möglichst parallel zum Ufer und achte auf den Schiffsverkehr. Gehe nur an offenen Ufern in den Fluss, um Tiere und Pflanzen zu schützen.",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "flussbaden-verbot",
+                    "title": "Warum gibt es ein Badeverbot?",
+                    "text": "Seit 1978 ist das Baden im Neckar in Stuttgart aus hygienischen und sicherheitstechnischen Gründen verboten. Dafür verantwortlich sind zum einen kurzzeitig auftretende Verunreinigungen durch städtische Abwässer und zum anderen die steil abfallenden Uferkanten des Kanals sowie Gefahren durch die Großschifffahrt.",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "flussbaden-mangelhaft",
+                    "title": "Was passiert, wenn ich trotz mangelhafter Wasserqualität bade?",
+                    "text": "Wenn ungeklärtes Abwasser in den Fluss gelangt, kann es gesundheitsgefährdende Viren und Bakterien enthalten. Für gesunde Menschen ist das Risiko einer ernsthaften Erkrankung gering. Menschen mit Vorerkrankungen sollten jedoch besonders vorsichtig sein. Wer im Fluss baden möchte, handelt auf eigene Verantwortung und sollte das damit verbundene Risiko einschätzen können.",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Vorhersagesystem",
+            "items": [
+                {
+                    "id": "vorhersagesystem-funktion",
+                    "title": "Wie funktioniert das Vorhersagesystem?",
+                    "text": "Das System analysiert verschiedene Einflussfaktoren auf die Wasserqualität. Mithilfe der gesammelten Messdaten hat das System gelernt, welche Bedingungen typischerweise mit guter oder schlechter Wasserqualität zusammenhängen. Auf dieser Grundlage erstellt es eine Einschätzung, ob der aktuelle Wert auf Basis der Badegewässerverordnung ausgezeichnet oder mangelhaft ist.",
+                    "sources": [
+                        {
+                            "title": "WSA Neckar",
+                            "url": "#"
+                        },
+                        {
+                            "title": "Stadtentwässerung Stuttgart",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "vorhersagesystem-daten",
+                    "title": "Welche Datengrundlage nutzt ihr?",
+                    "text": "Das Vorhersagesystem wurde auf der Grundlage von über 1000 Variablen trainiert. Dazu zählen Wetterdaten des Deutschen Wetterdienstes wie Niederschlag oder Sonneneinstrahlung und Flussdaten des Umweltamtes des Landes wie Leitfähigkeit oder Trübung.",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "vorhersagesystem-sicherheit",
+                    "title": "Wie zuverlässig ist das System?",
+                    "text": "Bei der Entwicklung wurde ein besonderer Wert auf die Sicherheit gelegt. Das System ist so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. In den bisherigen Auswertungen trafen Vorhersagen einer guten Wasserqualität in allen Fällen zu. Tage mit schlechter Wasserqualität werden dagegen bewusst vorsichtiger eingeschätzt, wodurch es zu Fehlalarmen kommen kann. Zeigt die Badeampel eine gute Wasserqualität an, können sich Badende auf diese Einschätzung mit hoher Sicherheit verlassen.",
+                    "sources": [
+                        {
+                            "title": "Externe Quelle",
+                            "url": "#"
+                        }
+                    ]
+                },
+                {
+                    "id": "vorhersagesystem-eigenes",
+                    "title": "Wie kann ich mein eigenes Vorhersagesystem entwickeln?",
+                    "text": "Die Grundlage des Vorhersagesystems – alle Daten, Skripte und der Code – sind über GitHub öffentlich zugänglich. Dort findest du auch den Code für diese Website. Wir arbeiten außerdem momentan an einer Dokumentation des Projekts. Du solltest dich mit Programmiersprachen auskennen und du benötigst Labormesswerte deines Flusses. Ist beides gegeben, kannst du einfach loslegen. Wir freuen uns über Nachahmer.",
                     "sources": [
                         {
                             "title": "Externe Quelle",
@@ -66,7 +163,7 @@
         }
     ],
     "knowledgeLink": {
-        "title": "Mehr Wissen zum Neckar gibt's hier",
+        "title": "Mehr Infos, Fakten und Geschichten über den Fluss, das Wasser und eine lebenswerte Stadt findest du hier",
         "label": "Neckarinsel Wissenspool",
         "url": "https://neckarinsel.eu/de/wissen"
     }

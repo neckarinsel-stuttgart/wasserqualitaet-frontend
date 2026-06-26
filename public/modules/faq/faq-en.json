@@ -18,7 +18,22 @@
             ]
         },
         {
-            "title": "Swimming Guidelines",
+            "title": "River Swimming",
+            "items": [
+                {
+                    "title": "Why is swimming prohibited?",
+                    "text": "Content coming soon.",
+                    "sources": []
+                },
+                {
+                    "title": "What is important when swimming?",
+                    "text": "Content coming soon.",
+                    "sources": []
+                }
+            ]
+        },
+        {
+            "title": "Forecasting System",
             "items": [
                 {
                     "title": "Why is swimming prohibited?",
@@ -34,7 +49,7 @@
         }
     ],
     "knowledgeLink": {
-        "title": "More knowledge about the Neckar",
+        "title": "You can find more information, facts and stories about the river, water and creating a liveable city here",
         "label": "Neckarinsel Knowledge Pool",
         "url": "https://neckarinsel.eu/en/wissen"
     }
