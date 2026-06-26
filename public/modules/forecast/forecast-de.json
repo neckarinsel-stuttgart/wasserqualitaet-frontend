@@ -1,8 +1,9 @@
 {
     "introBrand": "Flussbaden.jetzt",
-    "introTagline": "Dein Neckarmonitor für Stuttgart",
+    "introTagline": "Dein Neckarmonitor für",
     "introCredit": "Neckarinsel e.V.",
-    "location": "Stuttgart, Neckar",
+    "introCreditUrl": "https://neckarinsel.eu/de",
+    "location": "Stuttgart",
     "today": "Heute",
     "tomorrow": "Morgen",
     "forecastCreated": "Letzte Prognose",
