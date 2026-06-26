@@ -1,53 +1,367 @@
 {
-  "title": "Privacy Policy",
-  "intro": "We take the protection of your personal data seriously and treat your personal data as confidential, in accordance with statutory data protection regulations and this privacy policy.",
+  "title": "Datenschutz",
+  "intro": [
+    "Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als „Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für die Datenverarbeitung auf unserer Webseite (im Folgenden „Onlineangebot“).",
+    "Die verwendeten Begriffe sind nicht geschlechtsspezifisch.",
+    "Stand: 01. Juli 2026"
+  ],
   "consent": {
-    "heading": "Manage consent",
-    "text": "This site only embeds certain external services after you have given your consent (see the \"Cookies and external content\" section below). You can review and change your selection here at any time.",
-    "buttonLabel": "Open privacy settings"
+    "heading": "Einwilligungen verwalten",
+    "text": "Diese Seite bindet einzelne externe Dienste erst nach Ihrer Einwilligung ein. Sie können Ihre Auswahl hier jederzeit einsehen und ändern.",
+    "buttonLabel": "Datenschutz-Einstellungen öffnen"
   },
   "sections": [
     {
-      "heading": "Controller",
-      "paragraphs": [
-        "The controller responsible for data processing under the General Data Protection Regulation (GDPR) is:",
-        "Neckarinsel e.V., [Please add: street, postcode, city]",
-        "Email: [Please add]"
+      "heading": "Verantwortlich",
+      "content": [
+        {
+          "type": "p",
+          "text": "Neckarinsel e.V.<br>Gutenbergstraße 126<br>70197 Stuttgart"
+        },
+        {
+          "type": "p",
+          "text": "Vertretungsberechtigte Personen:<br>Elmer G., Josina Herding, Hannah Pinell, Frederike Schmidt"
+        },
+        {
+          "type": "p",
+          "text": "E-Mail: <a href=\"mailto:hallo@neckarinsel.eu\">hallo@neckarinsel.eu</a>"
+        },
+        {
+          "type": "h3",
+          "text": "Kontakt Datenschutzbeauftragter"
+        },
+        {
+          "type": "p",
+          "text": "Josina Herding<br><a href=\"mailto:josina@neckarinsel.eu\">josina@neckarinsel.eu</a>"
+        }
       ]
     },
     {
-      "heading": "Hosting and server log data",
-      "paragraphs": [
-        "When you visit this website, our hosting provider ([Please add: name of hosting provider]) automatically collects information in so-called server log files that your browser transmits to us. This includes, among other things, browser type, operating system used, referrer URL, hostname of the accessing computer, time of the server request, and IP address.",
-        "This data is processed solely to ensure a smooth operation of the website and to improve our offering (Art. 6 (1) (f) GDPR), and is not combined with other data sources."
+      "heading": "Übersicht der Verarbeitungen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen."
+        },
+        {
+          "type": "h3",
+          "text": "Arten der verarbeiteten Daten"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzungsdaten",
+            "Meta-/Kommunikationsdaten",
+            "Kontaktdaten",
+            "Inhaltsdaten",
+            "Standortdaten",
+            "Geräteinformationen",
+            "Interaktionsdaten"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kategorien betroffener Personen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzer",
+            "Kommunikationspartner"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Zwecke der Verarbeitung"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit",
+            "Informationstechnische Infrastruktur",
+            "Kontaktanfragen und Kommunikation",
+            "Statistische Auswertung",
+            "Reichweitenmessung",
+            "Nutzungsanalyse",
+            "Optimierung der Benutzerfreundlichkeit"
+          ]
+        }
       ]
     },
     {
-      "heading": "Cookies and external content",
-      "paragraphs": [
-        "This website embeds external content to display maps and live data. This content is only loaded after you have given your explicit consent via the cookie consent tool.",
-        "OpenStreetMap / CARTO: To display interactive maps, we embed map tiles from OpenStreetMap, served via CARTO's servers. Your IP address is transmitted to CARTO's servers in the process.",
-        "Vesselfinder: To display ship traffic, we embed an external page (iframe) from Vesselfinder. Your IP address is transmitted to Vesselfinder, and Vesselfinder may set its own cookies or use tracking technologies on the embedded page that we have no control over.",
-        "You can revoke or adjust your consent to these services at any time via the \"Open privacy settings\" button above."
+      "heading": "Maßgebliche Rechtsgrundlagen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen, auf deren Basis wir personenbezogene Daten verarbeiten:"
+        },
+        {
+          "type": "p",
+          "text": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO) – Die Verarbeitung ist zur Wahrung unserer berechtigten Interessen erforderlich, insbesondere an der sicheren Bereitstellung, Analyse und Optimierung unseres Onlineangebotes."
+        },
+        {
+          "type": "p",
+          "text": "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG) – Die Verarbeitung erfolgt ausschließlich auf Grundlage Ihrer Einwilligung, soweit für die Analyse Informationen auf Ihrem Endgerät gespeichert oder ausgelesen werden."
+        }
       ]
     },
     {
-      "heading": "Your rights",
-      "paragraphs": [
-        "You have the right at any time to obtain information about the personal data we hold about you (Art. 15 GDPR), to rectification of inaccurate data (Art. 16 GDPR), to erasure (Art. 17 GDPR), to restriction of processing (Art. 18 GDPR), to data portability (Art. 20 GDPR), and to object to processing (Art. 21 GDPR).",
-        "Where processing is based on consent, you may withdraw that consent at any time with effect for the future."
+      "heading": "Sicherheitsmaßnahmen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir treffen nach Maßgabe der gesetzlichen Vorgaben geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten."
+        },
+        {
+          "type": "p",
+          "text": "Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten sowie Maßnahmen zur Kontrolle des Zugangs zu den Daten und deren Verarbeitung."
+        }
       ]
     },
     {
-      "heading": "Right to lodge a complaint with a supervisory authority",
-      "paragraphs": [
-        "You have the right to lodge a complaint with a data protection supervisory authority regarding our processing of your personal data. The competent authority is that of the federal state in which we are based."
+      "heading": "SSL-Verschlüsselung",
+      "content": [
+        {
+          "type": "p",
+          "text": "Um Ihre über unser Onlineangebot übermittelten Daten zu schützen, nutzen wir eine SSL-Verschlüsselung. Sie erkennen verschlüsselte Verbindungen an dem Präfix „https://“ in der Adresszeile Ihres Browsers."
+        }
       ]
     },
     {
-      "heading": "Contact for privacy inquiries",
-      "paragraphs": [
-        "If you have any questions about the collection, processing, or use of your personal data, please contact: [Please add: email address]"
+      "heading": "Bereitstellung des Onlineangebotes und Webhosting",
+      "content": [
+        {
+          "type": "p",
+          "text": "Zur Bereitstellung unseres Onlineangebotes nehmen wir Leistungen von Strato in Anspruch. Dabei werden Daten verarbeitet, die für den Betrieb und die Auslieferung der Website erforderlich sind."
+        },
+        {
+          "type": "p",
+          "text": "Hierzu gehören insbesondere IP-Adressen, die notwendig sind, um Inhalte an den Browser des Nutzers zu übermitteln."
+        },
+        {
+          "type": "h3",
+          "text": "Verarbeitete Datenarten"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzungsdaten",
+            "Meta-/Kommunikationsdaten"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Betroffene Personen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzer"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Zwecke der Verarbeitung"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bereitstellung unseres Onlineangebotes",
+            "Informationstechnische Infrastruktur"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rechtsgrundlagen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Erhebung von Zugriffsdaten und Logfiles",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir erheben Daten zu jedem Zugriff auf den Server (sogenannte Serverlogfiles). Zu den Zugriffsdaten gehören insbesondere IP-Adressen, Datum und Uhrzeit des Abrufs, abgerufene Inhalte sowie technische Informationen zum verwendeten Browser und Betriebssystem."
+        },
+        {
+          "type": "p",
+          "text": "Die Verarbeitung dieser Daten erfolgt zur Gewährleistung der Sicherheit und Stabilität unseres Onlineangebotes (z.B. zur Abwehr von Angriffen)."
+        },
+        {
+          "type": "p",
+          "text": "Logfile-Informationen werden aus Sicherheitsgründen für einen Zeitraum von maximal 14 Tagen gespeichert und anschließend gelöscht."
+        },
+        {
+          "type": "h3",
+          "text": "Rechtsgrundlagen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Webanalyse mit Matomo",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir nutzen auf Grundlage Ihrer Einwilligung den Webanalysedienst Matomo zur statistischen Auswertung der Nutzung unseres Onlineangebotes sowie zur Optimierung unserer Inhalte und Funktionen."
+        },
+        {
+          "type": "p",
+          "text": "Matomo wird auf den Systemen des von uns beauftragten Hostinganbieters betrieben. Eine Weitergabe der erhobenen Analysedaten an Dritte zu deren eigenen Zwecken erfolgt nicht."
+        },
+        {
+          "type": "p",
+          "text": "Im Rahmen der Nutzung von Matomo können insbesondere folgende Daten verarbeitet werden: anonymisierte IP-Adressen zur Ableitung einer ungefähren geografischen Region, Informationen über das verwendete Endgerät und die Bildschirmauflösung, aufgerufene Seiten und Inhalte, Referrer-Informationen (die zuvor besuchte Webseite), Scrolltiefe, Interaktionen mit Inhalten und Funktionen unseres Onlineangebotes, pseudonyme Sitzungskennungen (Session-IDs) sowie Heatmap-Daten zur Analyse der Nutzung und Bedienbarkeit unseres Onlineangebotes."
+        },
+        {
+          "type": "p",
+          "text": "Zum Zweck der Webanalyse wird die IP-Adresse der Nutzer beim Aufruf unseres Onlineangebotes ausschließlich kurzfristig verarbeitet, um hieraus mittels Geolokalisierung eine grobe Standortinformation (z.B. Land oder Region) abzuleiten. Eine Speicherung der vollständigen IP-Adresse erfolgt nicht. Die weiteren im Rahmen der Webanalyse erhobenen Daten werden nur solange gespeichert, wie dies für die genannten Zwecke erforderlich ist, und anschließend gelöscht."
+        },
+        {
+          "type": "p",
+          "text": "Sie können eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft über die Einstellungen unseres Consent-Banners widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt hiervon unberührt."
+        },
+        {
+          "type": "h3",
+          "text": "Verarbeitete Datenarten"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzungsdaten",
+            "Meta-/Kommunikationsdaten",
+            "Standortdaten",
+            "Geräteinformationen",
+            "Interaktionsdaten"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Betroffene Personen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzer"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Zwecke der Verarbeitung"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Statistische Auswertung",
+            "Reichweitenmessung",
+            "Nutzungsanalyse",
+            "Optimierung der Benutzerfreundlichkeit"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rechtsgrundlagen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Kontaktaufnahme",
+      "content": [
+        {
+          "type": "p",
+          "text": "Bei der Kontaktaufnahme mit uns (z.B. per E-Mail) werden die Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der Kontaktanfragen erforderlich ist."
+        },
+        {
+          "type": "h3",
+          "text": "Verarbeitete Datenarten"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Kontaktdaten",
+            "Inhaltsdaten"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Betroffene Personen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Kommunikationspartner"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Zwecke der Verarbeitung"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Kontaktanfragen und Kommunikation"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rechtsgrundlagen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Rechte der betroffenen Personen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Ihnen stehen als betroffene Person nach der DSGVO verschiedene Rechte zu:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Auskunft über Ihre gespeicherten Daten",
+            "Berichtigung unrichtiger Daten",
+            "Löschung oder Einschränkung der Verarbeitung",
+            "Datenübertragbarkeit",
+            "Widerspruch gegen die Verarbeitung",
+            "Widerruf der erteilten Einwilligung mit Wirkung für die Zukunft"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Zudem haben Sie das Recht, eine Beschwerde bei einer Aufsichtsbehörde einzureichen."
+        }
+      ]
+    },
+    {
+      "heading": "Änderung und Aktualisierung der Datenschutzerklärung",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir passen die Datenschutzerklärung an, sobald dies aufgrund von Änderungen der Datenverarbeitung erforderlich wird."
+        }
       ]
     }
   ]
