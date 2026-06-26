@@ -2,12 +2,16 @@
     "title": "Wichtig fürs Flussbaden",
     "items": [
         {
-            "title": "Baderichtlinien",
+            "title": "Baderegeln",
             "text": "Auf Bundeswasserstraßen wie dem Neckar ist das Schwimmen in Bereichen der Schiffahrt und im Umkreis von 100 Meter um Bauwerke, wie Wehre, Schleusen und Brücken, verboten. Wer sicher in Flüssen schwimmen will, sollte darüber hinaus ein paar Regeln beachten.",
             "links": [
                 {
-                    "title": "Link zu FAQ",
-                    "url": "#"
+                    "title": "Wasserstraßen- und Schiffahrtsamt",
+                    "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
+                },
+                {
+                    "title": "Risiken",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
                 }
             ]
         },
@@ -16,8 +20,12 @@
             "text": "Nach Starkregenereignissen kann der Fluss kurzzeitig mikrobiologische Verschmutzungen aufweisen. Chemische Verschmutzungen werden vom Umweltamt des Landes überwacht und kommen nur selten vor.",
             "links": [
                 {
-                    "title": "Externer Link",
-                    "url": "#"
+                    "title": "Landesanstalt für Umwelt Baden-Württemberg",
+                    "url": "https://www.lubw.baden-wuerttemberg.de/wasser/fliessgewaesserdaten"
+                },
+                {
+                    "title": "Wasserqualität",
+                    "url": "hhttp://flussbaden.jetzt/faq?lang=de#wasserqualitaet-kontext"
                 }
             ]
         },
@@ -26,8 +34,12 @@
             "text": "Auf dem Neckar fahren bis zu 105 Meter lange Schiffe, die nicht ausweichen können und gefährliche Sogwirkungen verursachen. Halte dich unbedingt fern von der Schifffahrtsrinne in der Mitte und den Einrichtungen des Schiffverkehrs.",
             "links": [
                 {
-                    "title": "Externer Link",
-                    "url": "#"
+                    "title": "Wasserstraßen- und Schiffahrtsamt",
+                    "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
+                },
+                {
+                    "title": "Risiken",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
                 }
             ]
         },
@@ -36,8 +48,12 @@
             "text": "Auch wenn der Neckar kein schnell fließender Fluss ist, können an Brücken und Bauwerken oder durch Schiffe gefährliche Strömungen entstehen. Eine schlechte Sicht lässt zwar nicht auf eine mangelhafte Wasserqualität schließen, aber dadurch werden Gefahren unter der Wasseroberfläche schlechter erkennbar. Wer in Flüssen schwimmt, sollte die örtlichen Gegebenheiten kennen.",
             "links": [
                 {
-                    "title": "Externer Link",
-                    "url": "#"
+                    "title": "Südwestrundfunk",
+                    "url": "https://www.swr.de/swraktuell/rheinland-pfalz/tipps-badeunfaelle-und-ertrinken-vermeiden-gefahren-im-freibad-fluss-badesee-100.html"
+                },
+                {
+                    "title": "Baderegeln",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-wichtig"
                 }
             ]
         }

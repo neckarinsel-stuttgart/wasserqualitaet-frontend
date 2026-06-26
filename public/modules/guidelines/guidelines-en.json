@@ -3,12 +3,15 @@
     "items": [
         {
             "title": "Swimming guidelines",
-            "text": "On federal waterways such as the Neckar, it is prohibited to swim in shipping lanes or within 100 metres of structures such as weirs, locks and bridges. Anyone who wants to swim in rivers safely should also follow a few rules.
-",
+            "text": "On federal waterways such as the Neckar, it is prohibited to swim in shipping lanes or within 100 metres of structures such as weirs, locks and bridges. Anyone who wants to swim in rivers safely should also follow a few rules.",
             "links": [
                 {
-                    "title": "Link zu FAQ",
-                    "url": "#"
+                    "title": "Wasserstraßen- und Schiffahrtsamt",
+                    "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
+                },
+                {
+                    "title": "Risks",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
                 }
             ]
         },
@@ -17,8 +20,12 @@
             "text": "Following heavy rainfall, the river may temporarily become contaminated with microorganisms. The state environmental agency monitors chemical contamination, which occurs only rarely.",
             "links": [
                 {
-                    "title": "Externer Link",
-                    "url": "#"
+                    "title": "Landesanstalt für Umwelt Baden-Württemberg",
+                    "url": "https://www.lubw.baden-wuerttemberg.de/wasser/fliessgewaesserdaten"
+                },
+                {
+                    "title": "Water Quality",
+                    "url": "hhttp://flussbaden.jetzt/faq?lang=de#wasserqualitaet-kontext"
                 }
             ]
         },
@@ -27,8 +34,12 @@
             "text": "Ships up to 105 metres long travel on the Neckar. They cannot change course, which creates dangerous wake effects. Make sure you stay well away from the shipping channel in the middle and any shipping infrastructure.",
             "links": [
                 {
-                    "title": "Externer Link",
-                    "url": "#"
+                    "title": "Wasserstraßen- und Schiffahrtsamt",
+                    "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
+                },
+                {
+                    "title": "Risks",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
                 }
             ]
         },
@@ -37,8 +48,12 @@
             "text": "Although the Neckar is not a fast-flowing river, dangerous currents can form near bridges and other structures, or as a result of passing ships. While poor visibility does not necessarily indicate poor water quality, it does make it harder to spot hazards beneath the surface of the water. Anyone swimming in the Neckar should be familiar with the local conditions. ",
             "links": [
                 {
-                    "title": "Externer Link",
-                    "url": "#"
+                    "title": "Südwestrundfunk",
+                    "url": "https://www.swr.de/swraktuell/rheinland-pfalz/tipps-badeunfaelle-und-ertrinken-vermeiden-gefahren-im-freibad-fluss-badesee-100.html"
+                },
+                {
+                    "title": "Swimming Guidelines",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-wichtig"
                 }
             ]
         }
