@@ -123,16 +123,32 @@
     "heading": "Mehr Wissen",
     "items": [
       {
-        "label": "Vorhersagesystem",
-        "anchor": "vorhersagesystem"
+        "title": "Wasserqualität",
+        "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-kontext"
       },
       {
-        "label": "Badegewässerverordnung",
-        "anchor": "badegewasserverordnung"
+        "title": "Labormessungen",
+        "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-labor"
       },
       {
-        "label": "Wasserqualität",
-        "anchor": "wasserqualitat"
+        "title": "Berurteilung",
+        "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-beurteilung"
+      },
+      {
+        "title": "Mangelhafte Qualität",
+        "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-mangelhaft"
+      },
+      {
+        "title": "Vorhersagesystem",
+        "url": "http://flussbaden.jetzt/faq?lang=de#vorhersagesystem-funktion"
+      },
+      {
+        "title": "Datengrundlage",
+        "url": "http://flussbaden.jetzt/faq?lang=de#vorhersagesystem-daten"
+      },
+      {
+        "title": "Sicherheit des Systems",
+        "url": "http://flussbaden.jetzt/faq?lang=de#vorhersagesystem-sicherheit"
       }
     ]
   }
