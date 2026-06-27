@@ -1,5 +1,9 @@
 {
     "title": "Wichtig fürs Flussbaden",
+    "warning": {
+        "label": "Wichtig:",
+        "text": "Im Neckar (Gemarkung Stuttgart) besteht momentan ein Badeverbot!"
+    },
     "items": [
         {
             "title": "Baderichtlinien",

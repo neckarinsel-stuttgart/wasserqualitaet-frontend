@@ -1,10 +1,13 @@
 {
     "title": "Important Tips for River Swimming",
+    "warning": {
+        "label": "Important:",
+        "text": "Swimming is currently prohibited in the Neckar (Stuttgart municipality)!"
+    },
     "items": [
         {
             "title": "Swimming guidelines",
-            "text": "On federal waterways such as the Neckar, it is prohibited to swim in shipping lanes or within 100 metres of structures such as weirs, locks and bridges. Anyone who wants to swim in rivers safely should also follow a few rules.
-",
+            "text": "On federal waterways such as the Neckar, it is prohibited to swim in shipping lanes or within 100 metres of structures such as weirs, locks and bridges. Anyone who wants to swim in rivers safely should also follow a few rules.",
             "links": [
                 {
                     "title": "Link zu FAQ",
