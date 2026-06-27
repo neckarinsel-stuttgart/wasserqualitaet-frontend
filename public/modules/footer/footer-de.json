@@ -2,28 +2,34 @@
     "sections": [
         {
             "title": "Du willst in deinem eigenen Fluss baden?",
-            "text": "Alle Daten des Projekts sind öffentlich zugänglich. Du findest eine vollständige Dokumentation und alle Informationen auf GitHub.",
-            "link": [
+            "content": [
                 {
-                    "label": "flussbaden.jetzt auf Github",
-                    "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet-frontend"
+                    "text": "Alle Daten des Projekts sind öffentlich zugänglich. Du findest eine vollständige Dokumentation und alle Informationen auf GitHub.",
+                    "link": [
+                        {
+                            "label": "flussbaden.jetzt auf Github",
+                            "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet-frontend"
+                        },
+                        {
+                            "label": "Vorhersagesystem auf Github",
+                            "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet_dashboard_neckar"
+                        }
+                    ]
                 },
                 {
-                    "label": "Vorhersagesystem auf Github",
-                    "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet_dashboard_neckar"
-                }
-            ],
-            "text": "Du fragst dich, wie du dein eigenes Vorhersagesystem entwickeln kannst? Melde Dich! Wir freuen uns, wenn wir dir helfen können.",
-            "link": [
-                {
-                    "label": "Schreib uns!",
-                    "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet_dashboard_neckar"
+                    "text": "Du fragst dich, wie du dein eigenes Vorhersagesystem entwickeln kannst? Melde Dich! Wir freuen uns, wenn wir dir helfen können.",
+                    "link": [
+                        {
+                            "label": "Schreib uns!",
+                            "url": "https://github.com/neckarinsel-stuttgart/wasserqualitaet_dashboard_neckar"
+                        }
+                    ]
                 }
             ]
         },
         {
             "title": "Neckarinsel e.V.",
-            "text": "Mit unserem Forschungsprojekt zur Wasserqualität des Neckars wollten wir herausfinden, wann das Baden im Neckar möglich ist und welche Voraussetzungen dafür erfüllt sein müssen. Dafür sammeln wir seit 2024 verschiedene Daten am und im Fluss und lassen die Wasserqualität regelmäßig von einem Labor analysieren."\n\n"Der Neckarinsel e.V. ist ein Verein mit dem Ziel, die Zukunft einer lebenswerten Stadt am Fluss aktiv mitzugestalten. Stuttgart schöpft das Potenzial des Neckars als Aufenthaltsraum und Ökosystem noch nicht aus. Mit unseren Projekten und Formaten laden wir alle dazu ein, den Fluss neu zu entdecken und Teil dieser Transformation zu werden.\n\nDu möchtest mehr über unsere Projekte wissen?",
+            "text": "Mit unserem Forschungsprojekt zur Wasserqualität des Neckars wollten wir herausfinden, wann das Baden im Neckar möglich ist und welche Voraussetzungen dafür erfüllt sein müssen. Dafür sammeln wir seit 2024 verschiedene Daten am und im Fluss und lassen die Wasserqualität regelmäßig von einem Labor analysieren.\n\nDer Neckarinsel e.V. ist ein Verein mit dem Ziel, die Zukunft einer lebenswerten Stadt am Fluss aktiv mitzugestalten. Stuttgart schöpft das Potenzial des Neckars als Aufenthaltsraum und Ökosystem noch nicht aus. Mit unseren Projekten und Formaten laden wir alle dazu ein, den Fluss neu zu entdecken und Teil dieser Transformation zu werden.\n\nDu möchtest mehr über unsere Projekte wissen?",
             "link": {
                 "label": "Neckarinsel.eu",
                 "url": "https://neckarinsel.eu"
