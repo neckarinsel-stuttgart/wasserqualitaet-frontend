@@ -2,5 +2,9 @@
     "dashboardLabel": "Dashboard",
     "faqLabel": "FAQ",
     "switchLanguageToLabel": "en",
-    "todayLabel": "Heute"
+    "todayLabel": "Heute",
+    "quality": {
+        "excellent": "Ausgezeichnet",
+        "poor": "Mangelhaft"
+    }
 }
