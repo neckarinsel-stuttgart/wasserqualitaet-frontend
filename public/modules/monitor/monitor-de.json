@@ -54,67 +54,46 @@
     "tooltip": "Daten, die das Vorhersagesystem als besonders relevant für die Vorhersage einstuft",
     "noData": "Für diesen Zeitraum sind keine Daten verfügbar",
     "columns": {
-      "ABSF_STD_mean": {
+      "niederschlag_daily": {
         "label": "Niederschlag",
-        "color": "#a0d0ff",
-        "unit": "mm",
+        "color": "#75CAFF",
+        "unit": "L/m²",
         "defaultActive": true,
         "type": "bar"
       },
-      "Ho_Ne_Temperatur": {
-        "label": "Wassertemp.",
-        "color": "#00e080",
+      "sonnenstunden_daily": {
+        "label": "Sonnenstunden",
+        "color": "#F8FF2A",
+        "unit": "h",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "luftfeuchtigkeit_daily": {
+        "label": "Luftfeuchtigkeit",
+        "color": "#A9F2F7",
+        "unit": "%",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "TT_TU_mean": {
+        "label": "Lufttemp.",
+        "color": "#FF9F60",
         "unit": "°C",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "We_Ne_ElektrischeLeitfaehigkeit": {
+        "label": "Leitfähigkeit",
+        "color": "#FF6975",
+        "unit": "µS/cm",
         "defaultActive": true,
         "type": "line"
       },
       "Ho_Ne_Truebung,quantitativ": {
         "label": "Trübung",
-        "color": "#ffe554",
-        "unit": "FNU",
+        "color": "#5EFE8C",
+        "unit": "NTU",
         "defaultActive": true,
-        "type": "line"
-      },
-      "pH_wert": {
-        "label": "pH-Wert",
-        "color": "#ff00ff",
-        "unit": "",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "Sauerstoff": {
-        "label": "Sauerstoff",
-        "color": "#00ffff",
-        "unit": "mg/l",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "We_Ne_ElektrischeLeitfaehigkeit": {
-        "label": "Leitfähigkeit",
-        "color": "#888888",
-        "unit": "µS/cm",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "TT_TU_mean": {
-        "label": "Lufttemp.",
-        "color": "#ffa500",
-        "unit": "°C",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "V_TE005_mean": {
-        "label": "Strömung (5cm)",
-        "color": "#9387ff",
-        "unit": "m/s",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "V_TE050_mean": {
-        "label": "Strömung (50cm)",
-        "color": "#6554ff",
-        "unit": "m/s",
-        "defaultActive": false,
         "type": "line"
       }
     }

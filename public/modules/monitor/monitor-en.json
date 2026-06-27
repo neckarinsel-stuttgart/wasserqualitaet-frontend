@@ -54,67 +54,46 @@
     "tooltip": "Data that the forecasting system considers to be particularly relevant for the prediction",
     "noData": "No data available for this period",
     "columns": {
-      "ABSF_STD_mean": {
+      "niederschlag_daily": {
         "label": "Precipitation",
-        "color": "#a0d0ff",
-        "unit": "mm",
+        "color": "#75CAFF",
+        "unit": "L/m²",
         "defaultActive": true,
         "type": "bar"
       },
-      "Ho_Ne_Temperatur": {
-        "label": "Water Temp.",
-        "color": "#00e080",
+      "sonnenstunden_daily": {
+        "label": "Sunshine",
+        "color": "#F8FF2A",
+        "unit": "h",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "luftfeuchtigkeit_daily": {
+        "label": "Humidity",
+        "color": "#A9F2F7",
+        "unit": "%",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "TT_TU_mean": {
+        "label": "Air Temp.",
+        "color": "#FF9F60",
         "unit": "°C",
+        "defaultActive": true,
+        "type": "line"
+      },
+      "We_Ne_ElektrischeLeitfaehigkeit": {
+        "label": "Conductivity",
+        "color": "#FF6975",
+        "unit": "µS/cm",
         "defaultActive": true,
         "type": "line"
       },
       "Ho_Ne_Truebung,quantitativ": {
         "label": "Turbidity",
-        "color": "#ffe554",
-        "unit": "FNU",
+        "color": "#5EFE8C",
+        "unit": "NTU",
         "defaultActive": true,
-        "type": "line"
-      },
-      "pH_wert": {
-        "label": "pH Value",
-        "color": "#ff00ff",
-        "unit": "",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "Sauerstoff": {
-        "label": "Oxygen",
-        "color": "#00ffff",
-        "unit": "mg/l",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "We_Ne_ElektrischeLeitfaehigkeit": {
-        "label": "Conductivity",
-        "color": "#888888",
-        "unit": "µS/cm",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "TT_TU_mean": {
-        "label": "Air Temp.",
-        "color": "#ffa500",
-        "unit": "°C",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "V_TE005_mean": {
-        "label": "Flow (5cm)",
-        "color": "#9387ff",
-        "unit": "m/s",
-        "defaultActive": false,
-        "type": "line"
-      },
-      "V_TE050_mean": {
-        "label": "Flow (50cm)",
-        "color": "#6554ff",
-        "unit": "m/s",
-        "defaultActive": false,
         "type": "line"
       }
     }
