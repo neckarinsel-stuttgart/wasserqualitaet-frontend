@@ -54,21 +54,21 @@
     "tooltip": "Data that the forecasting system considers to be particularly relevant for the prediction",
     "noData": "No data available for this period",
     "columns": {
-      "niederschlag_daily": {
+      "R1_mm_day": {
         "label": "Precipitation",
         "color": "#75CAFF",
         "unit": "L/m²",
         "defaultActive": true,
         "type": "bar"
       },
-      "sonnenstunden_daily": {
+      "SD_SO_hours_day": {
         "label": "Sunshine",
         "color": "#F8FF2A",
         "unit": "h",
         "defaultActive": true,
         "type": "line"
       },
-      "luftfeuchtigkeit_daily": {
+      "RF_TU_mean": {
         "label": "Humidity",
         "color": "#A9F2F7",
         "unit": "%",
