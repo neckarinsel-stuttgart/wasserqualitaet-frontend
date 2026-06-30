@@ -34,7 +34,7 @@
                 {
                     "id": "wasserqualitaet-beurteilung",
                     "title": "Why aren't laboratory samples sufficient for assessing water quality?",
-                    "text": "Results on bacterial contamination usually take at least 48 hours to arrive. Therefore, this data cannot be used to make timely decisions about whether it is safe to swim. The forecasting system, on the other hand, provides up-to-date forecasts.",
+                    "text": "Results on bacterial contamination usually take at least 48 hours to arrive. Therefore, this data cannot be used to make timely decisions about whether it is safe to swim. The forecasting system, on the other hand, provides up-to-date forecasts."
                 },
                 {
                     "id": "wasserqualitaet-ergebnisse",
@@ -134,7 +134,7 @@
                 {
                     "id": "vorhersagesystem-sicherheit",
                     "title": "How reliable is the system?",
-                    "text": "Special emphasis was placed on safety during development. The system has been trained to ensure that positive recommendations are as reliable as possible. To date, evaluations have shown that predictions of good water quality have been accurate in all cases. Days with poor water quality, on the other hand, are assessed more cautiously, which can result in false alarms. Swimmers can rely on the swimming traffic light's assessment of good water quality with a high degree of certainty.",
+                    "text": "Special emphasis was placed on safety during development. The system has been trained to ensure that positive recommendations are as reliable as possible. To date, evaluations have shown that predictions of good water quality have been accurate in all cases. Days with poor water quality, on the other hand, are assessed more cautiously, which can result in false alarms. Swimmers can rely on the swimming traffic light's assessment of good water quality with a high degree of certainty."
                 },
                 {
                     "id": "vorhersagesystem-eigenes",
@@ -147,8 +147,6 @@
                         }
                     ]
                 }
-            ]
-            ]
             ]
         }
     ],

@@ -17,7 +17,7 @@ export function init(container, data) {
               </summary>
               <div class="faq__answer">
                 <p>${item.text}</p>
-                ${item.sources.length ? `
+                ${item.sources?.length ? `
                   <div class="faq__sources">
                     <span class="faq__sources-label">${data.sourceLabel}</span>
                     <ul>

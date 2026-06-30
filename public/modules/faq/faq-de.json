@@ -34,7 +34,7 @@
                 {
                     "id": "wasserqualitaet-beurteilung",
                     "title": "Warum reichen Laborproben zur Beurteilung der Wasserqualität nicht aus?",
-                    "text": "Bis Ergebnisse zu Bakterienbelastungen vorliegen, vergehen in der Regel mindestens 48 Stunden. Für eine aktuelle Badeentscheidung sind diese Daten deshalb nicht nutzbar. Das Vorhersagesystem erstellt Prognosen hingegen tagesaktuell.",
+                    "text": "Bis Ergebnisse zu Bakterienbelastungen vorliegen, vergehen in der Regel mindestens 48 Stunden. Für eine aktuelle Badeentscheidung sind diese Daten deshalb nicht nutzbar. Das Vorhersagesystem erstellt Prognosen hingegen tagesaktuell."
                 },
                 {
                     "id": "wasserqualitaet-ergebnisse",
@@ -134,7 +134,7 @@
                 {
                     "id": "vorhersagesystem-sicherheit",
                     "title": "Wie zuverlässig ist das System?",
-                    "text": "Bei der Entwicklung wurde ein besonderer Wert auf die Sicherheit gelegt. Das System ist so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. In den bisherigen Auswertungen trafen Vorhersagen einer guten Wasserqualität in allen Fällen zu. Tage mit schlechter Wasserqualität werden dagegen bewusst vorsichtiger eingeschätzt, wodurch es zu Fehlalarmen kommen kann. Zeigt die Badeampel eine gute Wasserqualität an, können sich Badende auf diese Einschätzung mit hoher Sicherheit verlassen.",
+                    "text": "Bei der Entwicklung wurde ein besonderer Wert auf die Sicherheit gelegt. Das System ist so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. In den bisherigen Auswertungen trafen Vorhersagen einer guten Wasserqualität in allen Fällen zu. Tage mit schlechter Wasserqualität werden dagegen bewusst vorsichtiger eingeschätzt, wodurch es zu Fehlalarmen kommen kann. Zeigt die Badeampel eine gute Wasserqualität an, können sich Badende auf diese Einschätzung mit hoher Sicherheit verlassen."
                 },
                 {
                     "id": "vorhersagesystem-eigenes",
