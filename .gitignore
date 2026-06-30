@@ -4,8 +4,8 @@ node_modules/
 # Build output
 dist/
 
-# local API dump
-api/
+# Local API response cache (generated at runtime by api/*.php)
+api/*-cache*.json
 
 # OS
 .DS_Store
