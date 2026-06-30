@@ -26,8 +26,7 @@ export function createKlaroConfig(lang, translations) {
         required: true,
       },
       {
-        // Placeholder — wire up an actual analytics service here once decided.
-        name: 'statistics',
+        name: 'matomo',
         purposes: ['analytics'],
         default: false,
         required: false,

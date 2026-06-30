@@ -1,5 +1,6 @@
 import './modules/styles.scss';
 import { initConsent } from './consent/index.js';
+import { initMatomo } from './analytics/matomo.js';
 
 const lang = new URLSearchParams(window.location.search).get('lang') || import.meta.env.VITE_DEFAULT_LANG || 'de';
 document.documentElement.lang = lang;
@@ -211,6 +212,7 @@ setFavicon(null);
 predictionPromise.then(() => setFavicon(forecastData.today.waterquality));
 
 initConsent(lang).then(() => {
+  initMatomo();
   document.querySelectorAll('[data-module]').forEach(async (container) => {
     const name = container.dataset.module;
     if (!moduleMap[name]) return;
