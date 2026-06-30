@@ -2,31 +2,31 @@
     "playLabel": "Abspielen",
     "videos": [
         {
-            "title": "Platzhaltervideo 1",
-            "duration": "0:22",
-            "src": "assets/videos/faq01-compressed.mp4",
-            "poster": "assets/videos/faq01.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 2",
-            "duration": "0:30",
-            "src": "assets/videos/faq02-compressed.mp4",
-            "poster": "assets/videos/faq02.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 3",
-            "duration": "0:35",
-            "src": "assets/videos/faq03-compressed.mp4",
-            "poster": "assets/videos/faq03.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 4",
+            "title": "Welchen Weg nimmt das Wasser in der Stadt?",
             "duration": "0:29",
             "src": "assets/videos/faq04-compressed.mp4",
             "poster": "assets/videos/faq04.jpg"
         },
         {
-            "title": "Platzhaltervideo 5",
+            "title": "Wie sauber ist der Neckar?",
+            "duration": "0:35",
+            "src": "assets/videos/faq03-compressed.mp4",
+            "poster": "assets/videos/faq03.jpg"
+        },
+        {
+            "title": "Wie funktioniert die Vorhersage?",
+            "duration": "0:22",
+            "src": "assets/videos/faq01-compressed.mp4",
+            "poster": "assets/videos/faq01.jpg"
+        },
+        {
+            "title": "Wie sicher ist die Vorhersage?",
+            "duration": "0:30",
+            "src": "assets/videos/faq02-compressed.mp4",
+            "poster": "assets/videos/faq02.jpg"
+        },
+        {
+            "title": "Wie gefährlich ist das Baden im Neckar?",
             "duration": "0:29",
             "src": "assets/videos/faq05-compressed.mp4",
             "poster": "assets/videos/faq05.jpg"

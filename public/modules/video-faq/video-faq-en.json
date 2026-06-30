@@ -2,31 +2,31 @@
     "playLabel": "Abspielen",
     "videos": [
         {
-            "title": "Platzhaltervideo 1",
-            "duration": "0:22",
-            "src": "assets/videos/faq01-compressed.mp4",
-            "poster": "assets/videos/faq01.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 2",
-            "duration": "0:30",
-            "src": "assets/videos/faq02-compressed.mp4",
-            "poster": "assets/videos/faq02.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 3",
-            "duration": "0:35",
-            "src": "assets/videos/faq03-compressed.mp4",
-            "poster": "assets/videos/faq03.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 4",
+            "title": "Where does the water go in the city?",
             "duration": "0:29",
             "src": "assets/videos/faq04-compressed.mp4",
             "poster": "assets/videos/faq04.jpg"
         },
         {
-            "title": "Platzhaltervideo 5",
+            "title": "How clean is the Neckar River?",
+            "duration": "0:35",
+            "src": "assets/videos/faq03-compressed.mp4",
+            "poster": "assets/videos/faq03.jpg"
+        },
+        {
+            "title": "How does the forecast work?",
+            "duration": "0:22",
+            "src": "assets/videos/faq01-compressed.mp4",
+            "poster": "assets/videos/faq01.jpg"
+        },
+        {
+            "title": "How reliable is the forecast?",
+            "duration": "0:30",
+            "src": "assets/videos/faq02-compressed.mp4",
+            "poster": "assets/videos/faq02.jpg"
+        },
+        {
+            "title": "How dangerous is it to swim in the Neckar?",
             "duration": "0:29",
             "src": "assets/videos/faq05-compressed.mp4",
             "poster": "assets/videos/faq05.jpg"
