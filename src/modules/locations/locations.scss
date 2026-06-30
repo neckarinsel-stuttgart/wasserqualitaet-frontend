@@ -1,0 +1,306 @@
+@use '../../tokens' as *;
+
+.locations {
+  padding: var(--spacing-body-v) var(--spacing-body-h);
+  max-width: var(--content-wide);
+  margin: 0 auto;
+}
+
+.locations__title {
+  @include type-h2;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-v-lg);
+}
+
+.locations__panels {
+  display: flex;
+  height: 436px;
+  gap: var(--spacing-v-md);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.locations__panel {
+  position: relative;
+  min-width: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: flex 0.3s cubic-bezier(0, 0.55, 0.45, 1);
+
+  &:last-child {
+    border-right: none;
+  }
+
+  >* {
+    transition: filter 0.3s cubic-bezier(0, 0.55, 0.45, 1);
+  }
+
+  &--active {
+    flex: 1 1 auto;
+  }
+
+  &--minimized {
+    flex: 0 0 160px;
+
+    >*:not(.locations__badge) {
+      filter: blur(2px);
+    }
+  }
+}
+
+.locations__expand-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.locations__badge {
+  position: absolute;
+  top: var(--spacing-h-md);
+  left: var(--spacing-h-md);
+  z-index: 5;
+  pointer-events: none;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-h-sm);
+  background: var(--color-white);
+  padding: 4px var(--spacing-h-md);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-map);
+  @include type-label-bold;
+  color: var(--text-primary);
+
+  .tooltip-btn {
+    pointer-events: auto;
+  }
+}
+
+// Pre-consent placeholder
+.locations__placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-h-md);
+  text-align: center;
+  padding: var(--spacing-h-lg);
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.locations__placeholder-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--color-grey-100);
+  filter: blur(6px);
+  transform: scale(1.05);
+}
+
+.locations__load-btn {
+  position: relative;
+  background: var(--color-brand);
+  color: var(--text-primary-inverted);
+  border: none;
+  padding: 6px var(--spacing-h-lg);
+  border-radius: 999px;
+  @include type-button-m;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.locations__consent-hint {
+  position: relative;
+  @include type-copy;
+  min-width: 250px;
+  color: var(--color-grey-600);
+
+  span {
+    white-space: nowrap;
+  }
+}
+
+.locations__consent-settings {
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.locations__map,
+.locations__ship {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.locations__ship iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+// Location chips along map bottom
+.locations__chips {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: var(--spacing-v-lg) var(--spacing-h-md);
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  gap: var(--spacing-h-sm);
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.locations__chip {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-h-sm);
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  border: none;
+  padding: var(--spacing-v-sm) 6px;
+  @include type-label-bold;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: var(--shadow-map);
+  color: var(--text-primary);
+
+  &--active {
+    background: var(--color-brand);
+    color: var(--text-primary-inverted);
+    border-color: var(--color-brand);
+
+    .locations__chip-number {
+      background: var(--text-primary-inverted);
+      color: var(--color-brand);
+    }
+  }
+}
+
+.locations__chip-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-brand);
+  color: var(--text-primary-inverted);
+  font-size: 14px;
+  padding-bottom: 2px;
+  font-family: $font-serif;
+  flex-shrink: 0;
+}
+
+// Map pin markers
+.locations__pin {
+  width: 40px;
+  height: 52px;
+  position: relative;
+
+  &.leaflet-div-icon {
+    background: transparent;
+    border: none;
+  }
+}
+
+.locations__pin .locations__pin-shape {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+
+  path {
+    fill: var(--color-white);
+    stroke: var(--color-brand);
+    stroke-width: 2;
+  }
+}
+
+.locations__pin span {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  @include type-caption-bold;
+  font-family: $font-serif;
+  font-size: 24px;
+  color: var(--color-brand);
+}
+
+.locations__pin--active {
+  .locations__pin-shape path {
+    fill: var(--color-brand);
+  }
+
+  span {
+    color: var(--text-primary-inverted);
+  }
+}
+
+@media (max-width: 700px) {
+  .locations__panels {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .locations__panel {
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &--active {
+      flex: 0 0 360px;
+    }
+
+    &--minimized {
+      flex: 0 0 64px;
+
+      .locations__chips {
+        pointer-events: none;
+      }
+    }
+  }
+}

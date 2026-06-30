@@ -1,0 +1,64 @@
+@use 'sass:color';
+
+// ─── Klaro consent UI — design tokens ────────────────────────────────────────
+// Edit these variables to change the look of the consent banner and modal.
+// ─────────────────────────────────────────────────────────────────────────────
+$klaro-bg: #111111; // banner + modal background
+$klaro-text: #ffffff; // text
+$klaro-accent: #6554FF; // accept button + active toggles
+$klaro-font: inherit; // falls back to the page font
+$klaro-radius: 12px; // corner radius
+$klaro-spacing: 1rem; // gap from bottom / left / right screen edges
+// ─────────────────────────────────────────────────────────────────────────────
+
+#klaro .klaro {
+  --font-family: #{$klaro-font};
+  --border-radius: #{$klaro-radius};
+
+  // Background palette (dark1 = main, dark2/3 = progressively lighter)
+  --dark1: #{$klaro-bg};
+  --dark2: #{color.adjust($klaro-bg, $lightness: 15%)};
+  --dark3: #{color.adjust($klaro-bg, $lightness: 30%)};
+
+  // Text palette (light1 = main, light2/3 = progressively dimmer)
+  --light1: #{$klaro-text};
+  --light2: #{color.adjust($klaro-text, $lightness: -20%)};
+  --light3: #{color.adjust($klaro-text, $lightness: -40%)};
+
+  // Accent (accept/save button, toggle-on state)
+  --green1: #{$klaro-accent};
+  --green2: #{$klaro-accent};
+  --green3: #{color.adjust($klaro-accent, $lightness: 10%)};
+
+  // Links
+  --blue1: #{$klaro-accent};
+  --blue2: #{color.adjust($klaro-accent, $lightness: 15%)};
+
+  // Notice position — applies at ≥1024px via Klaro's own media query
+  --notice-right: #{$klaro-spacing};
+  --notice-left: #{$klaro-spacing};
+  --notice-bottom: #{$klaro-spacing};
+  --notice-max-width: none;
+}
+
+// Knob color — Klaro uses --white3 (not --light3) so the project token never
+// applies; override explicitly to make the knob clearly visible on the dark track.
+#klaro .klaro .cm-list-label .slider::before {
+  background-color: #cbcbcb;
+}
+
+// On mobile (<1024px) Klaro hard-codes width:100%, bottom:0 and border-radius:0
+// without CSS custom properties. #klaro (ID) beats .klaro (class) in specificity.
+#klaro .cookie-notice:not(.cookie-modal-notice) {
+  bottom: $klaro-spacing;
+  left: $klaro-spacing;
+  right: $klaro-spacing;
+  width: auto;
+  max-width: 640px;
+  margin: 0 auto;
+  border-radius: $klaro-radius;
+
+  &:focus-visible {
+    outline: #{$klaro-accent} auto 1px;
+  }
+}
