@@ -51,7 +51,7 @@
   },
   "messdaten": {
     "title": "Messdaten",
-    "tooltip": "Daten, die das Vorhersagesystem als besonders relevant für die Vorhersage einstuft",
+    "tooltip": "Daten, die das Vorhersagesystem als besonders relevant für die Vorhersage einstuft. Die Messdaten werden immer erst am Folgetag aktualisiert, deshlab können die Daten von heute nicht angezeigt werden.",
     "noData": "Für diesen Zeitraum sind keine Daten verfügbar",
     "columns": {
       "R1_mm_day": {

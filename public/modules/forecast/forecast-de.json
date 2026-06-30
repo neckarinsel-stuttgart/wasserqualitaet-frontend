@@ -8,10 +8,8 @@
     "tomorrow": "Morgen",
     "forecastCreated": "Letzte Prognose",
     "forecastUnavailable": "–",
-    "forecastCreatedTooltip": "Kann weg",
-    "forecastCreatedTooltipLabel": "Kann weg",
     "waterQualityForecast": "Prognose für die Wasserqualität",
-    "waterQualityForecastTooltip": "Die Prognose für die Wasserqualität wird momentan einmal am Tag auf der Grundlage aktueller Wetter- und Flussdaten aktualisiert.",
+    "waterQualityForecastTooltip": "Die Prognose für die Wasserqualität wird momentan einmal am Tag um die Mittagszeit auf der Grundlage der Wetter- und Flussdaten vom Vortag aktualisiert.",
     "waterQualityForecastTooltipLabel": "Mehr Informationen zur Prognose",
     "qualityUnavailable": "Nicht verfügbar",
     "quality": {

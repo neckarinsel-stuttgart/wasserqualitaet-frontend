@@ -51,7 +51,7 @@
   },
   "messdaten": {
     "title": "Measurement data",
-    "tooltip": "Data that the forecasting system considers to be particularly relevant for the prediction",
+    "tooltip": "Data that the forecasting system considers to be particularly relevant for the prediction. The measurement data is always updated the following day, which is why today's data cannot be displayed.",
     "noData": "No data available for this period",
     "columns": {
       "R1_mm_day": {

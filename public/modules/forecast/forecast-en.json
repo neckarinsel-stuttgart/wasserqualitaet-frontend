@@ -11,7 +11,7 @@
     "forecastCreatedTooltip": "Kann weg",
     "forecastCreatedTooltipLabel": "Kann weg",
     "waterQualityForecast": "Water quality forecast",
-    "waterQualityForecastTooltip": "The water quality forecast is currently updated once a day based on the latest weather and river data.",
+    "waterQualityForecastTooltip": "The water quality forecast is currently updated once a day around noon, based on the previous day's weather and river data.",
     "waterQualityForecastTooltipLabel": "More information about the forecast",
     "qualityUnavailable": "Not available",
     "quality": {
