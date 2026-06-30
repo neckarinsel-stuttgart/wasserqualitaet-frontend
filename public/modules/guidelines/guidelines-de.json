@@ -10,10 +10,6 @@
             "text": "Auf Bundeswasserstraßen wie dem Neckar ist das Schwimmen in Bereichen der Schiffahrt und im Umkreis von 100 Meter um Bauwerke, wie Wehre, Schleusen und Brücken, verboten. Wer sicher in Flüssen schwimmen will, sollte darüber hinaus ein paar Regeln beachten.",
             "links": [
                 {
-                    "title": "Wasserstraßen- und Schiffahrtsamt",
-                    "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
-                },
-                {
                     "title": "Risiken",
                     "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
                 },
@@ -24,16 +20,16 @@
             ]
         },
         {
-            "title": "Wasserqualität",
-            "text": "Nach Starkregenereignissen kann der Fluss kurzzeitig mikrobiologische Verschmutzungen aufweisen. Chemische Verschmutzungen werden vom Umweltamt des Landes überwacht und kommen nur selten vor.",
+            "title": "Verschmutzungen",
+            "text": "Nach Starkregenereignissen kann der Fluss kurzzeitig mikrobiologische Verschmutzungen aufweisen. Für gesunde Menschen ist das Risiko einer ernsthaften Erkrankung gering. Menschen mit Vorerkrankungen sollten jedoch besonders vorsichtig sein.",
             "links": [
                 {
-                    "title": "Landesanstalt für Umwelt Baden-Württemberg",
-                    "url": "https://www.lubw.baden-wuerttemberg.de/wasser/fliessgewaesserdaten"
+                    "title": "Verunreinigungen",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-verunreinigungen"
                 },
                 {
-                    "title": "Wasserqualität",
-                    "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-kontext"
+                    "title": "Folgen",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-mangelhaft"
                 }
             ]
         },
@@ -42,26 +38,18 @@
             "text": "Auf dem Neckar fahren bis zu 105 Meter lange Schiffe, die nicht ausweichen können und gefährliche Sogwirkungen verursachen. Halte dich unbedingt fern von der Schifffahrtsrinne in der Mitte und den Einrichtungen des Schiffverkehrs.",
             "links": [
                 {
-                    "title": "Wasserstraßen- und Schiffahrtsamt",
-                    "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
-                },
-                {
                     "title": "Risiken",
                     "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
                 }
             ]
         },
         {
-            "title": "Strömung und Sichttiefe",
-            "text": "Auch wenn der Neckar kein schnell fließender Fluss ist, können an Brücken und Bauwerken oder durch Schiffe gefährliche Strömungen entstehen. Eine schlechte Sicht lässt zwar nicht auf eine mangelhafte Wasserqualität schließen, aber dadurch werden Gefahren unter der Wasseroberfläche schlechter erkennbar. Wer in Flüssen schwimmt, sollte die örtlichen Gegebenheiten kennen.",
+            "title": "Örtliche Gegebenheiten",
+            "text": "Auch wenn der Neckar kein schnell fließender Fluss ist, können an Brücken und Bauwerken oder durch Schiffe gefährliche Strömungen entstehen. Durch eine schlechte Sicht sind Gefahren unter der Wasseroberfläche schlechter erkennbar. Wer in Flüssen schwimmt, sollte die örtlichen Gegebenheiten kennen.",
             "links": [
                 {
-                    "title": "Südwestrundfunk",
-                    "url": "https://www.swr.de/swraktuell/rheinland-pfalz/tipps-badeunfaelle-und-ertrinken-vermeiden-gefahren-im-freibad-fluss-badesee-100.html"
-                },
-                {
-                    "title": "Baderegeln",
-                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-wichtig"
+                    "title": "Regeln",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-regeln"
                 }
             ]
         }

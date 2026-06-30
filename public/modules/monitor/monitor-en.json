@@ -102,20 +102,12 @@
     "heading": "Learn More",
     "items": [
       {
-        "title": "Water Quality",
-        "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-kontext"
-      },
-      {
         "title": "Measurements",
         "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-labor"
       },
       {
         "title": "Assessment",
         "url": "http://flussbaden.jetzt/faq?lang=de#wasserqualitaet-beurteilung"
-      },
-      {
-        "title": "Poor Quality",
-        "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-mangelhaft"
       },
       {
         "title": "Forecasting System",

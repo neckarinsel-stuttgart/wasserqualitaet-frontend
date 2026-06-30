@@ -6,28 +6,46 @@
             "title": "Water Quality",
             "items": [
                 {
-                    "id": "wasserqualitaet-kontext",
-                    "title": "Why is the water quality sometimes poor?",
-                    "text": "In many cities, rainwater and wastewater are transported together to the wastewater treatment plant through what are known as combined sewer systems. During periods of exceptionally heavy rainfall, these systems reach their capacity limits. In such cases, diluted wastewater is first directed into retention basins and then discharged directly into the river. In such situations, the water quality of the Neckar River can temporarily decline significantly.",
-                    "sources": []
+                    "id": "wasserqualitaet-verunreinigungen",
+                    "title": "Why might the water in the Neckar be polluted?",
+                    "text": "In many cities, rainwater and wastewater are transported together to the wastewater treatment plant through what are known as combined sewer systems. During periods of exceptionally heavy rainfall, these systems reach their capacity limits. In such cases, diluted wastewater is first directed into retention basins and then discharged directly into the river. In such situations, the water quality of the Neckar River can temporarily decline significantly. The state environmental agency monitors chemical contamination, which occurs only rarely.",
+                    "sources": [
+                        {
+                            "title": "City of Stuttgart",
+                            "url": "https://www.domino1.stuttgart.de/web/ksd/ksdredsystem.nsf/0/834ADEFDE585115FC1257A1400317CA3?OpenDocument"
+                        },
+                        {
+                            "title": "State Environmental Agency Baden Württemberg",
+                            "url": "https://www.lubw.baden-wuerttemberg.de/wasser/fliessgewaesserdaten"
+                        }
+                    ]
                 },
                 {
                     "id": "wasserqualitaet-labor",
                     "title": "How and where are the laboratory tests conducted?",
                     "text": "Between May and October, a laboratory specialising in bathing water takes samples twice a week from the Neckar River at the Voltasteg in Bad Cannstatt. These samples are analysed for the presence of intestinal bacteria, such as E. coli and enterococci, which are considered to be important indicators of faecal contamination. The Bathing Water Regulations specify the limit values.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "Bathing Water Regulation",
+                            "url": "https://www.landesrecht-bw.de/perma?j=BadGewQualV_BW"
+                        }
+                    ]
                 },
                 {
                     "id": "wasserqualitaet-beurteilung",
                     "title": "Why aren't laboratory samples sufficient for assessing water quality?",
                     "text": "Results on bacterial contamination usually take at least 48 hours to arrive. Therefore, this data cannot be used to make timely decisions about whether it is safe to swim. The forecasting system, on the other hand, provides up-to-date forecasts.",
-                    "sources": []
                 },
                 {
                     "id": "wasserqualitaet-ergebnisse",
                     "title": "What do the results of the laboratory samples show?",
                     "text": "The results of the last 60 measurements show that the Neckar River is cleaner than many people realise. Based on the Bathing Water Regulations, swimming would have been possible on more than two-thirds of the days tested in 2025. In fact, very good water quality was recorded on over half of the days tested.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "Neckarinsel e.V.",
+                            "url": "https://neckarinsel.eu/de/formate/wasserqualitaet"
+                        }
+                    ]
                 }
             ]
         },
@@ -38,25 +56,49 @@
                     "id": "flussbaden-risiken",
                     "title": "Why does swimming in rivers carry risks?",
                     "text": "Currents and whirlpools can form near bridges, locks, and weirs. The banks are steep, and without ladders, it is difficult to get out of the river. On the Neckar, large ships sometimes travel 300 meters without any visibility, creating a dangerous wake. Water quality can also fluctuate after heavy rainfall. However, the Neckar is safe for swimming on many days for anyone who knows the rules, is a strong swimmer and is in good health.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "WSA Neckar",
+                            "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
+                        }
+                    ]
                 },
                 {
                     "id": "flussbaden-regeln",
                     "title": "What rules should I follow when swimming in a river?",
                     "text": "Be aware of hazards beneath the water’s surface, and never swim alone if possible. Never jump into the water from bridges or riverbanks unless you can see how deep the water is and what the current conditions are like. Swim parallel to the shore and watch out for boat traffic. Only enter the river at open stretches of the bank to protect wildlife and plants.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "WSA Neckar",
+                            "url": "https://www.wsa-neckar.wsv.de/Webs/WSA/Neckar/DE/Schifffahrt/SportFreizeitschifffahrt/Baden/baden_node.html"
+                        },
+                        {
+                            "title": "Südwestrundfunk",
+                            "url": "https://www.swr.de/swraktuell/rheinland-pfalz/tipps-badeunfaelle-und-ertrinken-vermeiden-gefahren-im-freibad-fluss-badesee-100.html"
+                        }
+                    ]
                 },
                 {
                     "id": "flussbaden-verbot",
                     "title": "Why is swimming prohibited?",
                     "text": "Swimming in the Neckar River in Stuttgart has been prohibited since 1978 for health and safety reasons. This is due to temporary contamination from municipal wastewater, as well as the steep riverbanks and the dangers posed by large ships.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "Swimming Prohibition",
+                            "url": "https://www.stuttgart.de/medien/ibs/1-4.pdf"
+                        }
+                    ]
                 },
                 {
                     "id": "flussbaden-mangelhaft",
                     "title": "What are the consequences of swimming in poor water quality?",
-                    "text": "Untreated wastewater entering the river may contain viruses and bacteria that pose a health risk. For healthy people, the risk of serious illness is low. However, people with pre-existing medical conditions should be especially cautious. Anyone who wishes to swim in the river does so at their own risk and must be able to assess the associated risks.",
-                    "sources": []
+                    "text": "Untreated wastewater entering the river may contain viruses and bacteria that pose a health risk. Swimming can increase the risk of gastrointestinal illnesses or other infections. Children, older adults, and people with weakened immune systems or certain pre-existing conditions should be especially careful. Anyone who wishes to swim in the river does so at their own risk and must be able to assess the associated risks.",
+                    "sources": [
+                        {
+                            "title": "World Health Organisation",
+                            "url": "https://www.who.int/publications/i/item/9241545801?utm_source=chatgpt.com"
+                        }
+                    ]
                 }
             ]
         },
@@ -67,25 +109,43 @@
                     "id": "vorhersagesystem-funktion",
                     "title": "How does the forecasting system work?",
                     "text": "It analyses various factors that affect water quality. Using the collected measurement data, it has learned which conditions are typically associated with good or poor water quality. Based on this, it determines whether the current value should be rated as 'excellent' or 'poor' according to the Bathing Water Regulations.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "Bathing Water Regulation",
+                            "url": "https://www.landesrecht-bw.de/perma?j=BadGewQualV_BW"
+                        }
+                    ]
                 },
                 {
                     "id": "vorhersagesystem-daten",
                     "title": "Which dataset do you use?",
                     "text": "The forecasting system was trained using over 1,000 variables. This includes weather data, such as precipitation and solar radiation, from the German Weather Service, as well as river data, such as conductivity and turbidity, from the state’s environmental agency.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "German Weather Service",
+                            "url": "https://cdc.dwd.de/rest/metadata/station/html/812300188455"
+                        },
+                        {
+                            "title": "Data Service State Environmental Agency",
+                            "url": "https://udo.lubw.baden-wuerttemberg.de/public/"
+                        }
+                    ]
                 },
                 {
                     "id": "vorhersagesystem-sicherheit",
                     "title": "How reliable is the system?",
                     "text": "Special emphasis was placed on safety during development. The system has been trained to ensure that positive recommendations are as reliable as possible. To date, evaluations have shown that predictions of good water quality have been accurate in all cases. Days with poor water quality, on the other hand, are assessed more cautiously, which can result in false alarms. Swimmers can rely on the swimming traffic light's assessment of good water quality with a high degree of certainty.",
-                    "sources": []
                 },
                 {
                     "id": "vorhersagesystem-eigenes",
                     "title": "What is the best way to develop my own forecasting system?",
                     "text": "All data, scripts and code forming the basis of the forecasting system are publicly available on GitHub. You will also find the code for this website there. We’re currently working on project documentation. Familiarity with programming languages is essential, as are laboratory measurements of your river. If you have these, you can get started right away. We encourage others to replicate this project.",
-                    "sources": []
+                    "sources": [
+                        {
+                            "title": "GitHub",
+                            "url": "https://github.com/neckarinsel-stuttgart/"
+                        }
+                    ]
                 }
             ]
             ]
