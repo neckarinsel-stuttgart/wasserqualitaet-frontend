@@ -68,20 +68,7 @@
             "support": {
                 "title": "Unterstützung",
                 "text": "Dieses Projekt wurde von der Landeshauptstadt Stuttgart und im Rahmen des Crowdfunding für Natur- und Klimaschutz durch die Baden-Württemberg-Stiftung und private Spenden ermöglicht.",
-                "links": [
-                    {
-                        "label": "Name",
-                        "url": "#"
-                    },
-                    {
-                        "label": "Name",
-                        "url": "#"
-                    },
-                    {
-                        "label": "Name",
-                        "url": "#"
-                    }
-                ],
+                "links": [],
                 "logos": [
                     {
                         "src": "assets/images/baden-wuerttemberg_stiftung_logo.svg",

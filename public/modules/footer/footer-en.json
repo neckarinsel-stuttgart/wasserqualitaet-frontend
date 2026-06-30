@@ -68,20 +68,7 @@
             "support": {
                 "title": "Support",
                 "text": "This project was made possible by the City of Stuttgart and, as part of the crowdfunding initiative for nature conservation and climate protection, by the Baden-Württemberg Foundation and private donations.",
-                "links": [
-                    {
-                        "label": "Name",
-                        "url": "#"
-                    },
-                    {
-                        "label": "Name",
-                        "url": "#"
-                    },
-                    {
-                        "label": "Name",
-                        "url": "#"
-                    }
-                ],
+                "links": [],
                 "logos": [
                     {
                         "src": "assets/images/baden-wuerttemberg_stiftung_logo.svg",
