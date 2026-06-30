@@ -7,7 +7,7 @@
   ],
   "consent": {
     "heading": "Einwilligungen verwalten",
-    "text": "Diese Seite bindet einzelne externe Dienste erst nach Ihrer Einwilligung ein. Sie können Ihre Auswahl hier jederzeit einsehen und ändern.",
+    "text": "Diese Seite bindet einzelne externe Dienste erst nach Ihrer Einwilligung ein. Sie können Ihre Auswahl hier jederzeit einsehen, ändern und mit Wirkung für die Zukunft widerrufen.",
     "buttonLabel": "Datenschutz-Einstellungen öffnen"
   },
   "sections": [
@@ -20,7 +20,7 @@
         },
         {
           "type": "p",
-          "text": "Vertretungsberechtigte Personen:<br>Elmer G., Josina Herding, Hannah Pinell, Frederike Schmidt"
+          "text": "Vertretungsberechtigte Personen:<br>Elmer Gutierrez, Josina Herding, Hannah Pinell, Frederike Schmidt"
         },
         {
           "type": "p",
@@ -28,7 +28,7 @@
         },
         {
           "type": "h3",
-          "text": "Kontakt Datenschutzbeauftragter"
+          "text": "Contact Person for Data Protection Issues"
         },
         {
           "type": "p",
@@ -83,7 +83,9 @@
             "Statistische Auswertung",
             "Reichweitenmessung",
             "Nutzungsanalyse",
-            "Optimierung der Benutzerfreundlichkeit"
+            "Optimierung der Benutzerfreundlichkeit",
+            "Bereitstellung interaktiver Karten",
+            "Bereitstellung externer Inhalte und Darstellung von Live-Daten"
           ]
         }
       ]
@@ -132,7 +134,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Zur Bereitstellung unseres Onlineangebotes nehmen wir Leistungen von Strato in Anspruch. Dabei werden Daten verarbeitet, die für den Betrieb und die Auslieferung der Website erforderlich sind."
+          "text": "Zur Bereitstellung unseres Onlineangebotes nehmen wir Leistungen von Strato (STRATO AG, Otto-Ostrowski-Straße 7, 10249 Berlin) in Anspruch. Dabei werden Daten verarbeitet, die für den Betrieb und die Auslieferung der Website erforderlich sind. Mit dem Hostinganbieter besteht – soweit gesetzlich erforderlich – ein Vertrag über die Verarbeitung personenbezogener Daten im Auftrag gemäß Art. 28 DSGVO."
         },
         {
           "type": "p",
@@ -267,6 +269,109 @@
             "Reichweitenmessung",
             "Nutzungsanalyse",
             "Optimierung der Benutzerfreundlichkeit"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rechtsgrundlagen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Einbindung von Karten (OpenStreetMap / CARTO)",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir binden auf Grundlage Ihrer Einwilligung interaktive Karten ein, um Standorte auf unserem Onlineangebot darzustellen. Hierfür verwenden wir Kartendaten von OpenStreetMap, die über den Dienst CARTO bereitgestellt werden.\n\nBeim Laden der Karten wird eine Verbindung zu den Servern von CARTO hergestellt. Dabei wird insbesondere Ihre IP-Adresse an CARTO übermittelt, damit die Karteninhalte an Ihren Browser ausgeliefert werden können. Wir haben keinen Einfluss auf die weitere Verarbeitung der Daten durch CARTO."
+        },
+        {
+          "type": "h3",
+          "text": "Verarbeitete Datenarten"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzungsdaten",
+            "Meta-/Kommunikationsdaten",
+            "Geräteinformationen"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Betroffene Personen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzer"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Zwecke der Verarbeitung"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bereitstellung interaktiver Karten",
+            "Nutzerfreundlichkeit"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rechtsgrundlagen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG)"
+          ]
+        }
+      ]
+    },
+     {
+      "heading": "Einbindung externer Inhalte (VesselFinder)",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir binden auf Grundlage Ihrer Einwilligung Inhalte des Dienstes VesselFinder ein, um den aktuellen Schiffsverkehr in Form einer interaktiven Karte darzustellen.\n\nDie Einbindung erfolgt über ein iframe. Beim Laden der eingebetteten Inhalte wird eine Verbindung zu den Servern von VesselFinder hergestellt. Dabei wird insbesondere Ihre IP-Adresse an VesselFinder übermittelt. Darüber hinaus kann VesselFinder auf der eingebetteten Seite eigene Cookies setzen oder vergleichbare Technologien einsetzen. Auf Art, Umfang und weitere Verarbeitung der hierbei erhobenen Daten haben wir keinen Einfluss."
+        },
+        {
+          "type": "h3",
+          "text": "Verarbeitete Datenarten"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzungsdaten",
+            "Meta-/Kommunikationsdaten",
+            "Gerätedaten"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Betroffene Personen"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzer"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Zwecke der Verarbeitung"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bereitstellung externer Inhalte und Darstellung von Live-Daten"
           ]
         },
         {

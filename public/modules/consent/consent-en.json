@@ -12,7 +12,7 @@
     },
     "analytics": {
       "title": "Statistics",
-      "description": "With your consent, we collect anonymised usage data to analyse how our website is used and to improve our offering. This includes page views, time on site, entry and exit pages, device information, referral source, and interactions with content."
+      "description": "With your consent, we collect usage data to analyse how our website is used and to improve our offering. IP addresses are shortened or anonymized to the extent that this is technically possible.This includes page views, time on site, entry and exit pages, device information, referral source, and interactions with content."
     },
     "content": {
       "title": "External content",
@@ -29,7 +29,7 @@
   },
   "openstreetmap": {
     "title": "OpenStreetMap / CARTO",
-    "description": "Embeds interactive map material to display locations. The map data comes from OpenStreetMap, served via CARTO's map tiles. Your IP address is transmitted to CARTO's servers."
+    "description": "Embeds interactive map material to display locations. The map data comes from OpenStreetMap, served via CARTO's map tiles. Your IP address is transmitted to CARTO’s servers. CARTO processes this data on its own responsibility."
   },
   "vesselfinder": {
     "title": "Vesselfinder",

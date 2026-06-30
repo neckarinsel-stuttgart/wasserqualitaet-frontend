@@ -12,7 +12,7 @@
     },
     "analytics": {
       "title": "Statistik",
-      "description": "Mit deiner Einwilligung erfassen wir anonymisierte Nutzungsdaten, um die Nutzung unserer Website zu analysieren und unser Angebot zu verbessern. Dabei werden unter anderem Seitenaufrufe, Verweildauer, Einstiegs- und Ausstiegsseiten, Geräteinformationen, Herkunft des Besuchs sowie Interaktionen mit Inhalten erfasst."
+      "description": "Mit deiner Einwilligung erfassen wir Nutzungsdaten zur statistischen Auswertung der Website. IP-Adressen werden dabei gekürzt bzw. anonymisiert, soweit dies technisch möglich ist. Dabei werden unter anderem Seitenaufrufe, Verweildauer, Einstiegs- und Ausstiegsseiten, Geräteinformationen, Herkunft des Besuchs sowie Interaktionen mit Inhalten erfasst."
     },
     "content": {
       "title": "Externe Inhalte",
@@ -29,7 +29,7 @@
   },
   "openstreetmap": {
     "title": "OpenStreetMap / CARTO",
-    "description": "Bindet interaktives Kartenmaterial ein, um Standorte darzustellen. Die Kartendaten stammen von OpenStreetMap, ausgeliefert über die Kartenkacheln von CARTO. Dabei wird deine IP-Adresse an die Server von CARTO übertragen."
+    "description": "Bindet interaktives Kartenmaterial ein, um Standorte darzustellen. Die Kartendaten stammen von OpenStreetMap, ausgeliefert über die Kartenkacheln von CARTO. Dabei wird deine IP-Adresse an die Server von CARTO übertragen. CARTO verarbeitet diese Daten eigenverantwortlich."
   },
   "vesselfinder": {
     "title": "Vesselfinder",
