@@ -3,45 +3,33 @@
     "videos": [
         {
             "title": "Platzhaltervideo 1",
-            "duration": "2:34",
-            "src": "assets/videos/placeholder.mp4",
-            "poster": "assets/videos/placeholder.jpg"
+            "duration": "0:22",
+            "src": "assets/videos/faq01-compressed.mp4",
+            "poster": "assets/videos/faq01.jpg"
         },
         {
             "title": "Platzhaltervideo 2",
-            "duration": "1:47",
-            "src": "assets/videos/placeholder.mp4",
-            "poster": "assets/videos/placeholder.jpg"
+            "duration": "0:30",
+            "src": "assets/videos/faq02-compressed.mp4",
+            "poster": "assets/videos/faq02.jpg"
         },
         {
-            "title": "Platzhaltervideo 1",
-            "duration": "2:34",
-            "src": "assets/videos/placeholder.mp4",
-            "poster": "assets/videos/placeholder.jpg"
+            "title": "Platzhaltervideo 3",
+            "duration": "0:35",
+            "src": "assets/videos/faq03-compressed.mp4",
+            "poster": "assets/videos/faq03.jpg"
         },
         {
-            "title": "Platzhaltervideo 2",
-            "duration": "1:47",
-            "src": "assets/videos/placeholder.mp4",
-            "poster": "assets/videos/placeholder.jpg"
+            "title": "Platzhaltervideo 4",
+            "duration": "0:29",
+            "src": "assets/videos/faq04-compressed.mp4",
+            "poster": "assets/videos/faq04.jpg"
         },
         {
-            "title": "Platzhaltervideo 1",
-            "duration": "2:34",
-            "src": "assets/videos/placeholder.mp4",
-            "poster": "assets/videos/placeholder.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 2",
-            "duration": "1:47",
-            "src": "assets/videos/placeholder.mp4",
-            "poster": "assets/videos/placeholder.jpg"
-        },
-        {
-            "title": "Platzhaltervideo 1",
-            "duration": "2:34",
-            "src": "assets/videos/placeholder.mp4",
-            "poster": "assets/videos/placeholder.jpg"
+            "title": "Platzhaltervideo 5",
+            "duration": "0:29",
+            "src": "assets/videos/faq05-compressed.mp4",
+            "poster": "assets/videos/faq05.jpg"
         }
     ]
 }
