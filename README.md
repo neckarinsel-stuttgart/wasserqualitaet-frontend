@@ -59,10 +59,12 @@ npm run dev
 
 Create `.env` in the project root (it is gitignored). Use `.env.example` as a template:
 
-| Variable | Purpose |
-|---|---|
-| `API_BASE` | Base URL of the backend API, e.g. `http://localhost:8000` |
-| `VITE_DEFAULT_LANG` | Default language when no `?lang=` query param is present (`de` or `en`) |
+| Variable              | Purpose                                                                                                                                                                               |
+| -----------------------| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `API_BASE`            | Base URL of the backend API, e.g. `https://api.example.com`                                                                                                                           |
+| `VITE_DEFAULT_LANG`   | Default language when no `?lang=` query param is present (`de` or `en`)                                                                                                               |
+| `VITE_MATOMO_URL`     | Full URL to your Matomo instance, e.g. `https://example.com/matomo/` (trailing slash required). Omit to disable analytics. Requires a self-hosted Matomo installation on your server. |
+| `VITE_MATOMO_SITE_ID` | The numeric site ID assigned to this site in your Matomo instance (found under Administration → Websites). Usually `1` for the first site.                                            |
 
 `API_BASE` is used by the Vite dev server proxy (`vite.config.js`) and by the PHP proxy scripts in `api/`. `VITE_`-prefixed variables are bundled into the client JS by Vite.
 
