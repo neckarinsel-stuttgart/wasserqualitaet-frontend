@@ -51,7 +51,7 @@ Change `"Dashboard"` to whatever label you need. Leave `"href"` untouched.
 
 ```bash
 npm install
-cp .env.example .env   # then fill in API_BASE (see below)
+cp .env.example .env   # then fill in API_BASE in the .env file, you can leave the matomo analytics variables empty for now if you don't have a Matomo instance. (see below)
 npm run dev
 ```
 
