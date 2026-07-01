@@ -2,7 +2,7 @@
 require_once __DIR__ . '/config.php';
 
 $cacheFile = __DIR__ . '/daily-prediction-cache.json';
-$maxAge    = 3600; // 1 hour
+$maxAge    = 1800; // 30min
 
 $cacheAge = file_exists($cacheFile) ? time() - filemtime($cacheFile) : PHP_INT_MAX;
 
