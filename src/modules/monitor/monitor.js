@@ -176,20 +176,31 @@ function buildChartDatasets(colDefs, colKeys, fullMonthDays, activeColumns) {
   for (const key of colKeys) {
     const def = colDefs[key];
     if (!def || !activeColumns.has(key)) continue;
-    const values = fullMonthDays.map(row => { const v = row[key]; return v != null ? v : null; });
+    const rawValues = fullMonthDays.map(row => { const v = row[key]; return v != null ? v : null; });
     if (def.type === 'bar') {
-      datasets.push({ label: key, type: 'bar', data: values, backgroundColor: def.color + '99', borderColor: def.color, borderWidth: 0, yAxisID: key, borderRadius: 2 });
+      datasets.push({ label: key, type: 'bar', data: rawValues, backgroundColor: def.color + '99', borderColor: def.color, borderWidth: 0, yAxisID: key, borderRadius: 2 });
     } else {
-      datasets.push({ label: key, type: 'line', data: values, borderColor: def.color, backgroundColor: 'transparent', borderWidth: 2, pointRadius: 0, pointHoverRadius: 4, tension: 0.4, spanGaps: true, yAxisID: key });
+      const nonNull = rawValues.filter(v => v !== null);
+      let normalizedValues = rawValues;
+      if (nonNull.length) {
+        const min = Math.min(...nonNull);
+        const max = Math.max(...nonNull);
+        const pad = (max - min) * 0.15 || 1;
+        const lo = min - pad;
+        const hi = max + pad;
+        normalizedValues = rawValues.map(v => v !== null ? (v - lo) / (hi - lo) : null);
+      }
+      datasets.push({ label: key, type: 'line', data: normalizedValues, borderColor: def.color, backgroundColor: 'transparent', borderWidth: 2, pointRadius: 0, pointHoverRadius: 4, tension: 0.4, spanGaps: true, yAxisID: 'lines' });
     }
   }
   return datasets;
 }
 
-function buildYAxes(colKeys, fullMonthDays, activeColumns) {
-  const axes = { x: { display: false } };
+function buildYAxes(colDefs, colKeys, fullMonthDays, activeColumns) {
+  const axes = { x: { display: false }, lines: { display: false, min: 0, max: 1 } };
   for (const key of colKeys) {
-    if (!activeColumns.has(key)) continue;
+    const def = colDefs[key];
+    if (!def || !activeColumns.has(key) || def.type !== 'bar') continue;
     const values = fullMonthDays.map(r => r[key]).filter(v => v != null);
     if (!values.length) { axes[key] = { display: false }; continue; }
     const min = Math.min(...values);
@@ -205,7 +216,7 @@ function buildChart(canvas, data, fullMonthDays, state) {
   const colKeys = Object.keys(colDefs);
   const labels = fullMonthDays.map((_, i) => i + 1);
   const datasets = buildChartDatasets(colDefs, colKeys, fullMonthDays, state.activeColumns);
-  const scales = buildYAxes(colKeys, fullMonthDays, state.activeColumns);
+  const scales = buildYAxes(colDefs, colKeys, fullMonthDays, state.activeColumns);
 
   const chart = new Chart(canvas, {
     type: 'bar',
