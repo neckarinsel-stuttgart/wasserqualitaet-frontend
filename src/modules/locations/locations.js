@@ -1,7 +1,6 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { getConsentManager, showConsentManager } from '../../consent/index.js';
-import { tooltip } from '../tooltip.js';
 
 function pinIcon(number, active) {
   return L.divIcon({
@@ -146,14 +145,14 @@ export function init(container, data) {
       <div class="locations__panels">
         <div class="locations__panel" data-panel="map">
           <button type="button" class="locations__expand-overlay" aria-label="${data.mapLabel}"></button>
-          <span class="locations__badge">${data.mapLabel}${tooltip(data.mapTooltip, data.mapTooltipLabel)}</span>
+          <span class="locations__badge">${data.mapLabel}</span>
           ${placeholderHtml(data.loadMapLabel, data.consentHint, data.consentSettingsLabel)}
           <div class="locations__map" hidden></div>
           <div class="locations__chips" hidden>${chipsHtml}</div>
         </div>
         <div class="locations__panel" data-panel="ship">
           <button type="button" class="locations__expand-overlay" aria-label="${data.shiptraffic.title}"></button>
-          <span class="locations__badge">${data.shiptraffic.title}${tooltip(data.shiptraffic.tooltip, data.shiptraffic.tooltipLabel)}</span>
+          <span class="locations__badge">${data.shiptraffic.title}</span>
           ${placeholderHtml(data.loadShipLabel, data.consentHint, data.consentSettingsLabel)}
           <div class="locations__ship" hidden></div>
         </div>
