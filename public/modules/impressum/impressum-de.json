@@ -4,32 +4,41 @@
     {
       "heading": "Angaben gemäß § 5 TMG",
       "content": [
-        { "type": "p", "text": "Neckarinsel e.V.<br>Gutenbergstraße 126<br>70197 Stuttgart" }
+        {
+          "type": "p",
+          "text": "Neckarinsel e.V.<br>Gutenbergstraße 126<br>70197 Stuttgart"
+        }
       ]
     },
     {
       "heading": "Vertreten durch",
       "content": [
-        { "type": "p", "text": "Elmer Gutierrez, Josina Herding, Hannah Pinell, Frederike Schmidt" },
-        { "type": "p", "text": "<a href=\"mailto:hallo@neckarinsel.eu\">hallo@neckarinsel.eu</a>" }
-      ]
-    },
-    {
-      "heading": "Bilder",
-      "content": [
-        { "type": "p", "text": "XY" }
+        {
+          "type": "p",
+          "text": "Elmer Gutierrez, Josina Herding, Hannah Pinell, Frederike Schmidt"
+        },
+        {
+          "type": "p",
+          "text": "<a href=\"mailto:hallo@neckarinsel.eu\">hallo@neckarinsel.eu</a>"
+        }
       ]
     },
     {
       "heading": "Typeface",
       "content": [
-        { "type": "p", "text": "XY" }
+        {
+          "type": "p",
+          "text": "-"
+        }
       ]
     },
     {
       "heading": "Inhaltlich verantwortlich",
       "content": [
-        { "type": "p", "text": "Neckarinsel e.V." }
+        {
+          "type": "p",
+          "text": "Neckarinsel e.V."
+        }
       ]
     }
   ]
