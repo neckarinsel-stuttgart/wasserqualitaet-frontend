@@ -1,0 +1,267 @@
+@use '../../tokens' as *;
+
+.guidelines {
+  padding: var(--spacing-body-v) var(--spacing-body-h);
+  max-width: var(--content-narrow);
+  margin: 0 auto;
+}
+
+.guidelines__title {
+  @include type-h2;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-v-lg);
+}
+
+.guidelines__warning {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px;
+  background: #FF4436;
+  color: #fff;
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-v-sm);
+
+}
+
+.guidelines__warning-icon {
+  flex-shrink: 0;
+}
+
+.guidelines__warning-text {
+  @include type-copy;
+
+  strong {
+    display: block;
+    font-weight: 700;
+  }
+}
+
+// Desktop: vertical accordion list
+// Scoped to desktop only — on mobile Swiper sets flex-direction: row on this
+// same element (.swiper-wrapper)
+.guidelines__list {
+  list-style: none;
+
+  @media (min-width: 701px) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-v-sm);
+    padding: 0;
+  }
+}
+
+.guidelines__item {
+  border: 1px solid var(--color-black-alpha-10);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+
+  &[open] {
+    background: var(--color-grey-100);
+    border-color: transparent;
+  }
+}
+
+.guidelines__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-h-lg);
+  padding: 18px 20px;
+  cursor: pointer;
+  list-style: none;
+  @include type-h1-serif;
+  color: var(--text-primary);
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+
+.guidelines__chevron {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+
+  details[open] & {
+    transform: rotate(180deg);
+  }
+}
+
+// Smooth open/close animation — desktop only (mobile forces answer visible)
+@supports (interpolate-size: allow-keywords) {
+  @media (min-width: 701px) {
+    .guidelines__item {
+      interpolate-size: allow-keywords;
+
+      &::details-content {
+        overflow: hidden;
+        height: 0;
+        transition: height 0.3s ease, content-visibility 0.3s ease allow-discrete;
+      }
+
+      &[open]::details-content {
+        height: auto;
+      }
+    }
+  }
+}
+
+.guidelines__answer {
+  padding: 0 20px var(--spacing-v-lg);
+  @include type-copy;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+
+.guidelines__links {
+  list-style: none;
+  margin-top: var(--spacing-h-md);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  @media (max-width: 700px) {
+    margin-top: auto;
+    padding-top: var(--spacing-v-md);
+  }
+}
+
+// Nav buttons — hidden on desktop
+.guidelines__nav {
+  display: none;
+}
+
+// ─── Mobile: horizontal swiper cards ─────────────────────────────────────────
+@media (max-width: 700px) {
+
+  // Remove horizontal section padding so swiper reaches full width
+  .guidelines {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .guidelines__title {
+    padding: 0 var(--spacing-body-h);
+  }
+
+  .guidelines__warning {
+    margin: 0 var(--spacing-body-h) var(--spacing-v-md);
+  }
+
+  .guidelines__wrapper {
+    padding: 0 var(--spacing-body-h) !important;
+  }
+
+  .guidelines__swiper {
+    overflow: hidden;
+  }
+
+  // Equal-height cards: all slides stretch to the tallest
+  .guidelines__swiper .swiper-wrapper {
+    align-items: stretch;
+  }
+
+  .guidelines__slide {
+    width: 80% !important;
+    min-width: 280px;
+    height: auto;
+  }
+
+  .guidelines__item {
+    height: 100%;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+
+    // Chrome 131+: non-summary content is slotted inside ::details-content,
+    // which breaks the flex chain unless we explicitly thread flex through it.
+    &::details-content {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    // Force answer always visible — overrides details UA hiding
+    >.guidelines__answer {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    // All items are [open] on mobile, so reset that style here —
+    // active state is driven by swiper-slide-active instead
+    &[open] {
+      background: none;
+      border-color: var(--color-black-alpha-10);
+    }
+  }
+
+  // Active card = filled, no border
+  .swiper-slide-active .guidelines__item {
+    background: var(--color-grey-100);
+    border-color: transparent;
+  }
+
+  // Disable accordion toggle — cards are always fully open
+  .guidelines__question {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .guidelines__chevron {
+    display: none;
+  }
+
+  // Nav buttons
+  .guidelines__nav {
+    display: flex;
+    gap: 0.5rem;
+    padding: var(--spacing-v-lg) var(--spacing-body-h) 0;
+  }
+
+  .guidelines__prev,
+  .guidelines__next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #000;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 24px;
+      background-color: currentColor;
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      -webkit-mask-size: contain;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+    }
+
+    &.swiper-button-disabled {
+      color: #000;
+      background: white;
+      opacity: 0.35;
+      cursor: default;
+    }
+  }
+
+  .guidelines__prev::before {
+    mask-image: url('/assets/icons/chevron-right.svg');
+    -webkit-mask-image: url('/assets/icons/chevron-right.svg');
+  }
+
+  .guidelines__next::before {
+    mask-image: url('/assets/icons/chevron-left.svg');
+    -webkit-mask-image: url('/assets/icons/chevron-left.svg');
+  }
+}

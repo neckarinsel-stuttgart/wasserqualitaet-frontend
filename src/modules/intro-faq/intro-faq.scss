@@ -1,0 +1,17 @@
+@use '../../tokens' as *;
+
+.intro-faq {
+  max-width: 690px;
+  margin: var(--spacing-v-2xl) auto;
+  padding: var(--spacing-body-v) var(--spacing-body-h);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  text-align: center;
+
+  &__description {
+    @include type-display-serif;
+    color: var(--text-primary);
+  }
+}

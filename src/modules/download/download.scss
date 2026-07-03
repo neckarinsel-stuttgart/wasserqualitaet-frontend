@@ -1,0 +1,42 @@
+@use '../../tokens' as *;
+
+.download {
+  padding: var(--spacing-body-v) var(--spacing-body-h);
+  max-width: var(--content-wide);
+  margin: 0 auto;
+}
+
+.download__card {
+  background: #EDEEF3;
+  border-radius: 10px;
+  min-height: 180px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--spacing-v-lg);
+
+  &__text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+.download__title {
+  @include type-h3;
+  color: var(--text-primary);
+  padding-bottom: 4px;
+}
+
+.download__text {
+  @include type-copy;
+  color: var(--text-primary);
+}
+
+.download__actions {
+  display: flex;
+  gap: var(--spacing-h-sm);
+  flex-wrap: wrap;
+  align-self: flex-end;
+}

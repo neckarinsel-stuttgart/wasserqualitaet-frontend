@@ -1,0 +1,162 @@
+@use '../../tokens' as *;
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  padding: 0;
+  width: calc(100% - 28px * 2);
+  max-width: 640px;
+  background-color: var(--color-grey-50);
+  border-radius: var(--radius-lg);
+  margin: var(--nav-padding-top) auto;
+  z-index: 1000;
+  overflow: hidden;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease;
+
+  &--shadow {
+    box-shadow: var(--shadow-navbar);
+  }
+}
+
+.header__nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px var(--nav-padding-h);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header--expanded .header__nav-row {
+  transform: translateY(-100%);
+}
+
+.header__nav {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.header__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 31px;
+  padding: 0 var(--nav-padding-h);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  color: var(--text-primary);
+  @include type-navbar;
+
+  &--active {
+    background-color: var(--color-grey-200);
+  }
+}
+
+.header__lang-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 31px;
+  padding: 0 var(--nav-padding-h);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-black-alpha-10);
+  text-decoration: none;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  @include type-navbar;
+}
+
+.header__lang-icon {
+  display: block;
+  flex-shrink: 0;
+
+  &--flipped {
+    transform: rotate(180deg);
+  }
+}
+
+// ── Forecast mini
+
+.header__forecast {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px var(--nav-padding-h);
+  transform: translateY(100%);
+  width: 100%;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+  .header--expanded & {
+    transform: translateY(0);
+  }
+}
+
+.header__forecast-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header__forecast-today {
+  @include type-navbar;
+  color: var(--text-primary);
+}
+
+.header__forecast-data {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header__forecast-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 32px;
+  padding: 0 10px;
+  border-radius: var(--radius-lg);
+  @include type-navbar;
+  color: var(--text-primary-inverted);
+  background: var(--color-grey-500);
+  flex-shrink: 0;
+
+  &[data-quality="excellent"] {
+    background: var(--water-quality-very-good);
+  }
+
+  &[data-quality="poor"] {
+    background: var(--water-quality-bad);
+    color: var(--text-primary);
+  }
+}
+
+.header__forecast-badge-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: currentColor;
+}
+
+.header__forecast-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.header__forecast-temp {
+  @include type-navbar;
+  color: var(--text-primary);
+}

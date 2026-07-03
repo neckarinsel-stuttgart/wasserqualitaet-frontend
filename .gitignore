@@ -4,8 +4,8 @@ node_modules/
 # Build output
 dist/
 
-# local API dump
-api/
+# Local API response cache (generated at runtime by api/*.php)
+api/*-cache*.json
 
 # OS
 .DS_Store
@@ -17,7 +17,6 @@ Thumbs.db
 
 # Env / secrets
 .env
-.env.*
 
 # Deployment — server-specific
 .htaccess
@@ -26,3 +25,7 @@ Thumbs.db
 # Other
 local-notes/
 public/assets/fonts/*
+
+# Generated CSS (compiled from SCSS; Vite builds to dist/)
+src/styles.css
+src/styles.css.map

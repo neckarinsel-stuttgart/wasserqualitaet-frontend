@@ -23,8 +23,8 @@
     "title": "Consent-Cookie",
     "description": "Speichert deine Cookie-Einstellungen für diese Website."
   },
-  "statistics": {
-    "title": "Statistik",
+  "matomo": {
+    "title": "Matomo Analytics",
     "description": "Erfasst anonymisierte Nutzungsdaten (Seitenaufrufe, Verweildauer, Geräteinformationen u. a.), um die Website zu verbessern."
   },
   "openstreetmap": {

@@ -1,0 +1,27 @@
+@use '../../tokens' as *;
+
+.support {
+  padding: var(--spacing-body-v) var(--spacing-body-h);
+  max-width: var(--content-wide);
+  margin: 0 auto;
+}
+
+.support__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-v-lg);
+  text-align: center;
+}
+
+.support__title {
+  @include type-h1-serif;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.support__text {
+  @include type-copy;
+  color: var(--text-primary);
+  max-width: 480px;
+}

@@ -1,0 +1,480 @@
+@use '../../tokens' as *;
+
+.monitor {
+  padding: var(--spacing-body-v) var(--spacing-body-h);
+  max-width: var(--content-wide);
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-v-lg);
+    min-height: 50px;
+    gap: 10px;
+  }
+
+  &__title {
+    @include type-h2;
+    color: var(--text-primary);
+  }
+
+  &__month-nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-black-alpha-10);
+    padding: 6px;
+    height: 33px;
+  }
+
+  &__month-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    color: var(--text-primary);
+    padding: 0;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:disabled {
+      opacity: 0.25;
+      cursor: default;
+    }
+
+    svg {
+      display: block;
+    }
+  }
+
+  &__month-label {
+    @include type-button-m;
+    color: var(--text-primary);
+    min-width: 76px;
+    text-align: center;
+  }
+
+  &__panels {
+    background: #FAFAFA;
+    border-radius: var(--radius-lg);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: stretch;
+    overflow: hidden;
+  }
+
+  &__divider {
+    flex-shrink: 0;
+    width: 1px;
+    align-self: stretch;
+    background: var(--color-black-alpha-10);
+    margin: 8px 0 8px 0px;
+  }
+
+  &__prognosen,
+  &__messdaten {
+    flex: 1 1 0;
+    min-width: 0;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+  }
+
+  &__messdaten {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__panel-title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 8px 4px;
+    @include type-h3;
+    color: var(--text-primary);
+  }
+
+  &__summary {
+    display: flex;
+    gap: 4px;
+    padding: 0 8px 8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__quality-card {
+    flex: 0 0 224px;
+    height: 75px;
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-h-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-v-md);
+    overflow: hidden;
+    background: var(--color-grey-200);
+    border: 1px solid transparent;
+    clip-path: inset(0 round var(--radius-lg));
+
+    &[data-quality="excellent"] {
+      background: var(--water-quality-very-good);
+
+      .monitor__quality-label {
+        color: var(--color-white-alpha-30);
+      }
+
+      .monitor__quality-value {
+        color: var(--color-white);
+      }
+    }
+
+    &[data-quality="poor"] {
+      background: var(--water-quality-bad);
+
+      .monitor__quality-label {
+        color: var(--color-black-alpha-30);
+      }
+
+      .monitor__quality-value {
+        color: var(--text-primary);
+      }
+    }
+  }
+
+  &__quality-label {
+    @include type-label;
+    color: var(--color-black-alpha-30);
+  }
+
+  &__quality-value {
+    @include type-data-l;
+    color: var(--text-primary);
+  }
+
+  &__threshold-card {
+    flex: 0 0 136px;
+    height: 75px;
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-h-md);
+    border: 1px solid var(--color-black-alpha-10);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-v-md);
+    overflow: hidden;
+  }
+
+  &__threshold-label {
+    @include type-label;
+    color: var(--color-black-alpha-30);
+  }
+
+  &__threshold-value {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    @include type-data-l;
+    color: var(--text-primary);
+  }
+
+  &__threshold-unit {
+    @include type-data-l-subline;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+  }
+
+  &__calendar {
+    padding: 0 8px 8px;
+    user-select: none;
+    max-width: 480px;
+    margin: 0 auto;
+    -webkit-user-select: none;
+  }
+
+  &__cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+
+  &__cal-header {
+    text-align: center;
+    @include type-label;
+    color: var(--color-black-alpha-30);
+    padding: 2px 0;
+  }
+
+  &__cal-day {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    @include type-data-s;
+    color: var(--text-primary);
+    transition: background 0.1s;
+    padding: 0;
+    line-height: 1;
+    gap: 3px;
+
+    &:hover:not(:disabled):not(.monitor__cal-day--future) {
+      background: var(--color-grey-100);
+    }
+
+    &--excellent {
+      color: var(--water-quality-very-good);
+
+      .monitor__cal-dot {
+        background: var(--water-quality-very-good);
+      }
+
+      &:hover:not(:disabled):not(.monitor__cal-day--future) {
+        background: var(--water-quality-very-good-passive);
+      }
+    }
+
+    &--poor {
+      color: var(--water-quality-bad);
+
+      .monitor__cal-dot {
+        background: var(--water-quality-bad);
+      }
+
+      &:hover:not(:disabled):not(.monitor__cal-day--future) {
+        background: var(--water-quality-bad-passive);
+      }
+    }
+
+    &--other {
+      color: var(--color-grey-300);
+      cursor: default;
+    }
+
+    &--today {
+      border: 1px solid var(--color-black-alpha-5);
+    }
+
+    &--selected {
+      &:not(.monitor__cal-day--excellent):not(.monitor__cal-day--poor) {
+        background: var(--color-grey-900);
+        color: var(--text-primary-inverted);
+
+        .monitor__cal-dot {
+          background: var(--color-white);
+        }
+
+        &:hover {
+          color: var(--color-black) !important;
+
+          .monitor__cal-dot {
+            background: var(--color-black) !important;
+          }
+        }
+      }
+
+      &.monitor__cal-day--excellent {
+        background: var(--water-quality-very-good);
+        color: var(--color-white);
+
+        .monitor__cal-dot {
+          background: var(--color-white);
+        }
+
+        &:hover {
+          color: var(--water-quality-very-good) !important;
+        }
+      }
+
+      &.monitor__cal-day--poor {
+        background: var(--water-quality-bad);
+        color: var(--color-black);
+
+        .monitor__cal-dot {
+          background: var(--color-black);
+        }
+
+        &:hover {
+          color: var(--water-quality-bad) !important;
+        }
+      }
+
+    }
+  }
+
+  &__cal-dot {
+    display: block;
+    position: absolute;
+    top: 75%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--color-black);
+    flex-shrink: 0;
+
+    @media (min-width: 480px) {
+      top: 70%;
+      width: 6px;
+      height: 6px;
+    }
+  }
+
+  &__pills {
+    display: flex;
+    gap: var(--spacing-h-sm);
+    overflow-x: auto;
+    padding: 0 8px 8px;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__pill {
+    flex: 0 0 136px;
+    height: 75px;
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-h-md);
+    border: none;
+    background: var(--color-grey-50);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-v-md);
+    overflow: hidden;
+    text-align: left;
+    transition: opacity 0.15s;
+
+    &--active {
+      background: var(--pill-color);
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__pill-label {
+    @include type-label;
+    color: var(--color-black-alpha-30);
+  }
+
+  &__pill-value {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    @include type-data-l;
+    color: var(--text-primary);
+  }
+
+  &__pill-unit {
+    @include type-data-l-subline;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+  }
+
+  &__chart-wrapper {
+    flex: 1;
+    min-height: 240px;
+    position: relative;
+    padding: 0 8px;
+  }
+
+  &__chart {
+    width: 100% !important;
+    height: 100% !important;
+    cursor: crosshair;
+  }
+
+  &__chart-date {
+    position: absolute;
+    bottom: 4px;
+    transform: translateX(-50%);
+    @include type-label;
+    color: var(--color-black-alpha-30);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  &__no-data {
+    color: var(--text-tertiary);
+    @include type-copy;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  &__links {
+    background: #FAFAFA;
+    border-radius: var(--radius-lg);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: var(--spacing-h-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-h-md);
+    margin-top: var(--spacing-h-sm);
+  }
+
+  &__links-heading {
+    @include type-label;
+    color: var(--color-black-alpha-30);
+  }
+
+  &__links-row {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .monitor__prognosen {
+    max-width: 524px;
+  }
+}
+
+@media (max-width: 768px) {
+  .monitor {
+    &__panels {
+      flex-direction: column;
+      gap: var(--spacing-v-lg);
+    }
+
+    &__divider {
+      display: none;
+    }
+
+    &__prognosen,
+    &__messdaten {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+
+
+    &__cal-day {
+      font-size: 14px;
+    }
+
+  }
+
+}
