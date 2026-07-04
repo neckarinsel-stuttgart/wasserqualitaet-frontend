@@ -9,7 +9,7 @@
     "tomorrow": "Tomorrow",
     "forecastCreated": "Latest forecast",
     "forecastUnavailable": "–",
-    "forecastCreatedTooltip": "The water quality forecast is currently updated once a day around noon.",
+    "forecastCreatedTooltip": "The water quality forecast is currently updated once a day around noon. However, conditions may change suddenly and will not be recorded in such cases.",
     "forecastCreatedTooltipLabel": "More information",
     "waterQualityForecast": "Water quality forecast",
     "waterQualityForecastTooltip": "The Excellent or Poor forecast is based on weather and river data and does not represent an actual measurement.",
