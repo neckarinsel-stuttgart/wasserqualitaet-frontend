@@ -350,7 +350,8 @@
   }
 
   &__pill {
-    flex: 0 0 136px;
+    flex: 0 0 auto;
+    min-width: 140px;
     height: 75px;
     border-radius: var(--radius-lg);
     padding: var(--spacing-h-md);
@@ -376,6 +377,7 @@
   &__pill-label {
     @include type-label;
     color: var(--color-black-alpha-30);
+    white-space: nowrap;
   }
 
   &__pill-value {

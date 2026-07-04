@@ -55,42 +55,42 @@
     "noData": "Für diesen Zeitraum sind keine Daten verfügbar",
     "columns": {
       "R1_mm_day": {
-        "label": "Niederschlag",
+        "label": "Niederschlag (24h)",
         "color": "#75CAFF",
         "unit": "L/m²",
         "defaultActive": true,
         "type": "bar"
       },
       "SD_SO_hours_day": {
-        "label": "Sonnenstunden",
+        "label": "Sonnenstunden (24h)",
         "color": "#F8FF2A",
         "unit": "h",
         "defaultActive": true,
         "type": "line"
       },
       "RF_TU_mean": {
-        "label": "Luftfeuchtigkeit",
+        "label": "Luftfeuchtigkeit (24h)",
         "color": "#A9F2F7",
         "unit": "%",
         "defaultActive": true,
         "type": "line"
       },
       "TT_TU_mean": {
-        "label": "Lufttemp.",
+        "label": "Lufttemp. ⌀",
         "color": "#FF9F60",
         "unit": "°C",
         "defaultActive": false,
         "type": "line"
       },
       "We_Ne_ElektrischeLeitfaehigkeit": {
-        "label": "Leitfähigkeit",
+        "label": "Leitfähigkeit ⌀",
         "color": "#FF6975",
         "unit": "µS/cm",
         "defaultActive": false,
         "type": "line"
       },
       "Ho_Ne_Truebung,quantitativ": {
-        "label": "Trübung",
+        "label": "Trübung ⌀",
         "color": "#5EFE8C",
         "unit": "NTU",
         "defaultActive": false,
