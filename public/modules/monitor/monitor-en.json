@@ -79,21 +79,21 @@
         "label": "Air Temp.",
         "color": "#FF9F60",
         "unit": "°C",
-        "defaultActive": true,
+        "defaultActive": false,
         "type": "line"
       },
       "We_Ne_ElektrischeLeitfaehigkeit": {
         "label": "Conductivity",
         "color": "#FF6975",
         "unit": "µS/cm",
-        "defaultActive": true,
+        "defaultActive": false,
         "type": "line"
       },
       "Ho_Ne_Truebung,quantitativ": {
         "label": "Turbidity",
         "color": "#5EFE8C",
         "unit": "NTU",
-        "defaultActive": true,
+        "defaultActive": false,
         "type": "line"
       }
     }

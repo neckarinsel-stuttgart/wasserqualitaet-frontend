@@ -79,21 +79,21 @@
         "label": "Lufttemp.",
         "color": "#FF9F60",
         "unit": "°C",
-        "defaultActive": true,
+        "defaultActive": false,
         "type": "line"
       },
       "We_Ne_ElektrischeLeitfaehigkeit": {
         "label": "Leitfähigkeit",
         "color": "#FF6975",
         "unit": "µS/cm",
-        "defaultActive": true,
+        "defaultActive": false,
         "type": "line"
       },
       "Ho_Ne_Truebung,quantitativ": {
         "label": "Trübung",
         "color": "#5EFE8C",
         "unit": "NTU",
-        "defaultActive": true,
+        "defaultActive": false,
         "type": "line"
       }
     }
