@@ -54,7 +54,6 @@ export function init(container, data, _lang, _apiData, forecastData) {
           </button>
           <button class="forecast__date-btn" data-day="tomorrow">
             <span class="forecast__date-btn-label">${data.tomorrow}</span>
-            <span class="forecast__date-btn-date">, ${forecastData.tomorrow.date}</span>
           </button>
         </div>
       </div>

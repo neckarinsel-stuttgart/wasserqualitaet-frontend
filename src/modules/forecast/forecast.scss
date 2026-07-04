@@ -111,11 +111,7 @@
 }
 
 .forecast__date-btn-date {
-  display: none;
-
-  .forecast__date-btn--active & {
-    display: inline;
-  }
+  display: inline;
 }
 
 // Update info footer
