@@ -51,19 +51,12 @@ function buildFullMonthDays(rows, year, month) {
 
 // ─── Forecast ─────────────────────────────────────────────────────────────────
 
-function buildForecastMap(forecastData, allPredictions) {
+function buildForecastMap(allPredictions, todayISO) {
   const map = {};
-  // Populate 30-day history from allPredictions (older entries first)
   (allPredictions || []).forEach(p => {
-    if (p.prediction_date && p.prediction != null)
+    if (p.prediction_date && p.prediction != null && p.prediction_date < todayISO)
       map[p.prediction_date] = p.prediction ? 'excellent' : 'poor';
   });
-  // Today/tomorrow from forecastData override (most current — may be null if unavailable)
-  const add = day => {
-    if (day?.date && day?.waterquality) map[toISO(parseDMY(day.date))] = day.waterquality;
-  };
-  add(forecastData?.today);
-  add(forecastData?.tomorrow);
   return map;
 }
 
@@ -276,7 +269,7 @@ let currentInteractionAbort = null;
 
 function render(container, data, lang, forecastData, state) {
   const { year, month, selectedDate, activeColumns, fullMonthDays, todayISO, currentYear, currentMonth, allPredictions } = state;
-  const forecastMap = buildForecastMap(forecastData, allPredictions);
+  const forecastMap = buildForecastMap(allPredictions, state.todayISO);
   state.forecastMap = forecastMap;
   const days = getCalendarDays(year, month, forecastMap, todayISO);
   state.selectedIndex = dayFromISO(selectedDate) - 1;
@@ -350,10 +343,7 @@ function render(container, data, lang, forecastData, state) {
         const rows = filterRowsByMonth(plotData?.rows, y, m);
         state.monthRows = rows;
         state.fullMonthDays = buildFullMonthDays(rows, y, m);
-        const goingToCurrentMonth = y === state.currentYear && m === state.currentMonth;
-        state.selectedDate = goingToCurrentMonth
-          ? state.todayISO
-          : `${y}-${String(m).padStart(2, '0')}-01`;
+        state.selectedDate = `${y}-${String(m).padStart(2, '0')}-01`;
         render(container, data, lang, forecastData, state);
       });
     });
@@ -452,8 +442,15 @@ export function init(container, data, lang, apiData, forecastData) {
   const currentYear = today.getFullYear();
   const currentMonth = today.getMonth() + 1;
   const todayISO = toISO(today);
-  const monthRows = filterRowsByMonth(plotData?.rows, currentYear, currentMonth);
-  const fullMonthDays = buildFullMonthDays(monthRows, currentYear, currentMonth);
+
+  const initialDate = new Date(today);
+  initialDate.setDate(today.getDate() - 10);
+  const initialISO = toISO(initialDate);
+  const initialYear = initialDate.getFullYear();
+  const initialMonth = initialDate.getMonth() + 1;
+
+  const monthRows = filterRowsByMonth(plotData?.rows, initialYear, initialMonth);
+  const fullMonthDays = buildFullMonthDays(monthRows, initialYear, initialMonth);
   const activeColumns = new Set(
     Object.entries(data.messdaten.columns)
       .filter(([, def]) => def.defaultActive)
@@ -461,10 +458,10 @@ export function init(container, data, lang, apiData, forecastData) {
   );
 
   render(container, data, lang, forecastData, {
-    year: currentYear,
-    month: currentMonth,
-    selectedDate: todayISO,
-    selectedIndex: today.getDate() - 1,
+    year: initialYear,
+    month: initialMonth,
+    selectedDate: initialISO,
+    selectedIndex: initialDate.getDate() - 1,
     activeColumns,
     monthRows,
     fullMonthDays,
