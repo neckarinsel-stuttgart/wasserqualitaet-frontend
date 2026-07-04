@@ -323,7 +323,7 @@ function render(container, data, lang, forecastData, state) {
       </div>
 
       <div class="monitor__links">
-        <p class="monitor__links-heading">${data.links.heading}</p>
+        <h3 class="monitor__links-heading">${data.links.heading}</h3>
         <div class="monitor__links-row">
           ${data.links.items.map(item => `<a class="btn-m-outlined" href="${item.url}">${item.title}${chevronRightIcon}</a>`).join('')}
         </div>

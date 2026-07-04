@@ -435,8 +435,11 @@
   }
 
   &__links-heading {
-    @include type-label;
-    color: var(--color-black-alpha-30);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    @include type-h3;
+    color: var(--text-primary);
   }
 
   &__links-row {
