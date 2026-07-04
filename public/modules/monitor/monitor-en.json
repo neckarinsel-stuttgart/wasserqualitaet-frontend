@@ -63,14 +63,14 @@
       },
       "SD_SO_hours_day": {
         "label": "Sunshine (24h)",
-        "color": "#F8FF2A",
+        "color": "#FFDA0C",
         "unit": "h",
         "defaultActive": true,
         "type": "line"
       },
       "RF_TU_mean": {
         "label": "Humidity (24h)",
-        "color": "#A9F2F7",
+        "color": "#76F4E1",
         "unit": "%",
         "defaultActive": true,
         "type": "line"
@@ -84,14 +84,14 @@
       },
       "We_Ne_ElektrischeLeitfaehigkeit": {
         "label": "Conductivity ⌀",
-        "color": "#FF6975",
+        "color": "#F4839F",
         "unit": "µS/cm",
         "defaultActive": false,
         "type": "line"
       },
       "Ho_Ne_Truebung,quantitativ": {
         "label": "Turbidity ⌀",
-        "color": "#5EFE8C",
+        "color": "#53E87D",
         "unit": "NTU",
         "defaultActive": false,
         "type": "line"
