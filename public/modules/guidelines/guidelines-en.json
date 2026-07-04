@@ -5,22 +5,22 @@
     },
     "items": [
         {
-            "title": "Swimming guidelines",
-            "text": "On federal waterways such as the Neckar, it is prohibited to swim in shipping lanes or within 100 metres of structures such as weirs, locks and bridges. Anyone who wants to swim in rivers safely should also follow a few rules.",
+            "title": "Forecast",
+            "text": "The forecasting system analyzes various factors that affect water quality. Because we have only limited laboratory data available, the system can currently only predict “excellent” and “poor” categories based on the Bathing Water Regulation. It is trained to ensure that positive recommendations are as reliable as possible. Negative forecasts are accurate in only 50% of cases. The forecasts are intended to raise awareness and do not constitute official monitoring of water quality.",
             "links": [
                 {
-                    "title": "Risks",
-                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
+                    "title": "Forecasting System",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#vorhersagesystem-funktion"
                 },
                 {
-                    "title": "Rules",
-                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-regeln"
+                    "title": "Reliability",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#vorhersagesystem-sicherheit"
                 }
             ]
         },
         {
             "title": "Pollution",
-            "text": "Following heavy rainfall, the river may temporarily become polluted with microorganisms. The water will remain contaminated for a further two to three days. For healthy people, the risk of serious illness is low. However, people with pre-existing medical conditions should be especially cautious.",
+            "text": "After heavy rainfall, the river may contain microbiological contaminants. These are detected using the indicator bacteria E. coli and enterococci. The water remains contaminated for several days afterward. In addition, rivers may contain viruses, parasites, and chemical contaminants that are not included in the forecast. For healthy people, the risk of serious illness is low. However, people with pre-existing medical conditions should be especially cautious.",
             "links": [
                 {
                     "title": "Contamination",
@@ -33,8 +33,8 @@
             ]
         },
         {
-            "title": "Large Vessels",
-            "text": "Ships up to 105 metres long travel on the Neckar. They cannot change course, which creates dangerous wake effects. Make sure you stay well away from the middle of the river and any shipping infrastructure.",
+            "title": "Federal Waterway",
+            "text": "On federal waterways such as the Neckar, swimming is prohibited in shipping lanes and within 100 meters of structures such as weirs, locks, and bridges. Ships up to 105 meters long travel through these areas; they cannot swerve out of the way and create dangerous rip currents. Be sure to stay away from the center of the river and shipping structures.",
             "links": [
                 {
                     "title": "Risks",
@@ -44,10 +44,10 @@
         },
         {
             "title": "Local Conditions",
-            "text": "There are no designated swimming areas on the Neckar River. Anyone wishing to swim there should familiarise themselves with the local conditions. Dangerous currents can form near bridges, structures and boats. Poor visibility makes it harder to spot hazards beneath the water's surface.",
+            "text": "There are no designated swimming areas on the Neckar River. Anyone wishing to swim there should familiarise themselves with the local conditions und follow a few rules. Dangerous currents can form near bridges, structures and boats. Poor visibility makes it harder to spot hazards beneath the water's surface.",
             "links": [
                 {
-                    "title": "Swimming Rules",
+                    "title": "Rules",
                     "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-regeln"
                 }
             ]
