@@ -39,7 +39,6 @@ export function init(container, data) {
     <div class="guidelines__warning">
       <img class="guidelines__warning-icon" src="${warningIcon}" width="64" height="64" alt="" aria-hidden="true">
       <div class="guidelines__warning-text">
-        <strong>${data.warning.label}</strong>
         ${data.warning.text}
       </div>
     </div>
@@ -48,7 +47,6 @@ export function init(container, data) {
   container.innerHTML = `
     <section class="guidelines">
       <h2 class="guidelines__title">${data.title}</h2>
-      ${warningHtml}
       <div class="guidelines__swiper swiper">
         <ul class="guidelines__list swiper-wrapper">${itemsHtml}</ul>
       </div>
@@ -56,6 +54,7 @@ export function init(container, data) {
         <button class="guidelines__prev" aria-label="Vorheriger"></button>
         <button class="guidelines__next" aria-label="Nächster"></button>
       </div>
+      ${warningHtml}
     </section>
   `;
 

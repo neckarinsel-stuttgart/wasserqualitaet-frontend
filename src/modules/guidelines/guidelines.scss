@@ -20,8 +20,8 @@
   background: #FF4436;
   color: #fff;
   border-radius: var(--radius-lg);
+  margin-top: var(--spacing-v-sm);
   margin-bottom: var(--spacing-v-sm);
-
 }
 
 .guidelines__warning-icon {
@@ -145,7 +145,7 @@
   }
 
   .guidelines__warning {
-    margin: 0 var(--spacing-body-h) var(--spacing-v-md);
+    margin: var(--spacing-v-sm) var(--spacing-body-h) var(--spacing-v-md);
   }
 
   .guidelines__wrapper {
