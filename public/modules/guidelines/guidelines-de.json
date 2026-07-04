@@ -5,22 +5,22 @@
     },
     "items": [
         {
-            "title": "Baderegeln",
-            "text": "Auf Bundeswasserstraßen wie dem Neckar ist das Schwimmen in Bereichen der Schiffahrt und im Umkreis von 100 Meter um Bauwerke, wie Wehre, Schleusen und Brücken, verboten. Wer sicher in Flüssen schwimmen will, sollte darüber hinaus ein paar Regeln beachten.",
+            "title": "Vorhersage",
+            "text": "Das Vorhersagesystem analysiert verschiedene Einflussfaktoren auf die Wasserqualität. Weil uns nur wenige Labordaten vorliegen, kann das System momentan nur die Kategorien ausgezeichnet und mangelhaft auf Basis der Badegewässerverordnung vorhersagen. Es ist so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. Negative Prognosen treffen nur in 50% der Fälle zu. Die Prognosen dienen zur Bewusstseinsbildung und stellen keine amtliche Überwachung der Wasserqualität dar.",
             "links": [
                 {
-                    "title": "Risiken",
-                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-risiken"
+                    "title": "Vorhersagesystem",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#vorhersagesystem-funktion"
                 },
                 {
-                    "title": "Regeln",
-                    "url": "http://flussbaden.jetzt/faq?lang=de#flussbaden-regeln"
+                    "title": "Sicherheit des Systems",
+                    "url": "http://flussbaden.jetzt/faq?lang=de#vorhersagesystem-sicherheit"
                 }
             ]
         },
         {
             "title": "Verschmutzungen",
-            "text": "Nach Starkregenereignissen kann der Fluss kurzzeitig mikrobiologische Verschmutzungen aufweisen. Das Wasser ist dann auch noch zwei bis drei Tage danach verunreinigt. Für gesunde Menschen ist das Risiko einer ernsthaften Erkrankung gering. Menschen mit Vorerkrankungen sollten jedoch besonders vorsichtig sein.",
+            "text": "Nach Starkregenereignissen kann der Fluss mikrobiologische Verschmutzungen aufweisen. Diese werden über die Indikatorbakterien E.Coli und Enterokokken ermittelt. Das Wasser ist dann auch noch mehrere Tage danach verunreinigt. Zusätzlich können Flüsse Viren, Parasiten und chemische Verunreinigungen aufweisen, die nicht Bestandteil der Vorhersage sind. Für gesunde Menschen ist das Risiko einer ernsthaften Erkrankung gering. Menschen mit Vorerkrankungen sollten jedoch besonders vorsichtig sein.",
             "links": [
                 {
                     "title": "Verunreinigungen",
@@ -34,7 +34,7 @@
         },
         {
             "title": "Bundesschifffahrtsstraße",
-            "text": "Auf Bundeswasserstraßen wie dem Neckar ist das Schwimmen in Bereichen der Schifffahrt und im Umkreis von 100 Meter um Bauwerke, wie Wehre, Schleusen und Brücken, verboten. Hier fahren bis zu 105 Meter lange Schiffe, die nicht ausweichen können und gefährliche Sogwirkungen verursachen. Halte dich unbedingt fern von der Mitte des Flusses und den Einrichtungen des Schiffsverkehrs. Wer sicher in Flüssen schwimmen will, sollte darüber hinaus ein paar Regeln beachten.",
+            "text": "Auf Bundeswasserstraßen wie dem Neckar ist das Schwimmen in Bereichen der Schifffahrt und im Umkreis von 100 Meter um Bauwerke, wie Wehre, Schleusen und Brücken, verboten. Hier fahren bis zu 105 Meter lange Schiffe, die nicht ausweichen können und gefährliche Sogwirkungen verursachen. Halte dich unbedingt fern von der Mitte des Flusses und den Einrichtungen des Schiffsverkehrs.",
             "links": [
                 {
                     "title": "Risiken",
@@ -44,7 +44,7 @@
         },
         {
             "title": "Örtliche Gegebenheiten",
-            "text": "Am Neckar gibt es keine offizielle Badestelle. Wer dort schwimmen will, sollte sich mit den örtlichen Gegebenheiten vertraut machen. An Brücken und Bauwerken oder durch Schiffe können gefährliche Strömungen entstehen. Durch eine schlechte Sicht sind Gefahren unter der Wasseroberfläche schlechter erkennbar.",
+            "text": "Am Neckar gibt es keine offizielle Badestelle. Wer dort schwimmen will, sollte sich mit den örtlichen Gegebenheiten vertraut machen und ein paar Regeln beachten. An Brücken und Bauwerken oder durch Schiffe können gefährliche Strömungen entstehen. Durch eine schlechte Sicht sind Gefahren unter der Wasseroberfläche schlechter erkennbar.",
             "links": [
                 {
                     "title": "Regeln",
