@@ -146,6 +146,7 @@
   border-radius: 50%;
   flex-shrink: 0;
   background: currentColor;
+  animation: dot-blink 2s ease-in-out infinite;
 }
 
 .header__forecast-icon {

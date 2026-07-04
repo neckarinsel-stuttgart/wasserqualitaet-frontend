@@ -204,6 +204,7 @@
   border-radius: 100px;
   background: currentColor;
   flex-shrink: 0;
+  animation: dot-blink 2s ease-in-out infinite;
 }
 
 // Weather cards row
