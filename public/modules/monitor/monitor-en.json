@@ -69,7 +69,7 @@
         "type": "line"
       },
       "RF_TU_mean": {
-        "label": "Humidity (24h)",
+        "label": "Humidity ⌀",
         "color": "#76F4E1",
         "unit": "%",
         "defaultActive": true,
