@@ -100,6 +100,7 @@ function initMap(panel, locations) {
   };
 
   chips.forEach((chip, i) => chip.addEventListener('click', () => setActiveLocation(i)));
+  markers.forEach((marker, i) => marker.on('click', () => setActiveLocation(i)));
 
   new ResizeObserver(() => map.invalidateSize()).observe(mapEl);
 }
