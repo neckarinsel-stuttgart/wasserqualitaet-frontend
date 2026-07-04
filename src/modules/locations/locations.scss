@@ -39,6 +39,12 @@
     flex: 1 1 auto;
   }
 
+  &--badge-faded {
+    .locations__badge {
+      opacity: 0;
+    }
+  }
+
   &--minimized {
     flex: 0 0 160px;
 
@@ -73,6 +79,7 @@
   align-items: center;
   gap: var(--spacing-h-sm);
   background: var(--color-white);
+  transition: opacity 0.3s cubic-bezier(0, 0.55, 0.45, 1);
   padding: 4px var(--spacing-h-md);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-map);

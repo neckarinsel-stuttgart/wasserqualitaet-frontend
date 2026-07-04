@@ -165,11 +165,12 @@ export function init(container, data) {
   const mapPanel = container.querySelector('[data-panel="map"]');
   const shipPanel = container.querySelector('[data-panel="ship"]');
 
-  const setActivePanel = (activeEl) => {
+  const setActivePanel = (activeEl, fadeBadge = true) => {
     panels.forEach((panel) => {
       const isActive = panel === activeEl;
       panel.classList.toggle('locations__panel--active', isActive);
       panel.classList.toggle('locations__panel--minimized', !isActive);
+      if (fadeBadge) panel.classList.toggle('locations__panel--badge-faded', isActive);
       panel.querySelector('.locations__expand-overlay').hidden = isActive;
     });
   };
@@ -180,7 +181,7 @@ export function init(container, data) {
       .addEventListener('click', () => setActivePanel(panel));
   });
 
-  setActivePanel(mapPanel);
+  setActivePanel(mapPanel, false);
 
   wireConsentGate(mapPanel, 'openstreetmap', () => initMap(mapPanel, data.map));
   wireConsentGate(shipPanel, 'vesselfinder', () => initShipTraffic(shipPanel, data.shiptraffic));
