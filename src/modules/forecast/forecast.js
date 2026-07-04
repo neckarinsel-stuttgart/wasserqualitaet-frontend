@@ -94,7 +94,7 @@ export function init(container, data, _lang, _apiData, forecastData) {
         <div class="forecast__update">
           <img class="forecast__update-icon" src="${refreshIcon}" alt="" aria-hidden="true" width="16" height="16">
           <span class="forecast__update-label">${data.forecastCreated}:</span>
-          <span class="forecast__update-time">${updateTime}</span>
+          <span class="forecast__update-time">${updateTime}</span>${tooltip(data.forecastCreatedTooltip, data.forecastCreatedTooltipLabel)}
         </div>
       </div>
     </section>
