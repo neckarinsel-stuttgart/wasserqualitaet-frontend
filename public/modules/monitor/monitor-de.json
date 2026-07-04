@@ -25,7 +25,7 @@
   ],
   "prognosen": {
     "title": "Prognosen",
-    "tooltip": "Übersicht über vergangene Prognosen für die Wasserqualität im Neckar",
+    "tooltip": "Übersicht über vergangene Prognosen: Die Bakterienbelastung ist in Bakterienkolonien pro 100ml angegeben (KBE)",
     "quality": {
       "excellent": {
         "label": "Ausgezeichnet"
@@ -51,7 +51,7 @@
   },
   "messdaten": {
     "title": "Messdaten",
-    "tooltip": "Daten, die das Vorhersagesystem als besonders relevant für die Vorhersage einstuft. Die Messdaten werden immer erst am Folgetag aktualisiert, deshlab können die Daten von heute nicht angezeigt werden.",
+    "tooltip": "Darstellung von Messdaten des Deutschen Wetterdienstes und der Landesanstalt für Umwelt, die das Vorhersagesystem als besonders relevant für die Vorhersage einstuft",
     "noData": "Für diesen Zeitraum sind keine Daten verfügbar",
     "columns": {
       "R1_mm_day": {
