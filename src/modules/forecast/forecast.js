@@ -45,7 +45,7 @@ export function init(container, data, _lang, _apiData, forecastData) {
               ${data.location}
             </span>
           </p>
-          <p class="forecast__intro-credit">${data.introCreditUrl ? `<a href="${data.introCreditUrl}" target="_blank" rel="noopener">${data.introCredit}</a>` : data.introCredit}</p>
+          <p class="forecast__intro-credit">${data.introCreditPrefix ? `<span>${data.introCreditPrefix}</span> ` : ''}${data.introCreditUrl ? `<a href="${data.introCreditUrl}" target="_blank" rel="noopener">${data.introCredit}</a>` : data.introCredit}</p>
         </div>
         <div class="forecast__date-switch">
           <button class="forecast__date-btn forecast__date-btn--active" data-day="today">
