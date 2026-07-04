@@ -165,6 +165,11 @@ $bp-desktop: 960px;
     font-size: 52px;
     line-height: 125%;
   }
+
+  @media (min-width: $bp-desktop) {
+    font-size: 75px;
+    line-height: 125%;
+  }
 }
 
 @mixin type-h1-serif {
@@ -301,8 +306,16 @@ $bp-desktop: 960px;
 @mixin type-data-xl {
   font-family: $font-sans;
   font-weight: $fw-bold;
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: 0.014em;
+
+  @media (min-width: 800px) {
+    font-size: 40px;
+  }
+
+  @media (min-width: 960px) {
+    font-size: 60px;
+  }
 }
 
 @mixin type-button-s {

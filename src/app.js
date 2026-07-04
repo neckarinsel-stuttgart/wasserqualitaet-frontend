@@ -7,6 +7,7 @@ document.documentElement.lang = lang;
 
 const moduleMap = {
   header: () => import('./modules/header/header.js'),
+  'forecast-intro': () => import('./modules/forecast-intro/forecast-intro.js'),
   forecast: () => import('./modules/forecast/forecast.js'),
   'intro-faq': () => import('./modules/intro-faq/intro-faq.js'),
   'video-faq': () => import('./modules/video-faq/video-faq.js'),

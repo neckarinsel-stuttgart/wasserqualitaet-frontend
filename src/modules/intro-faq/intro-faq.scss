@@ -1,8 +1,8 @@
 @use '../../tokens' as *;
 
 .intro-faq {
-  max-width: 690px;
-  margin: var(--spacing-v-2xl) auto;
+  max-width: var(--content-wide);
+  margin: 32px auto 48px auto;
   padding: var(--spacing-body-v) var(--spacing-body-h);
   display: flex;
   flex-direction: column;

@@ -9,13 +9,15 @@
 .guidelines__title {
   @include type-h2;
   color: var(--text-primary);
-  margin-bottom: var(--spacing-v-lg);
+  padding-left: 14px;
+  margin-bottom: 10px;
 }
 
 .guidelines__warning {
   display: flex;
   align-items: center;
   gap: 16px;
+  min-height: 116px;
   padding: 14px;
   background: var(--color-grey-100);
   color: #F45B4D;

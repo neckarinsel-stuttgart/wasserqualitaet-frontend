@@ -3,7 +3,11 @@
 .support {
   padding: var(--spacing-body-v) var(--spacing-body-h);
   max-width: var(--content-wide);
-  margin: 0 auto;
+  margin: 80px auto;
+
+  @media (min-width: $bp-desktop) {
+    margin: 180px auto;
+  }
 }
 
 .support__card {
@@ -15,7 +19,7 @@
 }
 
 .support__title {
-  @include type-h1-serif;
+  @include type-display-serif;
   color: var(--text-primary);
   text-align: center;
 }

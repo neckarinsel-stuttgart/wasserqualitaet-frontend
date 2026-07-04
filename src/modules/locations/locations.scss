@@ -9,12 +9,13 @@
 .locations__title {
   @include type-h2;
   color: var(--text-primary);
-  margin-bottom: var(--spacing-v-lg);
+  padding-left: 14px;
+  margin-bottom: 10px;
 }
 
 .locations__panels {
   display: flex;
-  height: 436px;
+  height: 461px;
   gap: var(--spacing-v-md);
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -71,8 +72,8 @@
 
 .locations__badge {
   position: absolute;
-  top: var(--spacing-h-md);
-  left: var(--spacing-h-md);
+  top: 8px;
+  left: 14px;
   z-index: 5;
   pointer-events: none;
   display: inline-flex;
@@ -178,7 +179,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  padding: var(--spacing-v-lg) var(--spacing-h-md);
+  padding: 24px 14px;
   bottom: 0;
   z-index: 5;
   display: flex;

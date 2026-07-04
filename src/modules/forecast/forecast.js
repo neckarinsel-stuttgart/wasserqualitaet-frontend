@@ -1,7 +1,6 @@
 import { tooltip } from '../tooltip.js';
 import { iconBase, wmoIcon } from '../weather-icon.js';
 
-const pinIcon = `${import.meta.env.BASE_URL}assets/icons/pin.svg`;
 const refreshIcon = `${import.meta.env.BASE_URL}assets/icons/icons-small/refresh.svg`;
 
 function renderDay(container, dayData, translations) {
@@ -35,18 +34,8 @@ export function init(container, data, _lang, _apiData, forecastData) {
 
   container.innerHTML = `
     <section class="forecast">
-      <div class="forecast__top">
-        <div class="forecast__intro">
-          <p class="forecast__intro-brand">${data.introBrand}</p>
-          <p class="forecast__intro-tagline">
-            ${data.introTagline}
-            <span class="forecast__intro-location">
-              <img class="forecast__intro-pin" src="${pinIcon}" alt="">
-              ${data.location}
-            </span>
-          </p>
-          <p class="forecast__intro-credit">${data.introCreditPrefix ? `<span>${data.introCreditPrefix}</span> ` : ''}${data.introCreditUrl ? `<a href="${data.introCreditUrl}" target="_blank" rel="noopener">${data.introCredit}</a>` : data.introCredit}</p>
-        </div>
+      <div class="forecast__header">
+        <h2 class="forecast__title">${data.title}</h2>
         <div class="forecast__date-switch">
           <button class="forecast__date-btn forecast__date-btn--active" data-day="today">
             <span class="forecast__date-btn-label">${data.today}</span>
@@ -57,43 +46,45 @@ export function init(container, data, _lang, _apiData, forecastData) {
           </button>
         </div>
       </div>
-      <div class="forecast__main">
-        <div class="forecast__quality">
-          <span class="forecast__quality-label">
-            ${data.waterQualityForecast}
-            ${tooltip(data.waterQualityForecastTooltip, data.waterQualityForecastTooltipLabel)}
-          </span>
-          <span class="forecast__quality-value">–</span>
+      <div class="forecast__panels">
+        <div class="forecast__main">
+          <div class="forecast__quality">
+            <span class="forecast__quality-label">
+              ${data.waterQualityForecast}
+              ${tooltip(data.waterQualityForecastTooltip, data.waterQualityForecastTooltipLabel)}
+            </span>
+            <span class="forecast__quality-value">–</span>
+          </div>
+          <div class="forecast__weather">
+            <span class="forecast__weather-item">
+              <span class="forecast__weather-label">${data.weather}</span>
+              <span class="forecast__weather-iconwrapper">
+                <span class="forecast__weather-value" data-field="temperature">–</span>
+                <img class="forecast__weather-icon forecast__weather-icon--weather" src="" alt="">
+              </span>
+            </span>
+            <span class="forecast__weather-item">
+              <span class="forecast__weather-label">${data.waterTemperature}</span>
+              <span class="forecast__weather-iconwrapper">
+                <span class="forecast__weather-value" data-field="waterTemperature">–</span>
+                <img class="forecast__weather-icon" src="${iconBase}watertemperature.svg" alt="water temperature">
+              </span>
+            </span>
+            <span class="forecast__weather-item">
+              <span class="forecast__weather-label">${data.wind}</span>
+              <span class="forecast__weather-iconwrapper">
+                <span class="forecast__weather-value" data-field="wind">–</span>
+                <img class="forecast__weather-icon" src="${iconBase}windspeed.svg" alt="wind speed">
+              </span>
+            </span>
+          </div>
         </div>
-        <div class="forecast__weather">
-          <span class="forecast__weather-item">
-            <span class="forecast__weather-label">${data.weather}</span>
-            <span class="forecast__weather-iconwrapper">
-              <span class="forecast__weather-value" data-field="temperature">–</span>
-              <img class="forecast__weather-icon forecast__weather-icon--weather" src="" alt="">
-            </span>
-          </span>
-          <span class="forecast__weather-item">
-            <span class="forecast__weather-label">${data.waterTemperature}</span>
-            <span class="forecast__weather-iconwrapper">
-              <span class="forecast__weather-value" data-field="waterTemperature">–</span>
-              <img class="forecast__weather-icon" src="${iconBase}watertemperature.svg" alt="water temperature">
-            </span>
-          </span>
-          <span class="forecast__weather-item">
-            <span class="forecast__weather-label">${data.wind}</span>
-            <span class="forecast__weather-iconwrapper">
-              <span class="forecast__weather-value" data-field="wind">–</span>
-              <img class="forecast__weather-icon" src="${iconBase}windspeed.svg" alt="wind speed">
-            </span>
-          </span>
-        </div>
-      </div>
-      <div class="forecast__footer">
-        <div class="forecast__update">
-          <img class="forecast__update-icon" src="${refreshIcon}" alt="" aria-hidden="true" width="16" height="16">
-          <span class="forecast__update-label">${data.forecastCreated}:</span>
-          <span class="forecast__update-time">${updateTime}</span>${tooltip(data.forecastCreatedTooltip, data.forecastCreatedTooltipLabel)}
+        <div class="forecast__footer">
+          <div class="forecast__update">
+            <img class="forecast__update-icon" src="${refreshIcon}" alt="" aria-hidden="true" width="16" height="16">
+            <span class="forecast__update-label">${data.forecastCreated}:</span>
+            <span class="forecast__update-time">${updateTime}</span>${tooltip(data.forecastCreatedTooltip, data.forecastCreatedTooltipLabel)}
+          </div>
         </div>
       </div>
     </section>
