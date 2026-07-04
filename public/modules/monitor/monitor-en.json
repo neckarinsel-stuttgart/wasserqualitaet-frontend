@@ -25,7 +25,7 @@
   ],
   "prognosen": {
     "title": "Forecasts",
-    "tooltip": "Overview of past forecasts for water quality in the Neckar",
+    "tooltip": "Overview of past forecasts: Bacterial load is expressed in bacterial colonies per 100 ml (CFU)",
     "quality": {
       "excellent": {
         "label": "Excellent"
@@ -51,7 +51,7 @@
   },
   "messdaten": {
     "title": "Measurement data",
-    "tooltip": "Data that the forecasting system considers to be particularly relevant for the prediction. The measurement data is always updated the following day, which is why today's data cannot be displayed.",
+    "tooltip": "Display of measurement data from the German Weather Service and the State Agency for the Environment that the forecasting system classifies as particularly relevant for the forecast",
     "noData": "No data available for this period",
     "columns": {
       "R1_mm_day": {
