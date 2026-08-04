@@ -1,18 +1,18 @@
 {
-  "title": "Datenschutz",
+  "title": "Privacy Policy",
   "intro": [
-    "Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als „Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für die Datenverarbeitung auf unserer Webseite (im Folgenden „Onlineangebot“).",
-    "Die verwendeten Begriffe sind nicht geschlechtsspezifisch.",
-    "Stand: 01. Juli 2026"
+    "With the following Privacy Policy, we would like to inform you about the types of personal data we process (hereinafter also referred to as “data”), the purposes for which we process it, and the scope of such processing. This Privacy Policy applies to data processing on our website (hereinafter referred to as the “online service”).",
+    "The terms used are not gender-specific.",
+    "As of July 2026"
   ],
   "consent": {
-    "heading": "Einwilligungen verwalten",
-    "text": "Diese Seite bindet einzelne externe Dienste erst nach Ihrer Einwilligung ein. Sie können Ihre Auswahl hier jederzeit einsehen, ändern und mit Wirkung für die Zukunft widerrufen.",
-    "buttonLabel": "Datenschutz-Einstellungen öffnen"
+    "heading": "Manage Consents",
+    "text": "This page integrates individual external services only after you have given your consent. You can view and change your selections here at any time and revoke them with future effect.",
+    "buttonLabel": "Open Privacy Settings"
   },
   "sections": [
     {
-      "heading": "Verantwortlich",
+      "heading": "Responsible",
       "content": [
         {
           "type": "p",
@@ -20,7 +20,7 @@
         },
         {
           "type": "p",
-          "text": "Vertretungsberechtigte Personen:<br>Elmer Gutierrez, Josina Herding, Hannah Pinell, Frederike Schmidt"
+          "text": "Authorized Representatives:<br>Elmer Gutierrez, Josina Herding, Hannah Pinell, Frederike Schmidt"
         },
         {
           "type": "p",
@@ -37,435 +37,435 @@
       ]
     },
     {
-      "heading": "Übersicht der Verarbeitungen",
+      "heading": "Overview of Processing Steps",
       "content": [
         {
           "type": "p",
-          "text": "Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen."
+          "text": "The following overview summarizes the types of data processed and the purposes of such processing, and identifies the data subjects."
         },
         {
           "type": "h3",
-          "text": "Arten der verarbeiteten Daten"
+          "text": "Types of Data Processed"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzungsdaten",
-            "Meta-/Kommunikationsdaten",
-            "Kontaktdaten",
-            "Inhaltsdaten",
-            "Standortdaten",
-            "Geräteinformationen",
-            "Interaktionsdaten"
+            "Usage Data",
+            "Meta/Communication Data",
+            "Contact Information",
+            "Content Data",
+            "Location Data",
+            "Device Information",
+            "Interaction Data"
           ]
         },
         {
           "type": "h3",
-          "text": "Kategorien betroffener Personen"
+          "text": "Categories of Data Subjects"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzer",
-            "Kommunikationspartner"
+            "User",
+            "Communication Partner"
           ]
         },
         {
           "type": "h3",
-          "text": "Zwecke der Verarbeitung"
+          "text": "Purposes of Processing"
         },
         {
           "type": "ul",
           "items": [
-            "Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit",
-            "Informationstechnische Infrastruktur",
-            "Kontaktanfragen und Kommunikation",
-            "Statistische Auswertung",
-            "Reichweitenmessung",
-            "Nutzungsanalyse",
-            "Optimierung der Benutzerfreundlichkeit",
-            "Bereitstellung interaktiver Karten",
-            "Bereitstellung externer Inhalte und Darstellung von Live-Daten"
+            "Provision of our online services",
+            "IT infrastructure",
+            "Contact Requests and Communication",
+            "Statistical Analysis",
+            "Audience Measurement",
+            "Usage Analysis",
+            "Optimization of User-Friendliness",
+            "Provision of Interactive Maps",
+            "Provision of External Content and Display of Live Data"
           ]
         }
       ]
     },
     {
-      "heading": "Maßgebliche Rechtsgrundlagen",
+      "heading": "Relevant Legal Bases",
       "content": [
         {
           "type": "p",
-          "text": "Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen, auf deren Basis wir personenbezogene Daten verarbeiten:"
+          "text": "Below is an overview of the legal bases on which we process personal data:"
         },
         {
           "type": "p",
-          "text": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO) – Die Verarbeitung ist zur Wahrung unserer berechtigten Interessen erforderlich, insbesondere an der sicheren Bereitstellung, Analyse und Optimierung unseres Onlineangebotes."
+          "text": "Legitimate Interests (Art. 6(1), first sentence, subparagraph (f) of the GDPR) – The processing is necessary to safeguard our legitimate interests, in particular the secure provision, analysis, and optimization of our online services."
         },
         {
           "type": "p",
-          "text": "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG) – Die Verarbeitung erfolgt ausschließlich auf Grundlage Ihrer Einwilligung, soweit für die Analyse Informationen auf Ihrem Endgerät gespeichert oder ausgelesen werden."
+          "text": "Processing of Personal Data/Protection of End Devices (Art. 6(1), first sentence, lit. a of the GDPR and § 25(1) of the TDDDG) – Processing is carried out exclusively on the basis of your consent, to the extent that information is stored on or retrieved from your end device for the purpose of analysis."
         }
       ]
     },
     {
-      "heading": "Sicherheitsmaßnahmen",
+      "heading": "Safety Measures",
       "content": [
         {
           "type": "p",
-          "text": "Wir treffen nach Maßgabe der gesetzlichen Vorgaben geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten."
+          "text": "In accordance with legal requirements, we implement appropriate technical and organizational measures to ensure a level of protection commensurate with the risk."
         },
         {
           "type": "p",
-          "text": "Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten sowie Maßnahmen zur Kontrolle des Zugangs zu den Daten und deren Verarbeitung."
+          "text": "These measures include, in particular, ensuring the confidentiality, integrity, and availability of data, as well as measures to control access to the data and its processing."
         }
       ]
     },
     {
-      "heading": "SSL-Verschlüsselung",
+      "heading": "SSL Encryption",
       "content": [
         {
           "type": "p",
-          "text": "Um Ihre über unser Onlineangebot übermittelten Daten zu schützen, nutzen wir eine SSL-Verschlüsselung. Sie erkennen verschlüsselte Verbindungen an dem Präfix „https://“ in der Adresszeile Ihres Browsers."
+          "text": "To protect the data you submit through our website, we use SSL encryption. You can recognize encrypted connections by the „https://“ prefix in your browser's address bar."
         }
       ]
     },
     {
-      "heading": "Bereitstellung des Onlineangebotes und Webhosting",
+      "heading": "Provision of the Online Service and Web Hosting",
       "content": [
         {
           "type": "p",
-          "text": "Zur Bereitstellung unseres Onlineangebotes nehmen wir Leistungen von Strato (STRATO AG, Otto-Ostrowski-Straße 7, 10249 Berlin) in Anspruch. Dabei werden Daten verarbeitet, die für den Betrieb und die Auslieferung der Website erforderlich sind. Mit dem Hostinganbieter besteht – soweit gesetzlich erforderlich – ein Vertrag über die Verarbeitung personenbezogener Daten im Auftrag gemäß Art. 28 DSGVO."
+          "text": "To provide our online services, we use the services of Strato (STRATO AG, Otto-Ostrowski-Straße 7, 10249 Berlin). In doing so, we process data necessary for the operation and delivery of the website. To the extent required by law, we have entered into a contract with the hosting provider for the processing of personal data on our behalf in accordance with Article 28 of the GDPR."
         },
         {
           "type": "p",
-          "text": "Hierzu gehören insbesondere IP-Adressen, die notwendig sind, um Inhalte an den Browser des Nutzers zu übermitteln."
+          "text": "This includes, in particular, IP addresses that are necessary to transmit content to the user's browser."
         },
         {
           "type": "h3",
-          "text": "Verarbeitete Datenarten"
+          "text": "Types of Data Processed"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzungsdaten",
-            "Meta-/Kommunikationsdaten"
+            "Usage Data",
+            "Meta/Communication Data"
           ]
         },
         {
           "type": "h3",
-          "text": "Betroffene Personen"
+          "text": "Categories of Data Subjects"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzer"
+            "User"
           ]
         },
         {
           "type": "h3",
-          "text": "Zwecke der Verarbeitung"
+          "text": "Purposes of Processing"
         },
         {
           "type": "ul",
           "items": [
-            "Bereitstellung unseres Onlineangebotes",
-            "Informationstechnische Infrastruktur"
+            "Provision of our online services",
+            "IT infrastructure",
           ]
         },
         {
           "type": "h3",
-          "text": "Rechtsgrundlagen"
+          "text": "Legal Bases"
         },
         {
           "type": "ul",
           "items": [
-            "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Erhebung von Zugriffsdaten und Logfiles",
-      "content": [
-        {
-          "type": "p",
-          "text": "Wir erheben Daten zu jedem Zugriff auf den Server (sogenannte Serverlogfiles). Zu den Zugriffsdaten gehören insbesondere IP-Adressen, Datum und Uhrzeit des Abrufs, abgerufene Inhalte sowie technische Informationen zum verwendeten Browser und Betriebssystem."
-        },
-        {
-          "type": "p",
-          "text": "Die Verarbeitung dieser Daten erfolgt zur Gewährleistung der Sicherheit und Stabilität unseres Onlineangebotes (z.B. zur Abwehr von Angriffen)."
-        },
-        {
-          "type": "p",
-          "text": "Logfile-Informationen werden aus Sicherheitsgründen für einen Zeitraum von maximal 14 Tagen gespeichert und anschließend gelöscht."
-        },
-        {
-          "type": "h3",
-          "text": "Rechtsgrundlagen"
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)"
+            "Legitimate Interests (Art. 6(1), first sentence, subparagraph (f) of the GDPR)"
           ]
         }
       ]
     },
     {
-      "heading": "Webanalyse mit Matomo",
+      "heading": "Collection of Access Data and Log Files",
       "content": [
         {
           "type": "p",
-          "text": "Wir nutzen auf Grundlage Ihrer Einwilligung den Webanalysedienst Matomo zur statistischen Auswertung der Nutzung unseres Onlineangebotes sowie zur Optimierung unserer Inhalte und Funktionen."
+          "text": "We collect data on every access to the server (so-called server log files). This access data includes, in particular, IP addresses, the date and time of the request, the content accessed, and technical information about the browser and operating system used."
         },
         {
           "type": "p",
-          "text": "Matomo wird auf den Systemen des von uns beauftragten Hostinganbieters betrieben. Eine Weitergabe der erhobenen Analysedaten an Dritte zu deren eigenen Zwecken erfolgt nicht."
+          "text": "This data is processed to ensure the security and stability of our online services (e.g., to defend against attacks)."
         },
         {
           "type": "p",
-          "text": "Im Rahmen der Nutzung von Matomo können insbesondere folgende Daten verarbeitet werden: anonymisierte IP-Adressen zur Ableitung einer ungefähren geografischen Region, Informationen über das verwendete Endgerät und die Bildschirmauflösung, aufgerufene Seiten und Inhalte, Referrer-Informationen (die zuvor besuchte Webseite), Scrolltiefe, Interaktionen mit Inhalten und Funktionen unseres Onlineangebotes, pseudonyme Sitzungskennungen (Session-IDs) sowie Heatmap-Daten zur Analyse der Nutzung und Bedienbarkeit unseres Onlineangebotes."
-        },
-        {
-          "type": "p",
-          "text": "Zum Zweck der Webanalyse wird die IP-Adresse der Nutzer beim Aufruf unseres Onlineangebotes ausschließlich kurzfristig verarbeitet, um hieraus mittels Geolokalisierung eine grobe Standortinformation (z.B. Land oder Region) abzuleiten. Eine Speicherung der vollständigen IP-Adresse erfolgt nicht. Die weiteren im Rahmen der Webanalyse erhobenen Daten werden nur solange gespeichert, wie dies für die genannten Zwecke erforderlich ist, und anschließend gelöscht."
-        },
-        {
-          "type": "p",
-          "text": "Sie können eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft über die Einstellungen unseres Consent-Banners widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt hiervon unberührt."
+          "text": "For security reasons, log file information is stored for a maximum of 14 days and then deleted."
         },
         {
           "type": "h3",
-          "text": "Verarbeitete Datenarten"
+          "text": "Legal Bases"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzungsdaten",
-            "Meta-/Kommunikationsdaten",
-            "Standortdaten",
-            "Geräteinformationen",
-            "Interaktionsdaten"
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "Betroffene Personen"
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Nutzer"
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "Zwecke der Verarbeitung"
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Statistische Auswertung",
-            "Reichweitenmessung",
-            "Nutzungsanalyse",
-            "Optimierung der Benutzerfreundlichkeit"
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "Rechtsgrundlagen"
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG)"
+            "Legitimate Interests (Art. 6(1), first sentence, subparagraph (f) of the GDPR)"
           ]
         }
       ]
     },
     {
-      "heading": "Einbindung von Karten (OpenStreetMap / CARTO)",
+      "heading": "Web Analytics with Matomo",
       "content": [
         {
           "type": "p",
-          "text": "Wir binden auf Grundlage Ihrer Einwilligung interaktive Karten ein, um Standorte auf unserem Onlineangebot darzustellen. Hierfür verwenden wir Kartendaten von OpenStreetMap, die über den Dienst CARTO bereitgestellt werden.\n\nBeim Laden der Karten wird eine Verbindung zu den Servern von CARTO hergestellt. Dabei wird insbesondere Ihre IP-Adresse an CARTO übermittelt, damit die Karteninhalte an Ihren Browser ausgeliefert werden können. Wir haben keinen Einfluss auf die weitere Verarbeitung der Daten durch CARTO."
+          "text": "Based on your consent, we use the web analytics service Matomo to statistically analyze the use of our online platform and to optimize our content and features."
+        },
+        {
+          "type": "p",
+          "text": "Matomo is hosted on the systems of the hosting provider we have engaged. The analytics data collected is not shared with third parties for their own purposes."
+        },
+        {
+          "type": "p",
+          "text": "When using Matomo, the following data in particular may be processed: anonymized IP addresses to determine an approximate geographic region, information about the device used and screen resolution, pages and content accessed, referrer information (the previously visited website), scroll depth, interactions with content and features of our online service, and pseudonymous session IDs as well as heatmap data for analyzing the usage and usability of our online offering."
+        },
+        {
+          "type": "p",
+          "text": "For the purposes of web analytics, users’ IP addresses are processed only briefly when they access our website in order to derive approximate location information (e.g., country or region) through geolocation. The full IP address is not stored. Any other data collected as part of web analytics is stored only for as long as necessary for the stated purposes and is subsequently deleted."
+        },
+        {
+          "type": "p",
+          "text": "You may revoke your consent at any time, effective for the future, through the settings on our consent banner. The lawfulness of the processing carried out prior to the revocation remains unaffected."
         },
         {
           "type": "h3",
-          "text": "Verarbeitete Datenarten"
+          "text": "Types of Data Processed"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzungsdaten",
-            "Meta-/Kommunikationsdaten",
-            "Geräteinformationen"
+            "Usage Data",
+            "Meta/Communication Data",
+            "Location Data",
+            "Device Information",
+            "Interaction Data"
           ]
         },
         {
           "type": "h3",
-          "text": "Betroffene Personen"
+          "text": "Categories of Data Subjects"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzer"
+            "User"
           ]
         },
         {
           "type": "h3",
-          "text": "Zwecke der Verarbeitung"
+          "text": "Purposes of Processing"
         },
         {
           "type": "ul",
           "items": [
-            "Bereitstellung interaktiver Karten",
-            "Nutzerfreundlichkeit"
+            "Statistical Analysis",
+            "Audience Measurement",
+            "Usage Analysis",
+            "Optimization of User-Friendliness"
           ]
         },
         {
           "type": "h3",
-          "text": "Rechtsgrundlagen"
+          "text": "Legal Bases"
         },
         {
           "type": "ul",
           "items": [
-            "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG)"
+            "Processing of Personal Data/Protection of End Devices (Art. 6(1), first sentence, lit. a of the GDPR and § 25(1) of the TDDDG)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Embedding Maps (OpenStreetMap / CARTO)",
+      "content": [
+        {
+          "type": "p",
+          "text": "Based on your consent, we embed interactive maps to display locations on our website. For this purpose, we use map data from OpenStreetMap, which is provided through the CARTO service.\n\nWhen the maps are loaded, a connection is established to CARTO’s servers. In particular, your IP address is transmitted to CARTO so that the map content can be delivered to your browser. We have no control over the further processing of the Data by CARTO."
+        },
+        {
+          "type": "h3",
+          "text": "Types of Data Processed"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Usage Data",
+            "Meta/Communication Data",
+            "Device Information"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Categories of Data Subjects"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "User"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Purposes of Processing"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Optimization of User-Friendliness",
+            "Provision of Interactive Maps"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Legal Bases"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Processing of Personal Data/Protection of End Devices (Art. 6(1), first sentence, lit. a of the GDPR and § 25(1) of the TDDDG)"
           ]
         }
       ]
     },
      {
-      "heading": "Einbindung externer Inhalte (VesselFinder)",
+      "heading": "Integration of External Content (VesselFinder)",
       "content": [
         {
           "type": "p",
-          "text": "Wir binden auf Grundlage Ihrer Einwilligung Inhalte des Dienstes VesselFinder ein, um den aktuellen Schiffsverkehr in Form einer interaktiven Karte darzustellen.\n\nDie Einbindung erfolgt über ein iframe. Beim Laden der eingebetteten Inhalte wird eine Verbindung zu den Servern von VesselFinder hergestellt. Dabei wird insbesondere Ihre IP-Adresse an VesselFinder übermittelt. Darüber hinaus kann VesselFinder auf der eingebetteten Seite eigene Cookies setzen oder vergleichbare Technologien einsetzen. Auf Art, Umfang und weitere Verarbeitung der hierbei erhobenen Daten haben wir keinen Einfluss."
+          "text": "Based on your consent, we embed content from the VesselFinder service to display current ship traffic on an interactive map.\n\nThe content is embedded using an iframe. When the embedded content loads, a connection is established with VesselFinder’s servers. In particular, your IP address is transmitted to VesselFinder. In addition, VesselFinder may set its own cookies or use similar technologies on the embedded page. We have no control over the nature, scope, or further processing of the data collected in this manner."
         },
         {
           "type": "h3",
-          "text": "Verarbeitete Datenarten"
+          "text": "Types of Data Processed"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzungsdaten",
-            "Meta-/Kommunikationsdaten",
-            "Gerätedaten"
+            "Usage Data",
+            "Meta/Communication Data",
+            "Device Information"
           ]
         },
         {
           "type": "h3",
-          "text": "Betroffene Personen"
+          "text": "Categories of Data Subjects"
         },
         {
           "type": "ul",
           "items": [
-            "Nutzer"
+            "User"
           ]
         },
         {
           "type": "h3",
-          "text": "Zwecke der Verarbeitung"
+          "text": "Purposes of Processing"
         },
         {
           "type": "ul",
           "items": [
-            "Bereitstellung externer Inhalte und Darstellung von Live-Daten"
+            "Provision of External Content and Display of Live Data"
           ]
         },
         {
           "type": "h3",
-          "text": "Rechtsgrundlagen"
+          "text": "Legal Bases"
         },
         {
           "type": "ul",
           "items": [
-            "Verarbeitung personenbezogener Daten/Schutz von Endgeräten (Art. 6 Abs. 1 S. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG)"
+            "Processing of Personal Data/Protection of End Devices (Art. 6(1), first sentence, lit. a of the GDPR and § 25(1) of the TDDDG)"
           ]
         }
       ]
     },
     {
-      "heading": "Kontaktaufnahme",
+      "heading": "Contact us",
       "content": [
         {
           "type": "p",
-          "text": "Bei der Kontaktaufnahme mit uns (z.B. per E-Mail) werden die Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der Kontaktanfragen erforderlich ist."
+          "text": "When you contact us (e.g., by email), the information provided by the person making the inquiry is processed to the extent necessary to respond to the inquiry."
         },
         {
           "type": "h3",
-          "text": "Verarbeitete Datenarten"
+          "text": "Types of Data Processed"
         },
         {
           "type": "ul",
           "items": [
-            "Kontaktdaten",
-            "Inhaltsdaten"
+            "Contact Information",
+            "Content Data"
           ]
         },
         {
           "type": "h3",
-          "text": "Betroffene Personen"
+          "text": "Categories of Data Subjects"
         },
         {
           "type": "ul",
           "items": [
-            "Kommunikationspartner"
+            "Communication Partner"
           ]
         },
         {
           "type": "h3",
-          "text": "Zwecke der Verarbeitung"
+          "text": "Purposes of Processing"
         },
         {
           "type": "ul",
           "items": [
-            "Kontaktanfragen und Kommunikation"
+            "Contact Requests and Communication"
           ]
         },
         {
           "type": "h3",
-          "text": "Rechtsgrundlagen"
+          "text": "Legal Bases"
         },
         {
           "type": "ul",
           "items": [
-            "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)"
+            "Legitimate Interests (Art. 6(1), first sentence, subparagraph (f) of the GDPR)"
           ]
         }
       ]
     },
     {
-      "heading": "Rechte der betroffenen Personen",
+      "heading": "Rights of Data Subjects",
       "content": [
         {
           "type": "p",
-          "text": "Ihnen stehen als betroffene Person nach der DSGVO verschiedene Rechte zu:"
+          "text": "As a data subject under the GDPR, you have various rights:"
         },
         {
           "type": "ul",
           "items": [
-            "Auskunft über Ihre gespeicherten Daten",
-            "Berichtigung unrichtiger Daten",
-            "Löschung oder Einschränkung der Verarbeitung",
-            "Datenübertragbarkeit",
-            "Widerspruch gegen die Verarbeitung",
-            "Widerruf der erteilten Einwilligung mit Wirkung für die Zukunft"
+            "Access to your stored data",
+            "Correction of inaccurate data",
+            "Erasure or restriction of processing",
+            "Data portability",
+            "Objection to processing",
+            "Withdrawal of consent with future effect"
           ]
         },
         {
           "type": "p",
-          "text": "Zudem haben Sie das Recht, eine Beschwerde bei einer Aufsichtsbehörde einzureichen."
+          "text": "In addition, you have the right to file a complaint with a supervisory authority."
         }
       ]
     },
     {
-      "heading": "Änderung und Aktualisierung der Datenschutzerklärung",
+      "heading": "Changes and Updates to the Privacy Policy",
       "content": [
         {
           "type": "p",
-          "text": "Wir passen die Datenschutzerklärung an, sobald dies aufgrund von Änderungen der Datenverarbeitung erforderlich wird."
+          "text": "We will update the Privacy Policy as soon as changes to our data processing practices make it necessary to do so."
         }
       ]
     }
