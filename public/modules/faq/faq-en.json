@@ -23,7 +23,7 @@
                 {
                     "id": "wasserqualitaet-labor",
                     "title": "How and where are the laboratory tests conducted?",
-                    "text": "Between May and October, a laboratory specialising in bathing water takes samples twice a week from the Neckar River at the Voltasteg in Bad Cannstatt. These samples are analysed for the presence of intestinal bacteria, such as E. coli and enterococci, which are considered to be important indicators of faecal contamination. The Bathing Water Regulations specify the limit values.",
+                    "text": "Between May and October, a laboratory specialising in bathing water takes samples twice a week from the Neckar River at Voltasteg in Bad Cannstatt. The samples are analysed for the presence of intestinal bacteria such as E. coli and enterococci, which are important indicators of faecal contamination. While these bacteria are not harmful to humans, their presence indicates an increase in the amount of untreated wastewater in the river. The Bathing Water Regulations specify the limit values.",
                     "sources": [
                         {
                             "title": "Bathing Water Regulation",
@@ -108,7 +108,7 @@
                 {
                     "id": "vorhersagesystem-funktion",
                     "title": "How does the forecasting system work?",
-                    "text": "It analyses various factors that affect water quality. Using the collected measurement data, it has learned which conditions are typically associated with good or poor water quality. Based on this, it determines whether the current value should be rated as 'excellent' or 'poor' according to the Bathing Water Regulations.",
+                    "text": "The system has learned which environmental conditions are typically associated with changes in water quality using the collected measurement data. Based on this, it can assess whether the current quality is above or below the Bathing Water Regulation threshold, indicating the best possible rating. Therefore, the current prototype of the system can display only two ratings: 'excellent' and 'poor'. However, this assessment only evaluates the microbiological quality of the water. It does not take into account other contaminants, such as algae or chemicals.",
                     "sources": [
                         {
                             "title": "Bathing Water Regulation",
@@ -134,7 +134,13 @@
                 {
                     "id": "vorhersagesystem-sicherheit",
                     "title": "How reliable is the system?",
-                    "text": "Special emphasis was placed on safety during development. The system has been trained to ensure that positive recommendations are as reliable as possible. To date, evaluations have shown that predictions of good water quality have been accurate in all cases. Days with poor water quality, on the other hand, are assessed more cautiously, which can result in false alarms. Swimmers can rely on the swimming traffic light's assessment of good water quality with a high degree of certainty."
+                    "text": "Special emphasis was placed on safety during development. The system makes its prediction based on the threshold value specified in the Bathing Water Regulations, which define the highest quality level. If the predicted value is below this threshold, the result is categorised as “excellent”. If the predicted value is above the threshold, however, the system cannot accurately determine whether the water quality is 'good', 'sufficient' or 'poor', and therefore always selects 'poor' for safety reasons. The system is therefore designed to ensure that positive recommendations are as reliable as possible. If the Neckar Monitor indicates good water quality, swimmers can be highly confident in this assessment."
+                    "sources": [
+                        {
+                            "title": "Bathing Water Regulation",
+                            "url": "https://www.landesrecht-bw.de/perma?j=BadGewQualV_BW"
+                        }
+                    ]
                 },
                 {
                     "id": "vorhersagesystem-eigenes",

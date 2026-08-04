@@ -23,7 +23,7 @@
                 {
                     "id": "wasserqualitaet-labor",
                     "title": "Wie und wo werden die Labormessungen durchgeführt?",
-                    "text": "Ein auf Badegewässer spezialisiertes Labor nimmt zwischen Mai und Oktober zwei Mal wöchentlich Proben im Neckar am Voltasteg in Bad Cannstatt. Die Probe wird auf das Vorhandensein von Darmbakterien wie E. coli und Enterokokken analysiert, die als wichtige Indikatoren für fäkale Verunreinigungen gelten. Die Grenzwerte sind in der Badegewässerverordnung festgelegt.",
+                    "text": "Ein auf Badegewässer spezialisiertes Labor nimmt zwischen Mai und Oktober zwei Mal wöchentlich Proben im Neckar am Voltasteg in Bad Cannstatt. Die Probe wird auf das Vorhandensein von Darmbakterien wie E. coli und Enterokokken analysiert, die als wichtige Indikatoren für fäkale Verunreinigungen gelten. Diese Bakterien sind für den Menschen nicht schädlich, zeigen aber an, wann die Menge an ungeklärtem Abwasser im Fluss erhöht ist. Die Grenzwerte sind in der Badegewässerverordnung festgelegt.",
                     "sources": [
                         {
                             "title": "Badegewässerverordnung",
@@ -108,7 +108,7 @@
                 {
                     "id": "vorhersagesystem-funktion",
                     "title": "Wie funktioniert das Vorhersagesystem?",
-                    "text": "Das System analysiert verschiedene Einflussfaktoren auf die Wasserqualität. Mithilfe der gesammelten Messdaten hat das System gelernt, welche Bedingungen typischerweise mit guter oder schlechter Wasserqualität zusammenhängen. Auf dieser Grundlage erstellt es eine Einschätzung, ob der aktuelle Wert auf Basis der Badegewässerverordnung ausgezeichnet oder mangelhaft ist.",
+                    "text": "Mithilfe der gesammelten Messdaten hat das System gelernt, welche Umweltbedingungen typischerweise mit einer Veränderung der Wasserqualität einhergehen. Auf dieser Grundlage erstellt es eine Einschätzung, ob die aktuelle Wasserqualität den Grenzwert der Badegewässerverordnung überschreitet oder nicht. Der aktuelle Prototyp des Systems kann deshalb nur die beiden Werte „ausgezeichnet” und „mangelhaft” anzeigen. Diese Einschätzung bezieht sich ausschließlich auf die mikrobiologische Wasserqualität. Weitere Verschmutzungen, wie Algen oder Chemikalien, werden nicht berücksichtigt.",
                     "sources": [
                         {
                             "title": "Badegewässerverordnung",
@@ -134,7 +134,13 @@
                 {
                     "id": "vorhersagesystem-sicherheit",
                     "title": "Wie zuverlässig ist das System?",
-                    "text": "Bei der Entwicklung wurde ein besonderer Wert auf die Sicherheit gelegt. Das System ist so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. In den bisherigen Auswertungen trafen Vorhersagen einer guten Wasserqualität in allen Fällen zu. Tage mit schlechter Wasserqualität werden dagegen bewusst vorsichtiger eingeschätzt, wodurch es zu Fehlalarmen kommen kann. Zeigt die Badeampel eine gute Wasserqualität an, können sich Badende auf diese Einschätzung mit hoher Sicherheit verlassen."
+                    "text": "Bei der Entwicklung wurde besonderer Wert auf Sicherheit gelegt. Das System trifft seine Vorhersage auf der Grundlage des Grenzwertes gemäß Badegewässerverordnung, der die beste Stufe anzeigt. Liegt der vorhergesagte Wert darunter, ist die Vorhersage „ausgezeichnet”. Liegt der Wert darüber, kann das System nicht genau einschätzen, ob die Wasserqualität gut, ausreichend oder mangelhaft ist. Aus Sicherheitsgründen wird deshalb immer die Stufe „mangelhaft” gewählt. Es ist also so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. Zeigt der Neckarmonitor eine gute Wasserqualität an, können sich Badende mit hoher Sicherheit auf diese Einschätzung verlassen."
+                    "sources": [
+                        {
+                            "title": "Badegewässerverordnung",
+                            "url": "https://www.landesrecht-bw.de/perma?j=BadGewQualV_BW"
+                        }
+                    ]
                 },
                 {
                     "id": "vorhersagesystem-eigenes",
