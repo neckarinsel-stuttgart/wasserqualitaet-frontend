@@ -118,6 +118,7 @@ function initShipTraffic(panel, shiptraffic) {
     lat: shiptraffic.lat,
     lon: shiptraffic.long,
     names: 'true',
+    ra: encodeURIComponent(window.location.href),
   });
 
   const iframe = document.createElement('iframe');
