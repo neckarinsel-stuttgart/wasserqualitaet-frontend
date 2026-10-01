@@ -28,8 +28,8 @@
     "description": "Collects anonymised usage data (page views, time on site, device information, etc.) to help improve the website."
   },
   "openstreetmap": {
-    "title": "OpenStreetMap / CARTO",
-    "description": "Embeds interactive map material to display locations. The map data comes from OpenStreetMap, served via CARTO's map tiles. Your IP address is transmitted to CARTO’s servers. CARTO processes this data on its own responsibility."
+    "title": "OpenStreetMap",
+    "description": "Embeds interactive map material to display locations. The map data and tiles are provided by OpenStreetMap. Your IP address is transmitted to OpenStreetMap’s servers. OpenStreetMap processes this data on its own responsibility."
   },
   "vesselfinder": {
     "title": "Vesselfinder",

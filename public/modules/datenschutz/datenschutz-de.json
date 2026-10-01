@@ -284,11 +284,11 @@
       ]
     },
     {
-      "heading": "Einbindung von Karten (OpenStreetMap / CARTO)",
+      "heading": "Einbindung von Karten (OpenStreetMap)",
       "content": [
         {
           "type": "p",
-          "text": "Wir binden auf Grundlage Ihrer Einwilligung interaktive Karten ein, um Standorte auf unserem Onlineangebot darzustellen. Hierfür verwenden wir Kartendaten von OpenStreetMap, die über den Dienst CARTO bereitgestellt werden.\n\nBeim Laden der Karten wird eine Verbindung zu den Servern von CARTO hergestellt. Dabei wird insbesondere Ihre IP-Adresse an CARTO übermittelt, damit die Karteninhalte an Ihren Browser ausgeliefert werden können. Wir haben keinen Einfluss auf die weitere Verarbeitung der Daten durch CARTO."
+          "text": "Wir binden auf Grundlage Ihrer Einwilligung interaktive Karten ein, um Standorte auf unserem Onlineangebot darzustellen. Hierfür verwenden wir Kartendaten und Kartenkacheln, die von OpenStreetMap bereitgestellt werden.\n\nBeim Laden der Karten wird eine Verbindung zu den Servern von OpenStreetMap hergestellt. Dabei wird insbesondere Ihre IP-Adresse an OpenStreetMap übermittelt, damit die Karteninhalte an Ihren Browser ausgeliefert werden können. Wir haben keinen Einfluss auf die weitere Verarbeitung der Daten durch OpenStreetMap."
         },
         {
           "type": "h3",

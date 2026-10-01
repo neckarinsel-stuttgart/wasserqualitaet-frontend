@@ -284,11 +284,11 @@
       ]
     },
     {
-      "heading": "Embedding Maps (OpenStreetMap / CARTO)",
+      "heading": "Embedding Maps (OpenStreetMap)",
       "content": [
         {
           "type": "p",
-          "text": "Based on your consent, we embed interactive maps to display locations on our website. For this purpose, we use map data from OpenStreetMap, which is provided through the CARTO service.\n\nWhen the maps are loaded, a connection is established to CARTO’s servers. In particular, your IP address is transmitted to CARTO so that the map content can be delivered to your browser. We have no control over the further processing of the Data by CARTO."
+          "text": "Based on your consent, we embed interactive maps to display locations on our website. For this purpose, we use map data and map tiles provided directly by OpenStreetMap.\n\nWhen the maps are loaded, a connection is established to OpenStreetMap’s servers. In particular, your IP address is transmitted to OpenStreetMap so that the map content can be delivered to your browser. We have no control over the further processing of the data by OpenStreetMap."
         },
         {
           "type": "h3",
