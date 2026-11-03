@@ -134,7 +134,7 @@
                 {
                     "id": "vorhersagesystem-sicherheit",
                     "title": "Wie zuverlässig ist das System?",
-                    "text": "Bei der Entwicklung wurde besonderer Wert auf Sicherheit gelegt. Das System trifft seine Vorhersage auf der Grundlage des Grenzwertes gemäß Badegewässerverordnung, der die beste Stufe anzeigt. Liegt der vorhergesagte Wert darunter, ist die Vorhersage „ausgezeichnet”. Liegt der Wert darüber, kann das System nicht genau einschätzen, ob die Wasserqualität gut, ausreichend oder mangelhaft ist. Aus Sicherheitsgründen wird deshalb immer die Stufe „mangelhaft” gewählt. Es ist also so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. Zeigt der Neckarmonitor eine gute Wasserqualität an, können sich Badende mit hoher Sicherheit auf diese Einschätzung verlassen."
+                    "text": "Bei der Entwicklung wurde besonderer Wert auf Sicherheit gelegt. Das System trifft seine Vorhersage auf der Grundlage des Grenzwertes gemäß Badegewässerverordnung, der die beste Stufe anzeigt. Liegt der vorhergesagte Wert darunter, ist die Vorhersage „ausgezeichnet”. Liegt der Wert darüber, kann das System nicht genau einschätzen, ob die Wasserqualität gut, ausreichend oder mangelhaft ist. Aus Sicherheitsgründen wird deshalb immer die Stufe „mangelhaft” gewählt. Es ist also so trainiert, dass positive Empfehlungen möglichst zuverlässig sind. Zeigt der Neckarmonitor eine gute Wasserqualität an, können sich Badende mit hoher Sicherheit auf diese Einschätzung verlassen.",
                     "sources": [
                         {
                             "title": "Badegewässerverordnung",

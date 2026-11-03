@@ -134,7 +134,7 @@
                 {
                     "id": "vorhersagesystem-sicherheit",
                     "title": "How reliable is the system?",
-                    "text": "Special emphasis was placed on safety during development. The system makes its prediction based on the threshold value specified in the Bathing Water Regulations, which define the highest quality level. If the predicted value is below this threshold, the result is categorised as “excellent”. If the predicted value is above the threshold, however, the system cannot accurately determine whether the water quality is 'good', 'sufficient' or 'poor', and therefore always selects 'poor' for safety reasons. The system is therefore designed to ensure that positive recommendations are as reliable as possible. If the Neckar Monitor indicates good water quality, swimmers can be highly confident in this assessment."
+                    "text": "Special emphasis was placed on safety during development. The system makes its prediction based on the threshold value specified in the Bathing Water Regulations, which define the highest quality level. If the predicted value is below this threshold, the result is categorised as “excellent”. If the predicted value is above the threshold, however, the system cannot accurately determine whether the water quality is 'good', 'sufficient' or 'poor', and therefore always selects 'poor' for safety reasons. The system is therefore designed to ensure that positive recommendations are as reliable as possible. If the Neckar Monitor indicates good water quality, swimmers can be highly confident in this assessment.",
                     "sources": [
                         {
                             "title": "Bathing Water Regulation",
