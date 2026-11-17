@@ -14,6 +14,9 @@
         "excellent": "Excellent",
         "poor": "Poor"
     },
+    "winterBreak": "Winter break until {date}",
+    "winterBrr": "Brrrrrrrrrr",
+    "winterValue": "Zz",
     "weather": "Weather",
     "waterTemperature": "Water Temperature",
     "wind": "Wind"

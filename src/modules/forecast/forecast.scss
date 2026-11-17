@@ -144,6 +144,63 @@
     background: var(--water-quality-bad);
     color: var(--text-primary);
   }
+
+  &[data-quality="winter"] {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background: var(--color-grey-200);
+    color: var(--text-primary);
+  }
+}
+
+// Winter break animation
+.forecast__winter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.forecast__winter-letter {
+  animation: winter-letter-in 0.15s ease-out;
+}
+
+.forecast__winter-marquee {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  transform: translateY(-50%);
+
+  &--running {
+    animation: winter-marquee var(--marquee-duration, 4s) linear var(--marquee-loops, 3);
+  }
+}
+
+.forecast__winter-marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  padding-right: 0.4em;
+}
+
+@keyframes winter-letter-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes winter-marquee {
+  from { transform: translate(0, -50%); }
+  to { transform: translate(var(--marquee-to), -50%); }
+}
+
+.forecast__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
 .forecast__quality-dot {

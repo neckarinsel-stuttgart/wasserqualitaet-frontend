@@ -3,15 +3,105 @@ import { iconBase, wmoIcon } from '../weather-icon.js';
 
 const refreshIcon = `${import.meta.env.BASE_URL}assets/icons/icons-small/refresh.svg`;
 
-function renderDay(container, dayData, translations) {
+// ── Winter break animation ───────────────────────────────────────────────────
+// Loops: "Brrr…" (letters appear one by one) → message runs right to left as an
+// endless chain of copies → repeat. Weather values show "Zz" during the break.
+
+const WINTER_LETTER_DELAY = 120; // ms between letters
+const WINTER_HOLD = 1200;        // ms the full "Brrr…" stays before the message
+const WINTER_SPEED = 90;         // px per second for the scrolling message
+const WINTER_MARQUEE_LOOPS = 3;  // how many message lengths scroll by before "Brrr…" again
+
+let winterTimer = null;
+
+function stopWinter() {
+  clearTimeout(winterTimer);
+  winterTimer = null;
+}
+
+function formatWinterDate(isoDate, lang) {
+  if (!isoDate) return '';
+  return new Intl.DateTimeFormat(lang, { day: '2-digit', month: 'long' })
+    .format(new Date(isoDate + 'T12:00:00'));
+}
+
+function renderWinter(qualityEl, winterBreak, translations, lang) {
+  const date = formatWinterDate(winterBreak.end, lang);
+  const message = (translations.winterBreak ?? '{date}').replace('{date}', date).trim();
+  const brr = translations.winterBrr ?? 'Brrrrrrrrrr';
+
+  qualityEl.dataset.quality = 'winter';
+  qualityEl.innerHTML = `
+    <span class="forecast__sr-only">${message}</span>
+    <span class="forecast__winter" aria-hidden="true"></span>
+  `;
+  const stage = qualityEl.querySelector('.forecast__winter');
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    stage.textContent = message;
+    return;
+  }
+
+  const showBrr = () => {
+    const [first, ...rest] = [...brr];
+    stage.innerHTML = `<span class="forecast__quality-dot"></span><span class="forecast__winter-word">${first}</span>`;
+    const word = stage.querySelector('.forecast__winter-word');
+    let i = 0;
+    const step = () => {
+      if (i < rest.length) {
+        word.insertAdjacentHTML('beforeend', `<span class="forecast__winter-letter">${rest[i++]}</span>`);
+        winterTimer = setTimeout(step, WINTER_LETTER_DELAY);
+      } else {
+        winterTimer = setTimeout(showMessage, WINTER_HOLD);
+      }
+    };
+    winterTimer = setTimeout(step, WINTER_LETTER_DELAY);
+  };
+
+  const showMessage = () => {
+    const item = `<span class="forecast__winter-marquee-item">${message}<span class="forecast__quality-dot"></span></span>`;
+    stage.innerHTML = `<span class="forecast__winter-marquee">${item}</span>`;
+    const track = stage.firstElementChild;
+    // One copy scrolls out per iteration; enough copies keep the box filled meanwhile.
+    const itemWidth = track.firstElementChild.offsetWidth;
+    const copies = Math.ceil(qualityEl.clientWidth / itemWidth) + 1;
+    track.innerHTML = item.repeat(copies);
+    track.style.setProperty('--marquee-to', `${-itemWidth}px`);
+    track.style.setProperty('--marquee-duration', `${itemWidth / WINTER_SPEED}s`);
+    track.style.setProperty('--marquee-loops', WINTER_MARQUEE_LOOPS);
+    track.classList.add('forecast__winter-marquee--running');
+    track.addEventListener('animationend', showBrr, { once: true });
+  };
+
+  showBrr();
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
+function renderDay(container, dayData, translations, winterBreak, lang) {
   const qualityEl = container.querySelector('.forecast__quality-value');
+  stopWinter();
+  if (winterBreak) {
+    renderWinter(qualityEl, winterBreak, translations, lang);
+  } else {
+    renderQuality(qualityEl, dayData, translations);
+  }
+  const zz = translations.winterValue ?? 'Zz';
+  renderWeather(container, winterBreak
+    ? { ...dayData, temperature: zz, waterTemperature: zz, wind: zz }
+    : dayData);
+}
+
+function renderQuality(qualityEl, dayData, translations) {
   const hasQuality = dayData.waterquality != null;
   const qualityLabel = hasQuality ? (translations.quality[dayData.waterquality] ?? dayData.waterquality) : (translations.qualityUnavailable ?? '–');
   qualityEl.innerHTML = hasQuality
     ? `<span class="forecast__quality-dot"></span>${qualityLabel}`
     : qualityLabel;
   qualityEl.dataset.quality = hasQuality ? dayData.waterquality : '';
+}
 
+function renderWeather(container, dayData) {
   const weatherIcon = container.querySelector('.forecast__weather-icon--weather');
   const iconName = wmoIcon(dayData.weatherCode);
   if (iconName) {
@@ -29,7 +119,7 @@ function renderDay(container, dayData, translations) {
   container.querySelector('[data-field="wind"]').innerHTML = dayData.wind != null ? `${dayData.wind}<span class="forecast__unit">km/h</span>` : '–';
 }
 
-export function init(container, data, _lang, _apiData, forecastData) {
+export function init(container, data, lang, _apiData, forecastData) {
   const updateTime = forecastData.forecastCreated ?? data.forecastUnavailable;
 
   container.innerHTML = `
@@ -90,13 +180,13 @@ export function init(container, data, _lang, _apiData, forecastData) {
     </section>
   `;
 
-  renderDay(container, forecastData.today, data);
+  renderDay(container, forecastData.today, data, forecastData.winterBreak, lang);
 
   container.querySelectorAll('.forecast__date-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       container.querySelectorAll('.forecast__date-btn').forEach(b => b.classList.remove('forecast__date-btn--active'));
       btn.classList.add('forecast__date-btn--active');
-      renderDay(container, forecastData[btn.dataset.day], data);
+      renderDay(container, forecastData[btn.dataset.day], data, forecastData.winterBreak, lang);
     });
   });
 }

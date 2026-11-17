@@ -41,6 +41,7 @@ const tomorrowISO = formatISO(tomorrowDate);
 
 const forecastData = {
   "forecastCreated": null,
+  "winterBreak": null,
   "today": {
     "date": todayStr,
     "waterquality": null,
@@ -166,6 +167,13 @@ const predictionPromise = fetch('/api/get_daily_prediction.php')
   .then(r => r.json())
   .then(api => {
     if (!api) { apiLog('daily-prediction', 'error', 'no data'); return; }
+    // Winter break ends by the backend flag or, as a safety net, after its end date.
+    const winterBreak = api.winter_break;
+    if (winterBreak?.active && (!winterBreak.end || winterBreak.end >= todayISO)) {
+      forecastData.winterBreak = { end: winterBreak.end ?? null };
+      apiLog('daily-prediction', 'ok', `winter break until ${winterBreak.end ?? '?'} — no predictions shown`);
+      return;
+    }
     if (api.is_current_day === false) {
       const diff = daysDiff(api.prediction_date);
       if (diff === 1 && api.prediction_day_after_date === todayISO && api.prediction_day_after != null) {
